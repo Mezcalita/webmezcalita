@@ -20,7 +20,7 @@
     <ul class="list-group text-left">
   <li class="list-group-item bg-transparent border-0" id="tituloa">contacto</li>
   <li class="list-group-item bg-transparent border-0 ">
-       <img src="iconos/header/Logo-Header.svg"  
+       <img src="iconos/header/logo-header.svg"  
     width="90" id="logoa">
   </li>
   <li class="list-group-item bg-transparent border-0"> <img src="iconos/contacto/facebook-contacto.svg"  
