@@ -45,7 +45,9 @@
 <br>
     <headercomp></headercomp>
 
+  <h5 class="espacio"></h5>
 
+      <a name="nosotros"></a>
      <nosotros></nosotros>
           <h5 class="espacio"></h5>
 
@@ -57,24 +59,30 @@
 
      <promociones></promociones>
      <h5 class="espacio"></h5>
+           <a name="musicaenvivo"></a>
+
 <musicaenvivo></musicaenvivo>
      <h5 class="espacio"></h5>
+      <a name="deportes"></a>
 
   <deportes></deportes>
      <h5 class="espacio"></h5>
+      <a name="reservaciones"></a>
 
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>
 
+      <a name="carrusel"></a>
 
   <carrusel></carrusel>
        <h5 class="espacio"></h5>
+      <a name="franquicias"></a>
 
   <franquicias></franquicias>
-                 <a name="sucursales"></a>
 
          <h5 class="espacio"></h5>
 
+                 <a name="sucursales"></a>
 
 
        <sucursales></sucursales>
