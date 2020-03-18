@@ -165,7 +165,7 @@ textarea{
 
   #slider
 {
-    background-image: url('../Imagenes/Hero-Fondo.jpg');
+    background-image: url('../imagenes/hero-fondo.jpg');
     align-items:center;
     justify-content: center;
   height: 620px;
@@ -186,7 +186,7 @@ textarea{
 }
 #nosotros
 {
-  background-image: url('../Imagenes/Fondo-Nosotros-85.jpg');
+  background-image: url('../imagenes/fondo-nosotros-85.jpg');
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
@@ -194,7 +194,7 @@ textarea{
 }
 #reservaciones
 {
-  background-image: url('../Imagenes/Fondo-Reservaciones.jpg');
+  background-image: url('../imagenes/fondo-reservaciones.jpg');
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
@@ -202,7 +202,7 @@ textarea{
 }
 #musicaenvivo
 {
-  background-image: url('../Imagenes/Fondo-MusicaEnVivo.jpg');
+  background-image: url('../imagenes/fondo-musicaenvivo.jpg');
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
@@ -210,7 +210,7 @@ textarea{
 }
 #carouseldeportes
 {
-  background-image: url('../Imagenes/Fondo-deportes.jpg');
+  background-image: url('../imagenes/fondo-deportes.jpg');
   background-size: cover;
   background-position: center;
   align-items:center;

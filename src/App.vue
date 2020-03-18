@@ -5,13 +5,13 @@
 <b-container  fluid class="bv-example-row fixed-top " id="nav">
  <b-row  style="background-color: black" > 
     <b-col class="text-center" >
-      <img src="Iconos/Header/Logo-Header.svg"  
+      <img src="iconos/header/logo-header.svg"  
     width="38" id="logoa" class="nomovil" >
      <b-row>
       <div class="container  " style="max-width:1200px" id="menu"> 
 
   <b-navbar bg-transparent toggleable="lg" class="px-auto " type="dark"   >
-    <b-navbar-brand id="brand" ><img src="Iconos/Header/Logo-Header.svg"  height="42"
+    <b-navbar-brand id="brand" ><img src="iconos/header/logo-header.svg"  height="42"
     width="53" id="logo"></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

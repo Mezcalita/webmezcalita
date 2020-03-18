@@ -56,83 +56,83 @@ export default new Vuex.Store({
   tacos:[
     {
       id_taco:1,
-      nombre_taco:'Arrachera',
+      nombre_taco:'arrachera',
       precio_taco: '$20',
-      descripcion_taco:'Preparado con tortilla taquera, cebolla y cilantro',
-      imagen_taco:'Imagenes/Fotos menu/Tacos/Arrachera.jpg',
+      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      imagen_taco:'imagenes/fotos menu/tacos/arrachera.jpg',
     },
     {
       id_taco:2,
-      nombre_taco:'Barbacoa',
+      nombre_taco:'barbacoa',
       precio_taco: '$20',
-      descripcion_taco:'Preparado con tortilla taquera, cebolla y cilantro',
-      imagen_taco:'Imagenes/Fotos menu/Tacos/Barbacoa.jpg'
+      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      imagen_taco:'imagenes/fotos menu/tacos/barbacoa.jpg'
     },
     {
       id_taco:3,
-      nombre_taco:'Camaron capeado',
+      nombre_taco:'camaron capeado',
       precio_taco: '$20',
-      descripcion_taco:'Preparado con tortilla taquera, cebolla y cilantro',
-      imagen_taco:'Imagenes/Fotos menu/Tacos/Camaroncapeado.jpg',
-      imagen_taco2:'Imagenes/Fotos menu/Tacos/Camaroncapeado.jpg'
+      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      imagen_taco:'imagenes/fotos menu/tacos/camaroncapeado.jpg',
+      imagen_taco2:'imagenes/fotos menu/tacos/camaroncapeado.jpg'
 
     },
     {
       id_taco:4,
-      nombre_taco:'Carnitas',
+      nombre_taco:'carnitas',
       precio_taco: '$20',
-      descripcion_taco:'Preparado con tortilla taquera, cebolla y cilantro',
-      imagen_taco:'Imagenes/Fotos menu/Tacos/Carnitas.jpg'
+      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      imagen_taco:'imagenes/fotos menu/tacos/carnitas.jpg'
     },
     {
       id_taco:5,
-      nombre_taco:'Chicharron',
+      nombre_taco:'chicharron',
       precio_taco: '$20',
-      descripcion_taco:'Preparado con tortilla taquera, cebolla y cilantro',
-      imagen_taco:'Imagenes/Fotos menu/Tacos/Chicharron.jpg'
+      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      imagen_taco:'imagenes/fotos menu/tacos/chicharron.jpg'
     },
     {
       id_taco:6,
-      nombre_taco:'Cochinita',
+      nombre_taco:'cochinita',
       precio_taco: '$20',
-      descripcion_taco:'Preparado con tortilla taquera, cebolla y cilantro',
-      imagen_taco:'Imagenes/Fotos menu/Tacos/Cochinita.jpg'
+      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      imagen_taco:'imagenes/fotos menu/tacos/cochinita.jpg'
     }
  
   ],
-  carrusel: ['Imagenes/Carrusel/Carrusel-1.jpg','Imagenes/Carrusel/Carrusel-2.jpg','Imagenes/Carrusel/Carrusel-3.jpg','Imagenes/Carrusel/Carrusel-4.jpg'],
+  carrusel: ['imagenes/carrusel/carrusel-1.jpg','imagenes/carrusel/carrusel-2.jpg','imagenes/carrusel/carrusel-3.jpg','imagenes/carrusel/carrusel-4.jpg'],
 
   promos:
   [
     {
       promoid:1,
-      preview_imagen:'Imagenes/Imagenes promo/Preview/Preview-lunes.jpg',
-      info_imagen:'Imagenes/Imagenes promo/Info/Info-lunes.jpg'
+      preview_imagen:'imagenes/imagenes promo/preview/preview-lunes.jpg',
+      info_imagen:'imagenes/imagenes promo/info/info-lunes.jpg'
     },
     {
       promoid:2,
-      preview_imagen:'Imagenes/Imagenes promo/Preview/Preview-martes.jpg',
-      info_imagen:'Imagenes/Imagenes promo/Info/Info-martes.jpg'
+      preview_imagen:'imagenes/imagenes promo/preview/preview-martes.jpg',
+      info_imagen:'imagenes/imagenes promo/info/info-martes.jpg'
     },
     {
       id:3,
-      preview_imagen:'Imagenes/Imagenes promo/Preview/Preview-miercoles.jpg',
-      info_imagen:'Imagenes/Imagenes promo/Info/Info-miercoles.jpg'
+      preview_imagen:'imagenes/imagenes promo/preview/preview-miercoles.jpg',
+      info_imagen:'imagenes/imagenes promo/info/info-miercoles.jpg'
     },
     {
       promoid:4,
-      preview_imagen:'Imagenes/Imagenes promo/Preview/Preview-jueves.jpg',
-      info_imagen:'Imagenes/Imagenes promo/Info/Info-jueves.jpg'
+      preview_imagen:'imagenes/imagenes promo/preview/preview-jueves.jpg',
+      info_imagen:'imagenes/imagenes promo/info/info-jueves.jpg'
     },
     {
       promoid:5,
-      preview_imagen:'Imagenes/Imagenes promo/Preview/Preview-chupitos.jpg',
-      info_imagen:'Imagenes/Imagenes promo/Info/Info-chupitos.jpg'
+      preview_imagen:'imagenes/imagenes promo/preview/preview-chupitos.jpg',
+      info_imagen:'imagenes/imagenes promo/info/info-chupitos.jpg'
     },
     {
       promoid:6,
-      preview_imagen:'Imagenes/Imagenes promo/Preview/Preview-cumple.jpg',
-      info_imagen:'Imagenes/Imagenes promo/Info/Info-cumple.jpg'
+      preview_imagen:'imagenes/imagenes promo/preview/preview-cumple.jpg',
+      info_imagen:'imagenes/imagenes promo/info/info-cumple.jpg'
     },
   ],
   sucursales:[
@@ -164,20 +164,20 @@ export default new Vuex.Store({
 
     {
       id_musica:1,
-      imagen_musica:'Imagenes/Musica en vivo/musica-1.jpg',
-      fecha: 'Jueves 18'
+      imagen_musica:'imagenes/musica en vivo/musica-1.jpg',
+      fecha: 'jueves 18'
 
     },
     {
       id_musica:2,
-      imagen_musica:'Imagenes/Musica en vivo/musica-2.jpg',
-      fecha: 'Jueves 22'
+      imagen_musica:'imagenes/musica en vivo/musica-2.jpg',
+      fecha: 'jueves 22'
 
     },
     {
       id_musica:3,
-      imagen_musica:'Imagenes/Musica en vivo/musica-3.jpg',
-      fecha: 'Jueves 20'
+      imagen_musica:'imagenes/musica en vivo/musica-3.jpg',
+      fecha: 'jueves 20'
 
     },
   ],
@@ -185,35 +185,35 @@ export default new Vuex.Store({
   [
     {
      id_deporte: 1,
-     imagen_deporte: 'Iconos/Deportes/Ligas/Ligamx.svg',     
+     imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',     
      fecha:'1 marzo',
-     titulo:'Chivas vs Atlas',
-     hora: '7:00PM'
+     titulo:'chivas vs atlas',
+     hora: '7:00pm'
 
     },
     {
       id_deporte: 2,
-      imagen_deporte: 'Iconos/Deportes/Ligas/Ligamx.svg',
+      imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',
       fecha:'1 marzo',
-      titulo:'Chivas vs Atlas',
-      hora: '7:00PM'
+      titulo:'chivas vs atlas',
+      hora: '7:00pm'
 
     },
     {
       id_deporte: 3,
-      imagen_deporte: 'Iconos/Deportes/Ligas/Ligamx.svg',
+      imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',
       fecha:'1 marzo',
-      titulo:'Chivas vs Atlas',
-      hora: '7:00PM'
+      titulo:'chivas vs atlas',
+      hora: '7:00pm'
 
 
     },
     {
     id_deporte: 4,
-    imagen_deporte: 'Iconos/Deportes/Ligas/Ligamx.svg',
+    imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',
     fecha:'1 marzo',
-    titulo:'Chivas vs Atlas',
-    hora: '7:00PM'
+    titulo:'chivas vs atlas',
+    hora: '7:00pm'
     }
   
   ],
