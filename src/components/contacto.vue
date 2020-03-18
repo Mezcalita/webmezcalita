@@ -1,0 +1,78 @@
+<template>
+    <div class="container text-center " style="max-width:750px;"> 
+        <b-row cols="1" cols-md="2"  >
+         <b-col class="text-left">
+    <form>
+      <input  type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <br>
+      <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <br>
+      <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <br>
+<textarea id="w3mission" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
+</textarea>    
+
+<button class="buttonbordeblanco mt-4 ">ENVIAR</button>
+
+</form>
+         </b-col>
+         <b-col>
+    <ul class="list-group text-left">
+  <li class="list-group-item bg-transparent border-0" id="tituloa">contacto</li>
+  <li class="list-group-item bg-transparent border-0 ">
+       <img src="iconos/header/Logo-Header.svg"  
+    width="90" id="logoa">
+  </li>
+  <li class="list-group-item bg-transparent border-0"> <img src="iconos/contacto/facebook-contacto.svg"  
+    width="17" id="logoa">  <img src="iconos/contacto/instagram-contacto.svg"  
+    width="17" id="logoa"></li>
+  <li class="list-group-item bg-transparent border-0" id="tituloe">Servicio a clientes</li>
+  <li class="list-group-item bg-transparent border-0" id="parrafod">hola@lamezcalita.mx</li>
+    <li class="list-group-item bg-transparent border-0" id="parrafod">+52 554 5667 453</li>
+
+  
+</ul>
+ 
+         </b-col>
+
+        </b-row>
+        
+        
+    </div>
+</template>
+<script>
+  export default {
+      name: 'contacto',
+    data() {
+      return {
+        form: {
+          email: '',
+          name: '',
+          food: null,
+          checked: []
+        },
+        foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
+        show: true
+      }
+    },
+    methods: {
+      onSubmit(evt) {
+        evt.preventDefault()
+        alert(JSON.stringify(this.form))
+      },
+      onReset(evt) {
+        evt.preventDefault()
+        // Reset our form values
+        this.form.email = ''
+        this.form.name = ''
+        this.form.food = null
+        this.form.checked = []
+        // Trick to reset/clear native browser form validation state
+        this.show = false
+        this.$nextTick(() => {
+          this.show = true
+        })
+      }
+    }
+  }
+</script>

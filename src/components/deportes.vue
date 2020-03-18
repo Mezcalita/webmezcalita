@@ -1,0 +1,73 @@
+<template>
+ <div class="container-fluid d-flex  " id="deportes">
+           
+             <div class="container text-center mt-4 " style="max-width:1400px;" > 
+          <h5 id="tituloc"  >deportes</h5>
+          <h5 class="rectangulo"></h5>
+           <ul class="nav justify-content-center mb-1 ">
+    <li class=" nav-item ml-4" v-for="(categoria, index) in cat_deportes" 
+                     :key="categoria.id"   @click="activartabdep(index)" >
+       <a class="nav-link tab" :class="{tabclick: tabdep==index}"  href="#deportes"  >
+                     {{categoria.nombre}}
+                     </a>
+                     </li>
+           </ul>
+           <br>
+   <carousel id="carouseldeportes"   :nav="false" :dots="false" :autoplay="true" :responsive="{0:{items:1},578:{items:3, stagePadding:50},1000:{items:3}}">
+
+<carousel-item v-for="deporte in deportes" 
+                     :key="deporte.id_deporte"  >
+<div>
+  <b-card no-body class="overflow-hidden mt-4 ml-2" style="max-width: 400px;" border-0 bg-variant="transparent">
+    <b-row >
+      <b-col md="6" >
+        <b-card-img :src="deporte.imagen_deporte" class="rounded-0 card-img"></b-card-img>
+      </b-col>
+      <b-col md="6">
+          <b-card-text>
+          <p id="titulodeporte">{{deporte.fecha}}</p>
+          <h5 id="parrafoc">{{deporte.titulo}}</h5>
+          <h5 id="parrafoc">{{deporte.hora}}</h5>
+          </b-card-text>
+      </b-col>
+    </b-row>
+  </b-card>
+</div>
+</carousel-item>
+
+
+</carousel>
+ 
+  </div>
+
+  
+</div>       
+
+
+</template>
+<script>
+import carousel from 'vue-owl-carousel'
+
+import {mapState, mapMutations} from 'vuex';
+
+export default {
+    name: 'deportes',
+      computed:
+    {
+      ...mapState(['deportes','cat_deportes','tabdep'])
+    },
+     methods:
+  { 
+    ...mapMutations(['activartab','activartabdep'])
+
+
+    },
+     components:
+    { 
+      carousel 
+    }
+}
+
+
+
+</script>
