@@ -51,17 +51,8 @@
      <nosotros></nosotros>
           <h5 class="espacio"></h5>
 
-      <a name="menu_mezcalita"></a>
-<menu2></menu2>
-<br>
-     <h5 class="espacio"></h5>
-      <a name="promociones"></a>
-
-     <promociones></promociones>
-     <h5 class="espacio"></h5>
-           <a name="musicaenvivo"></a>
-
-
+    
+ 
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>
 
