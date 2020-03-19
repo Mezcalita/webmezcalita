@@ -76,12 +76,8 @@
       <contacto></contacto>
                            <h5 class="espacio"></h5>
                                <hr>
-
+<router-view/>
 <footercomp></footercomp>
-
-
-    <router-view/>
-
 
   </div>
 </template>
