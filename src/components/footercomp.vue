@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid" style="background-color: black;" >
 
-      <div class="container text-center" style="max-width:1200px;"> 
+      <div class="container text-center nomovil" style="max-width:1200px;"> 
   <b-row cols="1" cols-sm="2" cols-md="6"  >
     <b-col>
       <ul class="list-group text-left">

@@ -1,6 +1,6 @@
 <template>
     
-   <div class="container-fluid d-flex  " id="nosotros">
+   <div class="container-fluid d-flex nomovil  " id="nosotros">
     <div class="container " style="max-width:520px">
 
       <ul class="list-group bg-transparent border-0  pt-2" >

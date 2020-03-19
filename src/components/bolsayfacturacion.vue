@@ -1,5 +1,5 @@
 <template>
-    <div class="container text-center " style="max-width:750px;"> 
+    <div class="container text-center nomovil " style="max-width:750px;"> 
         <b-row cols="1" cols-md="2"  no-gutters>
          <b-col>
 

@@ -20,7 +20,7 @@
 <div>
   <b-card no-body class="overflow-hidden mt-4 ml-2" style="max-width: 400px;" border-0 bg-variant="transparent">
     <b-row >
-      <b-col md="6" >
+      <b-col md="6" class="nomovil" >
         <b-card-img :src="deporte.imagen_deporte" class="rounded-0 card-img"></b-card-img>
       </b-col>
       <b-col md="6">
