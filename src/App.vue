@@ -43,41 +43,8 @@
 <br>
 <br>
 <br>
-    <headercomp></headercomp>
-
-  <h5 class="espacio"></h5>
-
-      <a name="nosotros"></a>
-     <nosotros></nosotros>
-          <h5 class="espacio"></h5>
-
     
- 
-     <reservaciones></reservaciones>
-          <h5 class="espacio"></h5>
-
-      <a name="carrusel"></a>
-
-  <carrusel></carrusel>
-       <h5 class="espacio"></h5>
-      <a name="franquicias"></a>
-
-  <franquicias></franquicias>
-
-         <h5 class="espacio"></h5>
-
-                 <a name="sucursales"></a>
-
-
-       <sucursales></sucursales>
-              <h5 class="espacio"></h5>
-       <bolsayfacturacion></bolsayfacturacion>
-                     <h5 class="espacio"></h5>
-      <contacto></contacto>
-                           <h5 class="espacio"></h5>
-                               <hr>
 <router-view/>
-<footercomp></footercomp>
 
   </div>
 </template>
@@ -104,22 +71,7 @@ import footercomp from '@/components/footercomp.vue'
 
 export default {
   name: 'app',
-  components:{
-    headercomp,
-    nosotros,
-    menu2,
-    reservaciones,
-    promociones,
-    carrusel,
-    franquicias,
-    sucursales,
-    bolsayfacturacion,
-    musicaenvivo,
-    deportes,
-    contacto,
-    footercomp
-  },
-  
+
 }
 
 var prevScrollpos = window.pageYOffset;
