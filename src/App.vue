@@ -61,13 +61,13 @@
      <h5 class="espacio"></h5>
            <a name="musicaenvivo"></a>
 
-<musicaenvivo></musicaenvivo>
+<!-- <musicaenvivo></musicaenvivo>
      <h5 class="espacio"></h5>
       <a name="deportes"></a>
 
   <deportes></deportes>
      <h5 class="espacio"></h5>
-      <a name="reservaciones"></a>
+      <a name="reservaciones"></a> -->
 
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>
