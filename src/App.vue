@@ -43,8 +43,61 @@
 <br>
 <br>
 <br>
-    
-<router-view/>
+<b-container fluid class="cuerpo">
+    <headercomp></headercomp>
+
+  <h5 class="espacio"></h5>
+
+      <a name="nosotros"></a>
+     <nosotros></nosotros>
+          <h5 class="espacio"></h5>
+
+      <a name="menu_mezcalita"></a>
+<menu2></menu2>
+<br>
+     <h5 class="espacio"></h5>
+      <a name="promociones"></a>
+
+     <promociones></promociones>
+     <h5 class="espacio"></h5>
+           <a name="musicaenvivo"></a>
+
+<musicaenvivo></musicaenvivo>
+     <h5 class="espacio"></h5>
+      <a name="deportes"></a>
+
+  <deportes></deportes>
+     <h5 class="espacio"></h5>
+      <a name="reservaciones"></a>
+
+     <reservaciones></reservaciones>
+          <h5 class="espacio"></h5>
+
+      <a name="carrusel"></a>
+
+  <carrusel></carrusel>
+       <h5 class="espacio"></h5>
+      <a name="franquicias"></a>
+
+  <franquicias></franquicias>
+
+         <h5 class="espacio"></h5>
+
+                 <a name="sucursales"></a>
+
+
+       <sucursales></sucursales>
+              <h5 class="espacio"></h5>
+       <bolsayfacturacion></bolsayfacturacion>
+                     <h5 class="espacio"></h5>
+      <contacto></contacto>
+                           <h5 class="espacio"></h5>
+                               <hr>
+
+<footercomp></footercomp>
+
+</b-container>
+
 
   </div>
 </template>
@@ -71,8 +124,22 @@ import footercomp from '@/components/footercomp.vue'
 
 export default {
   name: 'app',
-
+  components:{
+    headercomp,
+    nosotros,
+    menu2,
+    reservaciones,
+    promociones,
+    carrusel,
+    franquicias,
+    sucursales,
+    bolsayfacturacion,
+    musicaenvivo,
+    deportes,
+    contacto,
+    footercomp
+  },
+  
 }
-
 
 </script>
