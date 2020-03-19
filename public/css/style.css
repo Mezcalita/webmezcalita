@@ -24,13 +24,10 @@
     background-color: #000000;
     
   }
-.body
-{
-  background-color: #000000;
 
-}
 #app
-{
+{ 
+
   background-color: #000000;
 
 }
@@ -310,6 +307,10 @@ textarea{
     width: 328px;
    
   }
+  .imgalacran
+  {
+    width: 320px;
+  }
   .rectangulo {
     width: 18px;
     height: 6px;
@@ -447,8 +448,16 @@ margin-top: 40px;
 display: none;
 }
 
+@media (max-width: 320px) 
+  {
+  .imgalacran
+  {
+    width: 260px;
+  }
+  }
 @media (max-width: 576px) 
   {
+ 
  
   .simovil
   {
@@ -469,6 +478,7 @@ display: none;
   background-size: cover;
 
 }
+
 #headerpost
 {
   height: auto;

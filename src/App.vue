@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="fluid">
 
 
 <b-container  fluid class="bv-example-row fixed-top " id="nav">
@@ -43,7 +43,6 @@
 <br>
 <br>
 <br>
-<b-container fluid class="cuerpo">
     <headercomp></headercomp>
 
   <h5 class="espacio"></h5>
@@ -95,8 +94,6 @@
                                <hr>
 
 <footercomp></footercomp>
-
-</b-container>
 
 
   </div>

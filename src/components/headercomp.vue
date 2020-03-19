@@ -33,7 +33,7 @@
    <div class="container simovil " id="headerpost"  >
     <div class="row mt-4  ">
       <div class="col-4 col-md-5"  >
-        <img src="imagenes/alacran2.png" width="325"  class="  mt-4 text-center  " >
+        <img src="imagenes/alacran2.png"  class=" imgalacran mt-4 text-center  " >
 
       </div>
       <div class="col-md-7  " >
