@@ -20,7 +20,7 @@
       <b-navbar-nav  >
    
         <b-nav-item class="pl-3"  href="#menu_mezcalita" > Menú</b-nav-item>
-        <b-nav-item  class="pl-3" > Resrvaciones</b-nav-item>
+        <b-nav-item  class="pl-3" href="#reservaciones"  > Reservaciones</b-nav-item>
          <b-nav-item class="pl-3"  >Eventos</b-nav-item>
          <b-nav-item class="pl-3"   >Franquicias</b-nav-item>
          <b-nav-item class="pl-3"  >Promociones</b-nav-item>
@@ -48,26 +48,31 @@
   <h5 class="espacio"></h5>
 
       <a name="nosotros"></a>
-     <nosotros></nosotros>
-          <h5 class="espacio"></h5>
 
-      <a name="menu_mezcalita"></a>
+     <nosotros></nosotros>
+                 <a name="menu_mezcalita"></a>
+
+               <h5 class="espacio"></h5>
+
+
 <menu2></menu2>
-<br>
+<br>      <a name="promociones"></a>
+
      <h5 class="espacio"></h5>
-      <a name="promociones"></a>
 
      <promociones></promociones>
      <h5 class="espacio"></h5>
            <a name="musicaenvivo"></a>
 
 <musicaenvivo></musicaenvivo>
-     <h5 class="espacio"></h5>
       <a name="deportes"></a>
 
-  <deportes></deportes>
      <h5 class="espacio"></h5>
-      <a name="reservaciones"></a>
+
+  <deportes></deportes>
+        <a name="reservaciones"></a>
+
+     <h5 class="espacio"></h5>
 
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>

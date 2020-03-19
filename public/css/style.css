@@ -27,7 +27,7 @@
 
 #app
 { 
-
+ 
   background-color: #000000;
 
 }
@@ -161,6 +161,7 @@ textarea{
   height: 620px;
   background-size: 100% 100%;
     background-position: center;
+    max-width: 1920px;
 
 }
 
@@ -180,7 +181,9 @@ textarea{
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
-  height: 472px;
+  height:  664px;
+  max-width: 1920px;
+
 }
 #reservaciones
 {
@@ -188,7 +191,9 @@ textarea{
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
-  height: 472px;
+  height: 664px;
+  max-width: 1920px;
+
 }
 #musicaenvivo
 {
@@ -197,6 +202,8 @@ textarea{
   background-position: center;
   align-items:center;
   height: 570px;
+  max-width: 1920px;
+
 }
 #carouseldeportes
 {
@@ -335,9 +342,7 @@ textarea{
 {
   font-family: Knucklehead;
   font-size: 64px;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
+
   color:#fff;
 }
 #tituloc
@@ -448,11 +453,11 @@ margin-top: 40px;
 display: none;
 }
 
-@media (max-width: 320px) 
+@media (max-width: 360px) 
   {
   .imgalacran
   {
-    width: 260px;
+    width: 250px;
   }
   }
 @media (max-width: 576px) 
@@ -466,18 +471,7 @@ display: none;
   }  
  
 
-  #nosotros
-{
-  background-size: cover;
-}
-#slider
-{
-  text-align: center;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-
-}
+  
 
 #headerpost
 {
@@ -504,6 +498,26 @@ display: none;
     {
       display: none ;
     }
+    #titulodeporte{
+      text-align: center;
+
+    }
+    #parrafoc
+    {
+      text-align: center;
+    }
     
+}
+
+@media (max-width: 1366px)
+{
+  #nosotros
+{
+  background-size: cover;
+}
+#reservaciones{
+  background-size: cover;
+}
+
 }
   

@@ -15,8 +15,8 @@
         
         <h5  class="card-title  " id="tituloa" >PARA TODO MAL MEZCAL</h5>
         <h5  class="card-title  " id="tituloa" >¡Y PARA TODO BIEN TAMBIEN!</h5>
-               <button class="buttonborde mr-3 mb-2">PIDE POR RAPPI</button>
-        <button class="buttonrojo">HACER RESERVACIÓN</button>
+               <button class="buttonborde mb-2">PIDE POR RAPPI</button>
+        <button class="buttonrojo ml-1">HACER RESERVACIÓN</button>
 
         </li>
   
@@ -32,16 +32,16 @@
 
    <div class="container simovil " id="headerpost"  >
     <div class="row mt-4  ">
-      <div class="col-4 col-md-5"  >
-        <img src="imagenes/alacran2.png"  class=" imgalacran mt-4 text-center  " >
+      <div class=" col-md-4 text-center"  >
+        <img src="imagenes/alacran2.png"  class=" card-img mt-4 text-center  " >
 
       </div>
-      <div class="col-md-7  " >
-        <div class="card-body mt-4 bg-transparent   " >
+      <div class="col-md-4 " >
+        <div class="card-body mt-4 bg-transparent  text-center " >
         
 
-               <button class="buttonborde mr-3 mb-2">PIDE POR RAPPI</button>
-        <button class="buttonrojo">HACER RESERVACIÓN</button>
+               <button class="buttonborde  mb-2">PIDE POR RAPPI</button>
+        <button class="buttonrojo ml-4">HACER RESERVACIÓN</button>
   
         </div>
       </div>
