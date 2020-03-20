@@ -1,5 +1,5 @@
 <template>
-    <div class="container text-center " style="max-width:1400px;"> 
+    <div class="container text-center " style="width:100%;max-width:1920px;"> 
     
                 <h5 id="tituloc"  >promociones</h5>
                 <h5 class="rectangulo"  ></h5>

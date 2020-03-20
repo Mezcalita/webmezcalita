@@ -201,7 +201,7 @@ textarea{
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
-  height: 570px;
+  height: 800px;
   max-width: 1920px;
 
 }
@@ -306,12 +306,13 @@ textarea{
   
   .infopromo
   {
-    width: 336px;
-    height: 480px;
+    /* width: 336px; */
+    width: 106%
   }
   .imagenpromo
   {
-    width: 328px;
+    /* width: 328px; */
+    width: 100%
    
   }
   .imgalacran
@@ -348,7 +349,7 @@ textarea{
 #tituloc
 {
   font-family: Knucklehead;
-  font-size: 64px;
+  font-size: 4.68vw;
     color:#ad8c63;
     line-height: 40px;
 
@@ -469,7 +470,10 @@ display: none;
     display: inline ;
 
   }  
- 
+ .nomovil
+    {
+      display: none ;
+    }
 
   
 
@@ -498,6 +502,7 @@ display: none;
     {
       display: none ;
     }
+    
     #titulodeporte{
       text-align: center;
 
@@ -506,10 +511,21 @@ display: none;
     {
       text-align: center;
     }
+    .rectangulo {
+      width: 18px;
+      height: 6px;
+      background-color: #fff;
+      margin-left: 48%;
+      margin-bottom: 20px;
+      }
+    .buttonrojo
+    {
+      margin-right: 2%;
+    }
     
 }
 
-@media (max-width: 1366px)
+@media (max-width: 1915px)
 {
   #nosotros
 {
@@ -518,6 +534,7 @@ display: none;
 #reservaciones{
   background-size: cover;
 }
+
 
 }
   

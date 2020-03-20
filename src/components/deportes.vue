@@ -1,7 +1,7 @@
 <template>
  <div class="container-fluid d-flex  " id="deportes">
            
-             <div class="container text-center mt-4 " style="max-width:1400px;" > 
+             <div class="container text-center mt-4 " style="max-width:1920px;" > 
           <h5 id="tituloc"  >deportes</h5>
           <h5 class="rectangulo"></h5>
            <ul class="nav justify-content-center mb-1 ">
@@ -13,7 +13,7 @@
                      </li>
            </ul>
            <br>
-   <carousel id="carouseldeportes"   :nav="false" :dots="false" :autoplay="true" :responsive="{0:{items:1},578:{items:3, stagePadding:50},1000:{items:3}}">
+   <carousel id="carouseldeportes"   :nav="false" :dots="false" :autoplay="true" :responsive="{0:{items:1},578:{items:2},1366:{items:3},1920:{items:4}}">
 
 <carousel-item v-for="deporte in deportes" 
                      :key="deporte.id_deporte"  >

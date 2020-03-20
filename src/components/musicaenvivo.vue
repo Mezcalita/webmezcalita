@@ -4,7 +4,7 @@
     
        <div class="container-fluid d-flex  " id="musicaenvivo">
            
-             <div class="container text-center mt-4 " style="max-width:1400px;" > 
+             <div class="container text-center mt-4 " style="max-width:1920px;" > 
           <h5 id="tituloc"  >música en vivo</h5>
           <h5 class="rectangulo"></h5>
            <select id="select" class="buttonbordeblanco mb-4">
@@ -17,7 +17,7 @@
                      :key="musica.id_musica"  >
    <b-col >
        <p class="text-center" id="parrafoa">{{musica.fecha}}</p>
-        <img :src="musica.imagen_musica" class="rounded-0 card-img" >
+        <img :src="musica.imagen_musica" class="rounded-0 " width="100%" >
    </b-col>
 </carousel-item>
 

@@ -21,12 +21,12 @@
    
         <b-nav-item class="pl-3"  href="#menu_mezcalita" > Menú</b-nav-item>
         <b-nav-item  class="pl-3" href="#reservaciones"  > Reservaciones</b-nav-item>
-         <b-nav-item class="pl-3"  >Eventos</b-nav-item>
-         <b-nav-item class="pl-3"   >Franquicias</b-nav-item>
-         <b-nav-item class="pl-3"  >Promociones</b-nav-item>
-         <b-nav-item class="pl-3"  >Bolsa de trabajo</b-nav-item>
-         <b-nav-item class="pl-3"  >Facturación</b-nav-item>
-         <b-nav-item class="pl-3"  >Contacto</b-nav-item>
+         <b-nav-item class="pl-3" href="#musicaenvivo" >Eventos</b-nav-item>
+         <b-nav-item class="pl-3" href="#franquicias"  >Franquicias</b-nav-item>
+         <b-nav-item class="pl-3" href="#promociones" >Promociones</b-nav-item>
+         <b-nav-item class="pl-3" href="#bolsayfacturacion" >Bolsa de trabajo</b-nav-item>
+         <b-nav-item class="pl-3" href="#bolsayfacturacion" >Facturación</b-nav-item>
+         <b-nav-item class="pl-3" href="#contacto" >Contacto</b-nav-item>
 
       </b-navbar-nav>
   
@@ -45,7 +45,7 @@
 <br>
     <headercomp></headercomp>
 
-  <h5 class="espacio"></h5>
+
 
       <a name="nosotros"></a>
 
@@ -61,8 +61,9 @@
      <h5 class="espacio"></h5>
 
      <promociones></promociones>
+        <a name="musicaenvivo"></a>
+
      <h5 class="espacio"></h5>
-           <a name="musicaenvivo"></a>
 
 <musicaenvivo></musicaenvivo>
       <a name="deportes"></a>
@@ -77,22 +78,22 @@
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>
 
-      <a name="carrusel"></a>
-
   <carrusel></carrusel>
+        <a name="franquicias"></a>
+
        <h5 class="espacio"></h5>
-      <a name="franquicias"></a>
 
   <franquicias></franquicias>
 
          <h5 class="espacio"></h5>
 
-                 <a name="sucursales"></a>
-
-
        <sucursales></sucursales>
+                        <a name="bolsayfacturacion"></a>
+
               <h5 class="espacio"></h5>
        <bolsayfacturacion></bolsayfacturacion>
+                        <a name="contacto"></a>
+
                      <h5 class="espacio"></h5>
       <contacto></contacto>
                            <h5 class="espacio"></h5>

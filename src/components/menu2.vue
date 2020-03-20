@@ -2,9 +2,9 @@
     <div class="container-fluid" style="background-color: black;">
    <div class="container-fluid "   id="menu">
 
-    <div class="container text-center" style="max-width:1000px">
+    <div class="container text-center" style="max-width:1200px">
    
-              <h5 id="tituloc"  >menu</h5>
+              <h5 id="tituloc" >menu</h5>
                 <h5 class="rectangulo"  ></h5>
 
       <ul class="nav justify-content-center mb-1 "  >
@@ -30,7 +30,7 @@
   </div>
     </div>
 
-    <div class="container  text-center mt-4" style="max-width:1400px;background-color: black;">
+    <div class="container  text-center mt-4" style="max-width:1920px;background-color: black;">
 
 <div v-if="tab==1">
   <ul class="nav justify-content-center mb-1 ">

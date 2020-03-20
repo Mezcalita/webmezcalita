@@ -1,5 +1,5 @@
 <template>
-    
+    <div class="nomovil">
    <div class=" container-fluid d-flex   " id="nosotros">
     <div class="container  " style="max-width:520px">
 
@@ -20,6 +20,7 @@
       
   </div>
 </div>   
+    </div>
 </template>
 <script>
 
