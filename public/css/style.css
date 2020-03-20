@@ -335,8 +335,12 @@ textarea{
 #tituloa
 {
   font-family: CheddarGothic ;
+  font-display: block;
+  src: local('Teko Bold'), 
+  url(https://fonts.google.com/?query=tek&selection.family=Teko);
   font-size: 3.9vw;
   color: #fff;
+
 }
 
 #titulob
