@@ -30,13 +30,13 @@
 
   </div>
 
-   <div class="container simovil " id="headerpost"  >
-    <div class="row mt-4  ">
-      <div class=" col-md-4 text-center"  >
-        <img src="imagenes/alacran2.png"  class=" card-img mt-4 text-center  " >
+   <div class="container simovil " style="max-width:400px" >
+    <div class="row   ">
+      <div class=" col-lg-4 text-center"  >
+        <img src="imagenes/alacran2.png"  class="   text-center  " >
 
       </div>
-      <div class="col-md-4 " >
+      <div class="col-lg-5 " >
         <div class="card-body mt-4 bg-transparent  text-center " >
         
 

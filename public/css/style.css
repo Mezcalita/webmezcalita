@@ -158,7 +158,7 @@ textarea{
     background-image: url('../imagenes/hero-fondo.jpg');
     align-items:center;
     justify-content: center;
-  height: 620px;
+  height: 873px;
   background-size: 100% 100%;
     background-position: center;
     max-width: 1920px;
@@ -168,7 +168,7 @@ textarea{
 #headerpost
 {
   
-  max-width: 1200px;
+  max-width: 1400px;
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
@@ -335,7 +335,7 @@ textarea{
 #tituloa
 {
   font-family: CheddarGothic ;
-  font-size: 55px;
+  font-size: 3.9vw;
   color: #fff;
 }
 
@@ -392,7 +392,7 @@ margin-top: 40px;
 #parrafoa
 {
   font-family: HelveticaNeue;
-  font-size: 13px;
+  font-size: 0.9vw;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -481,11 +481,9 @@ display: none;
 {
   height: auto;
 }
-.buttonborde{
-  margin-left: 6%;
+
 }
-}
-@media (max-width: 768px) 
+@media (max-width: 1000px) 
   {
  
     #brand
@@ -501,6 +499,10 @@ display: none;
     .nomovil
     {
       display: none ;
+    }
+    .simovil
+    {
+      display: inline;
     }
     
     #titulodeporte{
@@ -522,10 +524,119 @@ display: none;
     {
       margin-right: 2%;
     }
+    .buttonborde{
+      margin-left: 6%;
+    }
+    
     
 }
+@media (max-width: 1365px)
+{
+ 
+  /*titulos y parrafos*/
+  #tituloa
+  {
+    font-family: CheddarGothic ;
+    font-size: 55px;
+    color: #fff;
+  }
+  
+  #titulob
+  {
+    font-family: Knucklehead;
+    font-size: 64px;
+    color:#fff;
+  }
+  #tituloc
+  {
+    font-family: Knucklehead;
+    font-size: 64px;
+      color:#ad8c63;
+      line-height: 40px;
+  
+  }
+  #titulod
+  {
+    font-family: Knucklehead;
+    font-size: 42px;
+      color:#fff;
+  
+  }
+  #tituloproducto
+  {
+    
+   
+    font-family: HelveticaNeue;
+    font-size: 17px;
+  margin-top: 40px;
+    text-align: left;
+    color: #fff;
+    border-bottom: 1px white dashed;
+  }
+  #titulodeporte
+  {
+    font-family: HelveticaNeue;
+    font-size: 23px;
+    font-weight: bold;
+  margin-top: 40px;
+    text-align: left;
+    color: #fff;
+  
+  }
+  #tituloe
+  {
+    font-family: HelveticaNeue;
+    font-size: 23px;
+    text-align: left;
+    color: grey;
+  }
+  #parrafoa
+  {
+    font-family: HelveticaNeue;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #fff;
+  }
+  #parrafob
+  {
+    font-family: HelveticaNeue;
+    font-size: 17px;
+    font-weight: 300;
+   
+    font-style: italic;
+   
+    text-align: left;
+    color: grey;
+  }
+  #parrafoc
+  {
+    font-family: HelveticaNeue;
+    font-size: 17px;
+    font-weight: 300;
+   
+    font-style: italic;
+   
+    text-align: left;
+    color: white;
+  }
+  #parrafod
+  {
+    font-family: HelveticaNeue;
+    font-size: 17px;
+    font-weight: 300;
+   
+   
+    text-align: left;
+    color: white;
+  }
+  
+}
 
-@media (max-width: 1915px)
+
+@media (max-width: 1919px)
 {
   #nosotros
 {

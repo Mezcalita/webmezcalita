@@ -13,7 +13,7 @@
                      </li>
            </ul>
            <br>
-   <carousel id="carouseldeportes"   :nav="false" :dots="false" :autoplay="true" :responsive="{0:{items:1},578:{items:2},1366:{items:3},1920:{items:4}}">
+   <carousel id="carouseldeportes"   :nav="false" :dots="false" :autoplay="true" :responsive="{0:{items:1},578:{items:2, stagepadding:100},1366:{items:3},1920:{items:4}}">
 
 <carousel-item v-for="deporte in deportes" 
                      :key="deporte.id_deporte"  >
