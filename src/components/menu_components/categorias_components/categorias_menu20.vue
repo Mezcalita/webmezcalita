@@ -1,8 +1,8 @@
 <template>
 
     <div class="container text-center mt-4 " style="max-width:1920px;" v-if="subtab==0"> 
-      
-   <carousel  :nav="false" :dots="false" :autoplay="true" :responsive="{0:{items:1},578:{items:2},1366:{items:3},1920:{items:4}}">
+
+   <carousel  :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1},578:{items:2},1366:{items:3},1920:{items:4}}">
 
 <carousel-item v-for="taco in tacos" 
                      :key="taco.id_taco"  >

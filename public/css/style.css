@@ -36,10 +36,9 @@
 }
 #nav
 {
- font-family: HelvelticaNeue;
+ font-family: HelveticaNeue;
  font-size: 13px;
  background-color: #000000;
- font-family: HelveticaNeue;
  
   font-weight: 500;
   font-stretch: normal;
@@ -214,7 +213,7 @@ textarea{
   background-size: cover;
   background-position: center;
   align-items:center;
-  height: 200px;
+  height: 220px;
     border: solid 1px #fff;
 
 }
@@ -225,7 +224,7 @@ textarea{
 }
 .tab
   {
-    width: 125px;
+    /* width: 125px;
     height: 31px;
     background-color: #2e2e2e;
     font-family: HelveticaNeue;
@@ -235,7 +234,19 @@ textarea{
   font-style: normal;
   line-height: 1.53;
   letter-spacing: normal;
-  color: #fff;
+  color: #fff; */
+  max-width: 180px;
+  height: 38px;
+  border: solid 1px #2e2e2e;
+  background-color: #2e2e2e;
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  padding: 10px 20px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  color: #fff; 
   }
   .tabclick
   {
@@ -542,9 +553,19 @@ display: none;
     
     
 }
-@media (max-width: 1365px)
+@media (max-width: 1366px)
 {
- 
+  #slider
+  {
+      background-image: url('../imagenes/hero-fondo.jpg');
+      align-items:center;
+      justify-content: center;
+    height: 764px;
+    background-size: 100% 100%;
+      background-position: center;
+      max-width: 1920px;
+  
+  }
   /*titulos y parrafos*/
   #tituloa
   {
@@ -615,8 +636,7 @@ display: none;
   #parrafob
   {
     font-family: HelveticaNeue;
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 16px;
    
     font-style: italic;
    
@@ -626,8 +646,7 @@ display: none;
   #parrafoc
   {
     font-family: HelveticaNeue;
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 16px;
    
     font-style: italic;
    

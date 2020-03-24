@@ -2,12 +2,22 @@
     <div class="container-fluid" style="background-color: black;">
    <div class="container-fluid "   id="menu">
 
-    <div class="container text-center" style="max-width:1200px">
+    <div class="container text-center" style="max-width:800px">
    
               <h5 id="tituloc" >menu</h5>
                 <h5 class="rectangulo"  ></h5>
-
-      <ul class="nav justify-content-center mb-1 "  >
+       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:1, stagePadding:75},578:{items:5},1366:{items:5},1920:{items:5}}">
+     <carousel-item v-for="(categoria, index) in categorias_principal" 
+                     :key="categoria.id"  >
+                
+                         <button class="tab" 
+                         :class="{tabclick: tab==index}" 
+                         @click="activartab(index)"
+                          href="#menu_mezcalita" >
+                                                  {{categoria.nombre}}</button>
+     </carousel-item>
+       </carousel>
+      <!-- <ul class="nav justify-content-center mb-1 "  >
   <li class="nav-item " >
     <a class="nav-link active tab" :class="{tabclick: tab==1}" @click="activartab(1)" href="#menu_mezcalita" >Menu de 20</a>
   </li>
@@ -23,7 +33,7 @@
     <li class="nav-item ml-4">
     <a class="nav-link tab" :class="{tabclick: tab==5}"  @click="activartab(5)" href="#menu_mezcalita"  >Destilados</a>
   </li>
-</ul>
+</ul> -->
 
     
 
@@ -32,17 +42,22 @@
 
     <div class="container  text-center mt-4" style="max-width:1920px;background-color: black;">
 
-<div v-if="tab==1">
-  <ul class="nav justify-content-center mb-1 ">
-    <li class=" nav-item " v-for="(categoria, index) in cat_menu20" 
-                     :key="categoria.id"   @click="activarsubtab(index)" >
-       <a class="nav-link subtab" :class="{subtabclick: subtab==index}"  href="#menu_mezcalita"  >
-                     {{categoria.nombre}}
-                     </a>
-                     </li>
-  </ul>
-<c_20></c_20>
+<div v-if="tab==0" class="container  text-center"  style="max-width:800px">
+       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:40},578:{items:5},1366:{items:5},1920:{items:5}}">
+     <carousel-item v-for="(cat20, index) in cat_menu20" 
+                     :key="cat20.id"  >
+                
+                         <a class="subtab" 
+                         :class="{subtabclick: subtab==index}" 
+                         @click="activarsubtab(index)"
+                          href="#menu_mezcalita" >
+                         {{cat20.nombre}}</a>
+     </carousel-item>
+       </carousel>
+ 
 </div>
+<c_20></c_20>
+
 <div v-if="tab==2">
   <especiales></especiales>
 </div>
@@ -64,6 +79,8 @@
     </div>
 </template>
 <script>
+import carousel from 'vue-owl-carousel'
+
 import {mapState, mapMutations} from 'vuex';
  import c_20 from '@/components/menu_components/categorias_components/categorias_menu20.vue'
  
@@ -81,12 +98,13 @@ c_20,
         especiales,
         bebidas,
         mixologia,
-        destilados
+        destilados,
+        carousel
 
     },
     computed:
     {
-      ...mapState(['tab','subtab','cat_menu20'])
+      ...mapState(['tab','subtab','cat_menu20','categorias_principal'])
     },
     methods:
   { 

@@ -11,7 +11,7 @@
         <option selected>Choose...</option>
         <option>...</option>
       </select>
-   <carousel  :margin="3" :nav="false" :dots="false" :autoplay="true" :responsive="{0:{items:1},768:{items:2},1366:{items:3}}">
+   <carousel  :margin="3" :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1},768:{items:2},1366:{items:3}}">
 
 <carousel-item v-for="musica in musicaenvivo" 
                      :key="musica.id_musica"  >

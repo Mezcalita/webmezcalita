@@ -1,5 +1,5 @@
 <template>
-<div class="container-fluid  d-flex    "   id="contacto"  >
+<div class="container-fluid  d-flex    "   >
   <div class="container text-center nomovil " style="max-width:800px;"> 
         <b-row cols="1" cols-md="2"  >
          <b-col class="text-left">

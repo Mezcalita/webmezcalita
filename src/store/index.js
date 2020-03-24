@@ -5,10 +5,44 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    tab: 1,
+    tab: 0,
     subtab: 0,
     tabsuc: 0,
     tabdep: 0,
+    categorias_principal:[
+      {
+        id:1,
+        nombre:'Menu de 20',
+        icono: 'iconos/menu/platillos.svg'
+
+      },
+      {
+        id:2,
+        nombre:'Especiales',
+        icono: 'iconos/menu/especiales.svg'
+
+      },
+      {
+        id:3,
+        nombre:'Bebidas',
+        icono: 'iconos/menu/bebidas.svg'
+
+      },
+      {
+        id:4,
+        nombre:'Mixología',
+        icono: 'iconos/menu/mixologia.svg'
+
+      },
+      {
+        id:5,
+        nombre:'Destilados',
+        icono: 'iconos/menu/destilados.svg'
+
+      },
+
+
+    ],
     cat_menu20:[
     {
       id:1,
@@ -35,24 +69,7 @@ export default new Vuex.Store({
       nombre:'botanas '
     }
   ],
-  cat_deportes:[
-    {
-      id:1,
-      nombre:'Futbol'
-    },
-    {
-      id:2,
-      nombre:'NFL'
-    },
-    {
-      id:3,
-      nombre:'Box/UFC'
-    },
-    {
-      id:4,
-      nombre:'Otros'
-    }
-  ],
+  
   tacos:[
     {
       id_taco:1,
