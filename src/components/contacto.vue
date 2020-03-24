@@ -1,5 +1,6 @@
 <template>
-    <div class="container text-center " style="max-width:750px;"> 
+<div class="container-fluid  d-flex    "   id="contacto"  >
+  <div class="container text-center nomovil " style="max-width:800px;"> 
         <b-row cols="1" cols-md="2"  >
          <b-col class="text-left">
     <form>
@@ -9,7 +10,7 @@
       <br>
       <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
       <br>
-<textarea id="w3mission" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
+<textarea id="w3mission" rows="20" cols="40" placeholder="Mensaje" style="resize:none;">
 </textarea>    
 
 <button class="buttonbordeblanco mt-4 ">ENVIAR</button>
@@ -18,7 +19,7 @@
          </b-col>
          <b-col>
     <ul class="list-group text-left">
-  <li class="list-group-item bg-transparent border-0" id="tituloa">contacto</li>
+  <li class="list-group-item bg-transparent border-0 nomovil" id="tituloa">contacto</li>
   <li class="list-group-item bg-transparent border-0 ">
        <img src="iconos/header/logo-header.svg"  
     width="90" id="logoa">
@@ -36,7 +37,50 @@
          </b-col>
 
         </b-row>
+    </div>    
+
+
+      <div class="container text-center simovil " style="max-width:600px;"> 
+        <b-row cols="1"   >
+         <b-col >
+           <h5 id="tituloa">contacto</h5>
+    <form>
+      <input  type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <br>
+      <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <br>
+      <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <br>
+<textarea id="w3mission" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
+</textarea>    
+
+<button class="buttonbordeblanco mt-4 ">ENVIAR</button>
+
+</form>
+<br>
+         </b-col>
+         <b-col>
+    <ul class="list-group text-center">
+  <li class="list-group-item bg-transparent border-0 ">
+       <img src="iconos/header/logo-header.svg"  
+    width="90" id="logoa">
+  </li>
+  <li class="list-group-item bg-transparent border-0"> <img src="iconos/contacto/facebook-contacto.svg"  
+    width="17" id="logoa">  <img src="iconos/contacto/instagram-contacto.svg"  
+    width="17" id="logoa"></li>
+  <li class="list-group-item bg-transparent border-0 text-center" id="parrafod">hola@lamezcalita.mx</li>
+    <li class="list-group-item bg-transparent border-0 text-center" id="parrafod">+52 554 5667 453</li>
+
+  
+</ul>
+ 
+         </b-col>
+
+        </b-row>
         
+        
+        
+    </div>    
         
     </div>
 </template>

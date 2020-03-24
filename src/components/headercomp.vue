@@ -30,7 +30,7 @@
 
   </div>
 
-   <div class="container simovil " style="max-width:400px" >
+   <div class="container simovil " style="max-width:800px" >
     <div class="row   ">
       <div class=" col-lg-4 text-center"  >
         <img src="imagenes/alacran2.png"  class="   text-center  " >

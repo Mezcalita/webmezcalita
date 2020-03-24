@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid" style="background-color: black;" >
 
-      <div class="container text-center nomovil" style="max-width:1200px;"> 
+      <div class="container text-center nomovil" style="max-width:1400px;"> 
   <b-row cols="1" cols-sm="2" cols-md="6"  >
     <b-col>
       <ul class="list-group text-left">
@@ -86,6 +86,9 @@
 </b-row>
     
     </div>
+<b-col class="text-left ml-3 simovil">
+<p id="parrafoa">©La mezcalita 2020 Todos los derechos reservados</p>
+  </b-col>
     </div>
 </template>
 <script>

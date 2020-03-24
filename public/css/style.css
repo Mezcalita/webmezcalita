@@ -9,13 +9,16 @@
   {
     font-family: CheddarGothic ;
     src: url('../Fonts/CheddarGothicRough-Regular.otf');
+      font-display: swap;
+
   }
   @font-face
   {
     font-family: Knucklehead ;
     src: url('../Fonts/Knucklehead-Black.otf');
   }
-  
+  @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
   /*cuerpo*/
   html,
   body {
@@ -158,7 +161,7 @@ textarea{
     background-image: url('../imagenes/hero-fondo.jpg');
     align-items:center;
     justify-content: center;
-  height: 873px;
+  height: 800px;
   background-size: 100% 100%;
     background-position: center;
     max-width: 1920px;
@@ -214,6 +217,11 @@ textarea{
   height: 200px;
     border: solid 1px #fff;
 
+}
+#contacto
+{
+  align-items:center;
+  justify-content: center;
 }
 .tab
   {
@@ -334,11 +342,11 @@ textarea{
 
 #tituloa
 {
-  font-family: CheddarGothic ;
+  font-family: CheddarGothic , 'Teko', Impact;
   font-display: block;
-  src: local('Teko Bold'), 
-  url(https://fonts.google.com/?query=tek&selection.family=Teko);
   font-size: 3.9vw;
+
+  
   color: #fff;
 
 }
@@ -396,7 +404,7 @@ margin-top: 40px;
 #parrafoa
 {
   font-family: HelveticaNeue;
-  font-size: 0.9vw;
+  font-size: 1.04vw;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -597,7 +605,7 @@ display: none;
   #parrafoa
   {
     font-family: HelveticaNeue;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

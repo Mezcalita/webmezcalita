@@ -14,12 +14,12 @@
         <li class="list-group-item  bg-transparent border-0 text-center ">
            <form class="inline">  
           
-      <select id="select" class="buttonborde mr-3">
+      <select id="select" class="buttonborde mr-4 mt-2">
         <option selected>Choose...</option>
         <option>...</option>
       </select>
       
-        <button class="buttonrojo" type="submit">Reserva aquí</button>
+        <button class="buttonrojo mt-2" type="submit">Reserva aquí</button>
 
 </form>
 
