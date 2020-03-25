@@ -54,19 +54,23 @@ export default new Vuex.Store({
     },
     {
       id:3,
-      nombre:'lonches'
-    },
-    {
-      id:4,
       nombre:'tortitas'
     },
     {
-      id:5,
+      id:4,
       nombre:'sopes '
     },
     {
-      id:6,
+      id:5,
       nombre:'botanas '
+    },
+    {
+      id:6,
+      nombre:'postres '
+    },
+    {
+      id:7,
+      nombre: 'snacks'
     }
   ],
   

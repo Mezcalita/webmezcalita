@@ -42,8 +42,8 @@
 
     <div class="container  text-center mt-4" style="max-width:1920px;background-color: black;">
 
-<div v-if="tab==0" class="container  text-center"  style="max-width:600px">
-       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:3, stagePadding:40},578:{items:5},1366:{items:5},1920:{items:5}}">
+<div v-if="tab==0" class="container  text-center"  style="max-width:800px">
+       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:3, stagePadding:40},578:{items:7},1366:{items:7},1920:{items:7}}">
      <carousel-item v-for="(cat20, index) in cat_menu20" 
                      :key="cat20.id"  >
                 

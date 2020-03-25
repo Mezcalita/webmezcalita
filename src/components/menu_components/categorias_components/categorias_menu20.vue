@@ -52,7 +52,7 @@
 
 </carousel>
 
- <carousel  v-if="subtab==3" :nav="false" :dots="true"  :responsive="{0:{items:1},578:{items:2},1366:{items:3},1500:{items:4}}">
+ <carousel  v-if="subtab==2" :nav="false" :dots="true"  :responsive="{0:{items:1},578:{items:2},1366:{items:3},1500:{items:4}}">
 
 <carousel-item v-for="tortita in tortitas" 
                      :key="tortita.id"  >
@@ -77,30 +77,10 @@
 
 </carousel>
  
-  <carousel  v-if="subtab==2" :nav="false" :dots="true" :responsive="{0:{items:1},578:{items:2},1366:{items:3},1500:{items:4}}">
-
-<carousel-item v-for="taco in tacos" 
-                     :key="taco.id_taco"  >
-<div>
-  <b-card no-body class="overflow-hidden ml-1" style="max-width: 400px;" bg-variant="transparent">
-    <b-row  >
-      <b-col md="6" >
-        <img :src="taco.imagen_taco" class="rounded-0" style="width:100%">
-      </b-col>
-      <b-col md="6" >
-          <b-card-text>
-          <p id="tituloproducto">{{taco.nombre_taco}}        {{taco.precio_taco}} </p>
-          <h5 id="parrafob">{{taco.descripcion_taco}}</h5>
-          </b-card-text>
-      </b-col>
-    </b-row>
-  </b-card>
-</div>
-</carousel-item>
 
 
 
-</carousel>
+
   </div>
 </template>
 <script>
