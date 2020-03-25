@@ -6,7 +6,7 @@
    
               <h5 id="tituloc" >menu</h5>
                 <h5 class="rectangulo"  ></h5>
-       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:1, stagePadding:75},578:{items:5},1366:{items:5},1920:{items:5}}">
+       <carousel   :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:40},578:{items:5},1366:{items:5},1920:{items:5}}">
      <carousel-item v-for="(categoria, index) in categorias_principal" 
                      :key="categoria.id"  >
                 
@@ -14,7 +14,7 @@
                          :class="{tabclick: tab==index}" 
                          @click="activartab(index)"
                           href="#menu_mezcalita" >
-                                                  {{categoria.nombre}}</button>
+                          {{categoria.nombre}}</button>
      </carousel-item>
        </carousel>
       <!-- <ul class="nav justify-content-center mb-1 "  >
@@ -42,8 +42,8 @@
 
     <div class="container  text-center mt-4" style="max-width:1920px;background-color: black;">
 
-<div v-if="tab==0" class="container  text-center"  style="max-width:800px">
-       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:40},578:{items:5},1366:{items:5},1920:{items:5}}">
+<div v-if="tab==0" class="container  text-center"  style="max-width:600px">
+       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:3, stagePadding:40},578:{items:5},1366:{items:5},1920:{items:5}}">
      <carousel-item v-for="(cat20, index) in cat_menu20" 
                      :key="cat20.id"  >
                 
