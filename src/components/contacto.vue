@@ -45,14 +45,14 @@
          <b-col >
            <h5 id="tituloa">contacto</h5>
     <form>
-      <input  type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+     <input  type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
       <br>
-      <input type="email" name="email" id="email_contacto" placeholder="Email">
+      <input type="text" name="email" id="email_contacto" placeholder="Email">
       <br>
       <input type="text" name="telefono" id="telefono_contacto" placeholder="Telefono">
       <br>
 <textarea name="mensaje" id="mensaje_contacto" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
-</textarea>    
+</textarea>   
 
 <button class="buttonbordeblanco mt-4 ">ENVIAR</button>
 

@@ -6,7 +6,7 @@
    
               <h5 id="tituloc" >menu</h5>
                 <h5 class="rectangulo"  ></h5>
-       <carousel   :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:40},578:{items:5},1366:{items:5},1920:{items:5}}">
+       <carousel   :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:10},578:{items:5},1366:{items:5},1920:{items:5}}">
      <carousel-item v-for="(categoria, index) in categorias_principal" 
                      :key="categoria.id"  >
 
@@ -14,15 +14,13 @@
                          :class="{tabclick: tab==index}" 
                          @click="activartab(index)"
                           href="#menu_mezcalita" >
-                           <b-row no-gutters>
-      <b-col md="2">
-        <img :src="categoria.icono" width="17px" height="17px">
+                           <b-row cols="2" no-gutters>
+      <b-col sm="2"  >
+        <img :src="categoria.icono" width="20px" height="17px">
       </b-col>
-      <b-col md="9">
+      <b-col sm="9">
       
-          <b-card-text>
           {{categoria.nombre}}
-          </b-card-text>
       </b-col>
     </b-row>
     </button>
