@@ -1,18 +1,18 @@
 <template>
-<carousel :autoplay="true" :nav="false" :dots="true"  :responsive="{0:{items:1},578:{items:2},1366:{items:3},1500:{items:4}}">
+ <carousel :autoplay="true" :nav="false" :dots="true"  :responsive="{0:{items:1},578:{items:2},1366:{items:3},1500:{items:4}}">
 
-<carousel-item v-for="especial in especiales" 
-                     :key="especial.id"  >
+<carousel-item v-for="taco in tacos" 
+                     :key="taco.id_taco"  >
 <div>
   <b-card no-body class="overflow-hidden ml-1" style="max-width: 400px;" bg-variant="transparent">
     <b-row  >
       <b-col md="6" >
-        <img :src="especial.imagen" class="rounded-0" style="width:100%">
+        <img :src="taco.imagen_taco" class="rounded-0" style="width:100%">
       </b-col>
       <b-col md="6" >
           <b-card-text>
-          <p id="tituloproducto">{{especial.nombre}}  </p>
-          <h5 id="parrafob">{{especial.descripcion}}</h5>
+          <p id="tituloproducto">{{taco.nombre_taco}}  </p>
+          <h5 id="parrafob">{{taco.descripcion_taco}}</h5>
           </b-card-text>
       </b-col>
     </b-row>
@@ -23,16 +23,17 @@
 
 
 </carousel>
+    
 </template>
 <script>
 import carousel from 'vue-owl-carousel';
 import {mapState} from 'vuex';
 
 export default {
-    name: 'especiales',
+    name: 'tacos',
      computed:
     {
-      ...mapState(['especiales','subtab'])
+      ...mapState(['tacos','subtab'])
     },
    
    components:

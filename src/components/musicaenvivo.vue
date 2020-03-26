@@ -31,7 +31,7 @@
 </div>   
 </template>
 <script>
-import carousel from 'vue-owl-carousel'
+import carousel from 'vue-owl-carousel';
 import {mapState} from 'vuex';
 
 export default {

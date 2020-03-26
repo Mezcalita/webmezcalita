@@ -23,10 +23,28 @@
   </b-row>
  </b-col>
 </b-row>
+
+<div class="simovil">
+<carousel    :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1}, 578:{items:2, stagePadding:50}}">
+
+<carousel-item v-for="promo in promos" 
+                     :key="promo.id"  >
+<div>
+<img  :src="promo.info_imagen" class="imagenpromo "> 
+
+</div>
+</carousel-item>
+
+
+</carousel>
+
+</div>
     </div>
       
 </template>
 <script>
+import carousel from 'vue-owl-carousel';
+
 import {mapState} from 'vuex';
 
 export default {
@@ -35,6 +53,10 @@ export default {
     return {
       imagen: 'imagenes/imagenes promo/info/info-lunes.jpg'
     }
+    },
+     components:
+    { 
+      carousel 
     },
 computed:{
       ...mapState(['promos'])

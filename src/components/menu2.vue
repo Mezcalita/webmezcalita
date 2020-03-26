@@ -9,12 +9,23 @@
        <carousel   :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:40},578:{items:5},1366:{items:5},1920:{items:5}}">
      <carousel-item v-for="(categoria, index) in categorias_principal" 
                      :key="categoria.id"  >
-                
+
                          <button class="tab" 
                          :class="{tabclick: tab==index}" 
                          @click="activartab(index)"
                           href="#menu_mezcalita" >
-                          {{categoria.nombre}}</button>
+                           <b-row no-gutters>
+      <b-col md="2">
+        <img :src="categoria.icono" width="17px" height="17px">
+      </b-col>
+      <b-col md="9">
+      
+          <b-card-text>
+          {{categoria.nombre}}
+          </b-card-text>
+      </b-col>
+    </b-row>
+    </button>
      </carousel-item>
        </carousel>
       <!-- <ul class="nav justify-content-center mb-1 "  >
@@ -58,16 +69,16 @@
 </div>
 <c_20></c_20>
 
-<div v-if="tab==2">
+<div v-if="tab==1">
   <especiales></especiales>
 </div>
-<div v-if="tab==3">
+<div v-if="tab==2">
   <bebidas></bebidas>
 </div>
-<div v-if="tab==4">
+<div v-if="tab==3">
   <mixologia></mixologia>
 </div>
-<div v-if="tab==5">
+<div v-if="tab==4">
   <destilados></destilados>
 </div>
 <br>
@@ -79,7 +90,7 @@
     </div>
 </template>
 <script>
-import carousel from 'vue-owl-carousel'
+import carousel from 'vue-owl-carousel';
 
 import {mapState, mapMutations} from 'vuex';
  import c_20 from '@/components/menu_components/categorias_components/categorias_menu20.vue'

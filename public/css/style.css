@@ -235,18 +235,16 @@ textarea{
   line-height: 1.53;
   letter-spacing: normal;
   color: #fff; */
-  max-width: 180px;
+  max-width: 145px;
   height: 38px;
   border: solid 1px #2e2e2e;
   background-color: #2e2e2e;
   font-family: HelveticaNeue;
   font-size: 12px;
   padding: 10px 20px;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.26;
-  letter-spacing: normal;
+  
   color: #fff; 
+  text-align: center;
   }
   .tabclick
   {

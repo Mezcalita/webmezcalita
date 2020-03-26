@@ -6,11 +6,11 @@
     <form>
       <input  type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
       <br>
-      <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <input type="text" name="email" id="email_contacto" placeholder="Email">
       <br>
-      <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <input type="text" name="telefono" id="telefono_contacto" placeholder="Telefono">
       <br>
-<textarea id="w3mission" rows="20" cols="40" placeholder="Mensaje" style="resize:none;">
+<textarea name="mensaje" id="mensaje_contacto" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
 </textarea>    
 
 <button class="buttonbordeblanco mt-4 ">ENVIAR</button>
@@ -47,11 +47,11 @@
     <form>
       <input  type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
       <br>
-      <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <input type="email" name="email" id="email_contacto" placeholder="Email">
       <br>
-      <input type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+      <input type="text" name="telefono" id="telefono_contacto" placeholder="Telefono">
       <br>
-<textarea id="w3mission" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
+<textarea name="mensaje" id="mensaje_contacto" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
 </textarea>    
 
 <button class="buttonbordeblanco mt-4 ">ENVIAR</button>
@@ -87,18 +87,7 @@
 <script>
   export default {
       name: 'contacto',
-    data() {
-      return {
-        form: {
-          email: '',
-          name: '',
-          food: null,
-          checked: []
-        },
-        foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
-        show: true
-      }
-    },
+  
     methods: {
       onSubmit(evt) {
         evt.preventDefault()

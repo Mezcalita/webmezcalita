@@ -10,7 +10,10 @@
        <a class="nav-link tabsuc" :class="{tabsucclick: tabsuc==index}"   @click="activartabsuc(index)"  href="#sucursales"  >
                 <i class="fas fa-map-marker-alt"></i>      {{sucursal.nombre}} 
                        <h5 class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.direccion}}</h5>
-                       <h5 class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.telefono}}<i class="fab fa-facebook"></i></h5>
+                       <h5 class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.telefono}}
+                           <a class="sucdireccion"  :class="{sucdireccionclick: tabsuc==index}" :href="sucursal.fblink"><i class="fab fa-facebook"></i>{{sucursal.nombre}}</a>
+
+                       </h5>
 
                      </a>
       
@@ -57,7 +60,9 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
        <a class="nav-link tabsuc" :class="{tabsucclick: tabsuc==index}"   @click="activartabsuc(index)"  href="#sucursales"  >
                 <i class="fas fa-map-marker-alt"></i>      {{sucursal.nombre}} 
                        <p class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.direccion}}</p>
-           <p class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.telefono}}<i class="fab fa-facebook"></i></p>
+           <p class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.telefono}}                     
+             <a :href="sucursal.fblink"><i class="fab fa-facebook"></i>{{sucursal.nombre}}</a>
+</p>
                      </a>
       
                      </li>
