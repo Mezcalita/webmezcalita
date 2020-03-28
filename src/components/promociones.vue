@@ -30,7 +30,7 @@
 <carousel-item v-for="promo in promos" 
                      :key="promo.id"  >
 <div>
-<img  :src="promo.info_imagen" class="imagenpromo "> 
+<img  :src="promo.info_imagen" class="infopromo "> 
 
 </div>
 </carousel-item>

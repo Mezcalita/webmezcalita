@@ -193,14 +193,14 @@ textarea{
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
-  height: 664px;
+  height: 664px;  background-size: 100% 100%;
+
   max-width: 1920px;
 
 }
 #musicaenvivo
 {
   background-image: url('../imagenes/fondo-musicaenvivo.jpg');
-  background-size: 100% 100%;
   background-position: center;
   align-items:center;
   height: 800px;
@@ -257,19 +257,18 @@ textarea{
    
     background-color: #80715e;
     color: #fff;
-
   }
+
+  
   .subtab
   {
     font-family: HelveticaNeue;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
+    font-size: 16px;
+  
     line-height: 1.53;
-    letter-spacing: normal; 
     color: grey;
   }
+  
   .subtabclick
   {
    
@@ -359,7 +358,7 @@ textarea{
 #titulob
 {
   font-family: Knucklehead;
-  font-size: 64px;
+  font-size:  4.68vw;
 
   color:#fff;
 }
@@ -368,7 +367,7 @@ textarea{
   font-family: Knucklehead;
   font-size: 4.68vw;
     color:#ad8c63;
-    line-height: 40px;
+    line-height: 2.60vw;
 
 }
 #titulod
@@ -383,7 +382,7 @@ textarea{
   
  
   font-family: HelveticaNeue;
-  font-size: 17px;
+  font-size: 18px;
 margin-top: 40px;
   text-align: left;
   color: #fff;
@@ -409,7 +408,7 @@ margin-top: 40px;
 #parrafoa
 {
   font-family: HelveticaNeue;
-  font-size: 1.04vw;
+  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -419,7 +418,7 @@ margin-top: 40px;
 #parrafob
 {
   font-family: HelveticaNeue;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 300;
  
   font-style: italic;
@@ -480,8 +479,29 @@ display: none;
   }
 @media (max-width: 576px) 
   {
+
+   #musicaenvivo
+   {
+     background-size: 0%;
+     height: auto;
+   }
+   #reservaciones
+   {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 1)
+    );
+     height: auto;
+   }
+   #headerpost
+{
+  height: auto;
+}
  
- 
+   .infopromo
+   {
+     width: 50%;
+    }
   .simovil
   {
     display: inline ;
@@ -494,14 +514,31 @@ display: none;
 
   
 
-#headerpost
-{
-  height: auto;
-}
+
 
 }
 @media (max-width: 1000px) 
   {
+    #tituloa
+    {
+      font-family: CheddarGothic ;
+      font-size: 9.3vw;
+      color: #fff;
+    }
+    
+    #titulob
+    {
+      font-family: Knucklehead;
+      font-size: 9.3vw;
+      color:#fff;
+    }
+    #tituloc
+    {
+      font-family: Knucklehead;
+      font-size: 9.3vw;
+        color:#ad8c63;
+      line-height: 8vw;
+    }
  
     #brand
     {
@@ -547,7 +584,7 @@ display: none;
     
     
 }
-@media (max-width: 1366px)
+@media (max-width: 1368px)
 {
   #slider
   {
@@ -561,103 +598,7 @@ display: none;
   
   }
   /*titulos y parrafos*/
-  #tituloa
-  {
-    font-family: CheddarGothic ;
-    font-size: 55px;
-    color: #fff;
-  }
-  
-  #titulob
-  {
-    font-family: Knucklehead;
-    font-size: 64px;
-    color:#fff;
-  }
-  #tituloc
-  {
-    font-family: Knucklehead;
-    font-size: 64px;
-      color:#ad8c63;
-      line-height: 40px;
-  
-  }
-  #titulod
-  {
-    font-family: Knucklehead;
-    font-size: 42px;
-      color:#fff;
-  
-  }
-  #tituloproducto
-  {
-    
-   
-    font-family: HelveticaNeue;
-    font-size: 17px;
-  margin-top: 40px;
-    text-align: left;
-    color: #fff;
-    border-bottom: 1px white dashed;
-  }
-  #titulodeporte
-  {
-    font-family: HelveticaNeue;
-    font-size: 23px;
-    font-weight: bold;
-  margin-top: 40px;
-    text-align: left;
-    color: #fff;
-  
-  }
-  #tituloe
-  {
-    font-family: HelveticaNeue;
-    font-size: 23px;
-    text-align: left;
-    color: grey;
-  }
-  #parrafoa
-  {
-    font-family: HelveticaNeue;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    color: #fff;
-  }
-  #parrafob
-  {
-    font-family: HelveticaNeue;
-    font-size: 16px;
-   
-    font-style: italic;
-   
-    text-align: left;
-    color: grey;
-  }
-  #parrafoc
-  {
-    font-family: HelveticaNeue;
-    font-size: 16px;
-   
-    font-style: italic;
-   
-    text-align: left;
-    color: white;
-  }
-  #parrafod
-  {
-    font-family: HelveticaNeue;
-    font-size: 17px;
-    font-weight: 300;
-   
-   
-    text-align: left;
-    color: white;
-  }
-  
+ 
 }
 
 

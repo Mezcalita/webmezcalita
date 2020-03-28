@@ -6,7 +6,7 @@
    
               <h5 id="tituloc" >menu</h5>
                 <h5 class="rectangulo"  ></h5>
-       <carousel   :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:10},578:{items:5},1366:{items:5},1920:{items:5}}">
+       <carousel class="nomovil" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:10},578:{items:5},1366:{items:5},1920:{items:5}}">
      <carousel-item v-for="(categoria, index) in categorias_principal" 
                      :key="categoria.id"  >
 
@@ -26,6 +26,9 @@
     </button>
      </carousel-item>
        </carousel>
+<div class="simovil ">
+<combobox></combobox>
+</div>
       <!-- <ul class="nav justify-content-center mb-1 "  >
   <li class="nav-item " >
     <a class="nav-link active tab" :class="{tabclick: tab==1}" @click="activartab(1)" href="#menu_mezcalita" >Menu de 20</a>
@@ -44,9 +47,13 @@
   </li>
 </ul> -->
 
-    
+ 
+
 
   </div>
+
+
+
     </div>
 
     <div class="container  text-center mt-4" style="max-width:1920px;background-color: black;">
@@ -97,6 +104,7 @@ import {mapState, mapMutations} from 'vuex';
  import bebidas from '@/components/menu_components/bebidas.vue'
  import mixologia from '@/components/menu_components/mixologia.vue'
  import destilados from '@/components/menu_components/destilados.vue'
+ import combobox from '@/components/menu_components/combobox.vue'
 
 
 export default {
@@ -108,7 +116,8 @@ c_20,
         bebidas,
         mixologia,
         destilados,
-        carousel
+        carousel,
+        combobox
 
     },
     computed:

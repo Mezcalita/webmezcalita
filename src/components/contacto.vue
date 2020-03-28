@@ -66,8 +66,8 @@
     width="90" id="logoa">
   </li>
   <li class="list-group-item bg-transparent border-0"> <img src="iconos/contacto/facebook-contacto.svg"  
-    width="17" id="logoa">  <img src="iconos/contacto/instagram-contacto.svg"  
-    width="17" id="logoa"></li>
+    width="25" id="logoa">  <img class="ml-1" src="iconos/contacto/instagram-contacto.svg"  
+    width="25" id="logoa"></li>
   <li class="list-group-item bg-transparent border-0 text-center" id="parrafod">hola@lamezcalita.mx</li>
     <li class="list-group-item bg-transparent border-0 text-center" id="parrafod">+52 554 5667 453</li>
 

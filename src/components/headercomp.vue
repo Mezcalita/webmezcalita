@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid  d-flex    "  id="slider"  >
     <div class="container nomovil " id="headerpost"  >
-    <div class="row mt-4  ">
+    <div class="row   ">
       <div class="col-4 col-md-5"  >
-        <img src="imagenes/hero-alacran.png"    class="card-img mt-4 text-left   " >
+        <img src="imagenes/hero-alacran.png"    class="card-img text-left   " >
 
       </div>
       <div class="col-md-7  " >
@@ -30,13 +30,13 @@
 
   </div>
 
-   <div class="container simovil " style="max-width:800px" >
-    <div class="row   ">
-      <div class=" col-lg-4 text-center"  >
+   <div class="container simovil mt-4" style="max-width:800px" >
+    <div class="row ">
+      <div class=" col-xl-4 text-center"  >
         <img src="imagenes/alacran2.png"  class="   text-center  " >
 
       </div>
-      <div class="col-lg-5 " >
+      <div class="col-xl-5 " >
         <div class="card-body mt-4 bg-transparent  text-center " >
         
 

@@ -17,7 +17,7 @@
                      :key="musica.id_musica"  >
    <b-col >
        <p class="text-center" id="parrafoa">{{musica.fecha}}</p>
-        <img :src="musica.imagen_musica" class="rounded-0 " width="100%" >
+        <img :src="musica.imagen_musica" width="100%" >
    </b-col>
 </carousel-item>
 

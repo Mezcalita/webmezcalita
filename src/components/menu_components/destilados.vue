@@ -1,5 +1,5 @@
 <template>
-<div class="container text-center">
+<div class="container text-center" style="max-width:800px">
 <b-row cols="1" cols-md="2" no-gutters  >
 <b-col  v-for="tipo in tipos_destilado" 
                      :key="tipo.id"  >
