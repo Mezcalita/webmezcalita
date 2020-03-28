@@ -487,12 +487,11 @@ display: none;
    }
    #reservaciones
    {
-    background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 1)
-    );
+    
      height: auto;
    }
+
+  
    #headerpost
 {
   height: auto;
@@ -511,7 +510,10 @@ display: none;
     {
       display: none ;
     }
-
+.dropdown
+{
+  margin-left: 25%;
+}
   
 
 
@@ -538,6 +540,7 @@ display: none;
       font-size: 9.3vw;
         color:#ad8c63;
       line-height: 8vw;
+      margin-bottom: 3vw;
     }
  
     #brand

@@ -1,7 +1,7 @@
 <template>
-  <div class="container-fluid d-flex justify-items-center align-items-center">
-      <b-col>
-    <vue-dropdown
+  <div >
+      <b-col >
+    <vue-dropdown 
       :config="config"
       @setSelectedOption="setNewSelectedOption($event);"
     ></vue-dropdown>

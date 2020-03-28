@@ -33,9 +33,9 @@ medio y logra tu libertad financiera.
       </div>
     </div>
     </div>
-    <div class="container simovil text-center"  style="max-width:800px;" >
+    <div class="container simovil text-center"  style="max-width:800px;" id="franquicias" >
     <div class=" col-lg-6 " >
-        <div class="card-body  bg-transparent   " >
+        <div class="card-body  bg-transparent   " id="adentro" >
           <ul class="list-group list-group-flush bg-transparent mb-5   ">
             <li class="list-group-item bg-transparent  border-0  ">
             </li>

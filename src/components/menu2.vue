@@ -26,8 +26,11 @@
     </button>
      </carousel-item>
        </carousel>
-<div class="simovil ">
-<combobox></combobox>
+<div class="simovil dropdown">
+<vue-dropdown 
+      :config="config"
+      @setSelectedOption="setNewSelectedOption($event);"
+    ></vue-dropdown>
 </div>
       <!-- <ul class="nav justify-content-center mb-1 "  >
   <li class="nav-item " >
@@ -59,7 +62,7 @@
     <div class="container  text-center mt-4" style="max-width:1920px;background-color: black;">
 
 <div v-if="tab==0" class="container  text-center"  style="max-width:800px">
-       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:3, stagePadding:40},578:{items:7},1366:{items:7},1920:{items:7}}">
+       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:7},1366:{items:7},1920:{items:7}}">
      <carousel-item v-for="(cat20, index) in cat_menu20" 
                      :key="cat20.id"  >
                 
@@ -109,6 +112,31 @@ import {mapState, mapMutations} from 'vuex';
 
 export default {
     name: 'menu2', 
+    data: function() {
+    return {
+      config: {
+        options: [
+          {
+            value: "option 1"
+          },
+          {
+            value: "option 2"
+          },
+          {
+            value: "option 3"
+          }
+        ],
+        placeholder: "Menu 20",
+        backgroundColor: "gray",
+        textColor: "black",
+       
+        border: "1px solid gray",
+        width: 140,
+
+      }
+    };
+  },
+   
   
     components:{
 c_20,
@@ -126,7 +154,11 @@ c_20,
     },
     methods:
   { 
-    ...mapMutations(['activartab','activarsubtab'])
+    ...mapMutations(['activartab','activarsubtab']),
+     setNewSelectedOption(selectedOption) {
+      this.config.placeholder = selectedOption.value;
+
+    }
 
 
     }
