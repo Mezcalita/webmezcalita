@@ -54,32 +54,32 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 <b-row cols="1" > 
 <b-col md="6"> 
       <h5 id="tituloc" class="text-center ">sucursales</h5>
-  <ul class="nav flex-column text-center"  >
-<li class=" nav-item  " v-for="(sucursal, index) in sucursales" 
+      <select v-model="selected">
+        <option  v-for="sucursal in sucursales" 
+                     :key="sucursal.id" >                        
+                     {{sucursal.nombre}}
+                     </option>
+      </select>
+<div v-for="sucursal in sucursales" 
                      :key="sucursal.sucid" >
-       <a class="nav-link tabsuc" :class="{tabsucclick: tabsuc==index}"   @click="activartabsuc(index)"  href="#sucursales"  >
-                <i class="fas fa-map-marker-alt"></i>      {{sucursal.nombre}} 
-                       <p class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.direccion}}</p>
-           <p class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.telefono}}                     
+       <p class="sucdireccionclick"  v-if="selected === sucursal.nombre" >
+            <br> {{sucursal.direccion}} <br> {{sucursal.telefono}} <br>               
              <a :href="sucursal.fblink"><i class="fab fa-facebook"></i>{{sucursal.nombre}}</a>
 </p>
-                     </a>
       
-                     </li>
-  </ul>
+  </div>
 </b-col>
-
 
 
 
 <b-col md="6">
 
-<div class="container" v-for="(sucursal, index) in sucursales" 
+<div class="container" v-for="sucursal in sucursales" 
                      :key="sucursal.sucid" >
 
 <b-embed 
 class=""
-v-if="tabsuc==index"
+v-if="selected === sucursal.nombre"
     type="iframe"
     aspect="1by1"
     :src="sucursal.maps"
@@ -105,6 +105,12 @@ import {mapState, mapMutations} from 'vuex';
 
 export default {
     name: 'sucursales',
+    data() {
+    return {
+       selected: 'La Mezcalita Tetlan'
+    };
+  },
+
      computed:
     {
       ...mapState(['sucursales','tabsuc'])

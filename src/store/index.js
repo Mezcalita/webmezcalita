@@ -9,6 +9,8 @@ export default new Vuex.Store({
     subtab: 0,
     tabsuc: 0,
     tabdep: 0,
+    subtabdes:0,
+    tipodes: 'mezcal',
     categorias_principal:[
       {
         id:1,
@@ -640,6 +642,72 @@ export default new Vuex.Store({
     },
    
   ],
+  bebidas:[
+    {
+      id:1,
+      nombre:'Caguamas ',
+      descripcion:'Tecate roja, Miller high life, Carta blanca, XX Lagger, XX Ambar, Miller, Heineken',
+      imagen:'imagenes/fotos menu/bebidas/caguamas.jpg'
+
+    },
+    {
+      id:2,
+      nombre:'Cervezas',
+      descripcion:'Tecate light, Tecate roja, XX lagger, XX ambar, Carta blanca , Indio',
+      imagen:'imagenes/fotos menu/bebidas/cervezas.jpg'
+
+    },
+    {
+      id:3,
+      nombre:'Micheladas',
+      descripcion:'Camaron seco, Pepino, Cielo rojo, Clamato, Salsas, Rusa',
+      imagen:'imagenes/fotos menu/bebidas/michelada.jpg'
+
+    },
+    {
+      id:4,
+      nombre:'Limonada',
+      descripcion:'',
+      imagen:'imagenes/fotos menu/bebidas/limonada.jpg'
+
+    },
+    {
+      id:5,
+      nombre:'Naranjada',
+      descripcion:'',
+      imagen:'imagenes/fotos menu/bebidas/naranjada.jpg'
+
+    },
+    {
+      id:6,
+      nombre:'Agua del dia',
+      descripcion:'',
+      imagen:'imagenes/fotos menu/bebidas/agua-del-dia.jpg'
+
+    },
+    {
+      id:7,
+      nombre:'Jugo',
+      descripcion:'',
+      imagen:'imagenes/fotos menu/bebidas/jugo.jpg'
+
+    },
+     {
+      id:8,
+      nombre:'Refresco',
+      descripcion:'',
+      imagen:'imagenes/fotos menu/bebidas/refresco.jpg'
+
+    },
+    {
+      id:9,
+      nombre:'Agua natural',
+      descripcion:'',
+      imagen:'imagenes/fotos menu/bebidas/agua-natural.jpg'
+
+    },
+
+  ],
   carrusel: ['imagenes/carrusel/carrusel-1.jpg','imagenes/carrusel/carrusel-2.jpg','imagenes/carrusel/carrusel-3.jpg','imagenes/carrusel/carrusel-4.jpg'],
 
   promos:
@@ -780,9 +848,12 @@ export default new Vuex.Store({
     {
       state.tabsuc=selectedtab
     },
-    activartabdep(state, selectedtab)
+    activarsubtabdes(state,  tipo)
     {
-      state.tabdep=selectedtab
+      state.tipodes=tipo
+      
+
+
     }
   },
   actions: {

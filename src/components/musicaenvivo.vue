@@ -8,8 +8,8 @@
           <h5 id="tituloc"  >música en vivo</h5>
           <h5 class="rectangulo"></h5>
            <select id="select" class="buttonbordeblanco mb-4">
-        <option selected>Choose...</option>
-        <option>...</option>
+        <option class="buttonbordeblanco" selected>Choose...</option>
+        <option class="buttonbordeblanco">...</option>
       </select>
    <carousel  :margin="3" :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1},768:{items:2},1366:{items:3}}">
 

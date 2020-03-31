@@ -112,6 +112,31 @@
   color: #fff;
   border: solid 1px #fff;
 }
+select{
+  width: 180px;
+height: 38px;
+border: solid 1px #ad8c63;
+background: rgba(0, 0, 0, 0);
+font-family: HelveticaNeue;
+font-size: 13px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.26;
+letter-spacing: normal;
+color: #fff;
+border: solid 1px #fff;
+
+}
+
+  select,
+  option{
+  background-color: black;
+  font-family: HelveticaNeue;
+font-size: 13px;
+color: #fff;
+
+  }
 input[type=text] {
   width: 100%;
   padding: 12px 30px;
@@ -510,11 +535,8 @@ display: none;
     {
       display: none ;
     }
-.dropdown
-{
-  margin-left: 25%;
-}
-  
+ 
+
 
 
 

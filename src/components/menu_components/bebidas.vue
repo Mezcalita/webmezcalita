@@ -1,8 +1,44 @@
 <template>
-    <p> bebidas</p>
+ <carousel :autoplay="true" :nav="false" :dots="true"  :responsive="{0:{items:1},578:{items:2},1366:{items:3},1500:{items:4}}">
+
+<carousel-item v-for="bebida in bebidas" 
+                     :key="bebida.id"  >
+<div>
+  <b-card no-body class="overflow-hidden ml-1" style="max-width: 400px;" bg-variant="transparent">
+    <b-row  >
+      <b-col md="6" >
+        <img :src="bebida.imagen" class="rounded-0" style="width:100%">
+      </b-col>
+      <b-col md="6" >
+          <b-card-text>
+          <p id="tituloproducto">{{bebida.nombre}}  </p>
+          <h5 id="parrafob">{{bebida.descripcion}}</h5>
+          </b-card-text>
+      </b-col>
+    </b-row>
+  </b-card>
+</div>
+</carousel-item>
+
+
+
+</carousel>
+    
 </template>
 <script>
+import carousel from 'vue-owl-carousel';
+import {mapState} from 'vuex';
+
 export default {
-    name: 'bebidas'
+    name: 'bebidas',
+     computed:
+    {
+      ...mapState(['bebidas'])
+    },
+   
+   components:
+    { 
+      carousel 
+    }
 }
 </script>
