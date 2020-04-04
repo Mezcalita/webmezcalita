@@ -37,12 +37,11 @@
 #nav
 {
  font-family: HelveticaNeue;
- font-size: 13px;
+ font-size: 16px;
  background-color: #000000;
  
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
+  font-weight: bold;
+
   line-height: 1.24;
   letter-spacing: normal;
   color: white;
@@ -70,8 +69,8 @@
   height: 38px;
   border: solid 1px #ad8c63;
   background-color: #ad8c63;
-  font-family: HelveticaNeue;
-  font-size: 13px;
+  font-family: Helvetica;
+  font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -86,8 +85,8 @@
   height: 38px;
   border: solid 1px #ad8c63;
   background: rgba(0, 0, 0, 0);
-  font-family: HelveticaNeue;
-  font-size: 13px;
+  font-family: Helvetica;
+  font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -102,8 +101,8 @@
   height: 38px;
   border: solid 1px #ad8c63;
   background: rgba(0, 0, 0, 0);
-  font-family: HelveticaNeue;
-  font-size: 13px;
+  font-family: Helvetica;
+  font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -118,7 +117,7 @@ height: 38px;
 border: solid 1px #ad8c63;
 background: rgba(0, 0, 0, 0);
 font-family: HelveticaNeue;
-font-size: 13px;
+font-size: 14px;
 font-weight: bold;
 font-stretch: normal;
 font-style: normal;
@@ -132,8 +131,8 @@ border: solid 1px #fff;
   select,
   option{
   background-color: black;
-  font-family: HelveticaNeue;
-font-size: 13px;
+  font-family: Helvetica;
+font-size: 14px;
 color: #fff;
 
   }
@@ -144,7 +143,7 @@ input[type=text] {
   border: none;
   border-bottom: 2px solid white;
   background: rgba(0, 0, 0, 0);
-  font-family: HelveticaNeue;
+  font-family: Helvetica;
   font-size: 14px;
   font-stretch: normal;
   font-style: normal;
@@ -164,7 +163,7 @@ textarea{
   border: none;
   border-bottom: 2px solid white;
   background: rgba(0, 0, 0, 0);
-  font-family: HelveticaNeue;
+  font-family: Helvetica;
   font-size: 14px;
   font-stretch: normal;
   font-style: normal;
@@ -212,13 +211,18 @@ textarea{
   max-width: 1920px;
 
 }
+.transparencia
+{
+  background-color: rgba(0,0,0,0.5);
+
+}
 #reservaciones
 {
   background-image: url('../imagenes/fondo-reservaciones.jpg');
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
-  height: 664px;  background-size: 100% 100%;
+  height: 664px; 
 
   max-width: 1920px;
 
@@ -232,13 +236,24 @@ textarea{
   max-width: 1920px;
 
 }
+#deportes
+{
+  background-image: url('../imagenes/fondo-deportes.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  height: auto;
+  align-items:center;
+    border: solid 1px #fff;
+
+
+}
 #carouseldeportes
 {
   background-image: url('../imagenes/fondo-deportes.jpg');
   background-size: cover;
   background-position: center;
   align-items:center;
-  height: 220px;
+  height: auto;
     border: solid 1px #fff;
 
 }
@@ -264,8 +279,8 @@ textarea{
   height: 38px;
   border: solid 1px #2e2e2e;
   background-color: #2e2e2e;
-  font-family: HelveticaNeue;
-  font-size: 12px;
+  font-family: Helvetica;
+  font-size: 14px;
   padding: 5px 10px;
   
   color: #fff; 
@@ -287,7 +302,7 @@ textarea{
   
   .subtab
   {
-    font-family: HelveticaNeue;
+    font-family: Helvetica;
     font-size: 16px;
   
     line-height: 1.53;
@@ -307,12 +322,12 @@ textarea{
   }
   .tabsuc
   {
-    font-family: HelveticaNeue;
-    font-size: 15px;
+    font-family: Helvetica;
+    font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.53;
+    line-height: 1.9;
     letter-spacing: normal; 
     color: grey;
   }
@@ -329,9 +344,9 @@ textarea{
   }
   .sucdireccion
   {
-    font-family: HelveticaNeue;
-    font-size: 11px;
-   
+    font-family: Helvetica;
+    font-size: 14px;
+   line-height: .2;
     color: grey;
   }
   .sucdireccionclick
@@ -344,7 +359,7 @@ textarea{
   .infopromo
   {
     /* width: 336px; */
-    width: 106%
+    width: 108%
   }
   .imagenpromo
   {
@@ -362,6 +377,9 @@ textarea{
     background-color: #fff;
     margin-left: 49%;
     margin-bottom: 20px;
+    margin-top: 10px;
+
+
     }
 
 
@@ -373,7 +391,7 @@ textarea{
 {
   font-family: CheddarGothic , 'Teko', Impact;
   font-display: block;
-  font-size: 3.9vw;
+  font-size: 70px ;
 
   
   color: #fff;
@@ -383,16 +401,16 @@ textarea{
 #titulob
 {
   font-family: Knucklehead;
-  font-size:  4.68vw;
-
+  font-size:  80px;
+  line-height: .6;
   color:#fff;
 }
 #tituloc
 {
   font-family: Knucklehead;
-  font-size: 4.68vw;
+  font-size: 80px;
     color:#ad8c63;
-    line-height: 2.60vw;
+    line-height: .6;
 
 }
 #titulod
@@ -406,34 +424,46 @@ textarea{
 {
   
  
-  font-family: HelveticaNeue;
-  font-size: 18px;
-margin-top: 40px;
+  font-family: Helvetica;
+  font-size: 26px;
+  font-weight: 700;
   text-align: left;
+  margin-top: 25%;
   color: #fff;
   border-bottom: 1px white dashed;
 }
 #titulodeporte
 {
-  font-family: HelveticaNeue;
+  font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
-margin-top: 40px;
+margin-top: 25%;
+  text-align: left;
+  color: #fff;
+
+}
+#titulomusica
+{
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 10%;
+
   text-align: left;
   color: #fff;
 
 }
 #tituloe
 {
-  font-family: HelveticaNeue;
+  font-family: Helvetica;
   font-size: 23px;
   text-align: left;
   color: grey;
 }
 #parrafoa
 {
-  font-family: HelveticaNeue;
-  font-size: 16px;
+  font-family: Helvetica;
+  font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -442,10 +472,9 @@ margin-top: 40px;
 }
 #parrafob
 {
-  font-family: HelveticaNeue;
-  font-size: 16px;
+  font-family: Helvetica;
+  font-size: 24px;
   font-weight: 300;
- 
   font-style: italic;
  
   text-align: left;
@@ -453,7 +482,7 @@ margin-top: 40px;
 }
 #parrafoc
 {
-  font-family: HelveticaNeue;
+  font-family: Helvetica;
   font-size: 17px;
   font-weight: 300;
  
@@ -464,7 +493,7 @@ margin-top: 40px;
 }
 #parrafod
 {
-  font-family: HelveticaNeue;
+  font-family: Helvetica;
   font-size: 17px;
   font-weight: 300;
  
@@ -487,8 +516,13 @@ margin-top: 40px;
   display: none;
 
 } 
-
-
+.sucursales
+{
+  display: inline;
+} 
+.sucursalesmovil{
+  display: none;
+}
 
 /*responsive*/
 .simovil{
@@ -504,6 +538,11 @@ display: none;
   }
 @media (max-width: 576px) 
   {
+    
+  #slider
+  {
+    height:auto;
+  }
 
    #musicaenvivo
    {
@@ -522,31 +561,20 @@ display: none;
   height: auto;
 }
  
-   .infopromo
-   {
-     width: 50%;
-    }
-  .simovil
-  {
-    display: inline ;
-
-  }  
- .nomovil
-    {
-      display: none ;
-    }
- 
-
+  
+  
 
 
 
 }
+
 @media (max-width: 1000px) 
   {
-    #tituloa
+   
+    #tituloa2
     {
       font-family: CheddarGothic ;
-      font-size: 9.3vw;
+      font-size: 6.3vw;
       color: #fff;
     }
     
@@ -564,7 +592,7 @@ display: none;
       line-height: 8vw;
       margin-bottom: 3vw;
     }
- 
+    
     #brand
     {
       display: inline ;
@@ -586,6 +614,7 @@ display: none;
     
     #titulodeporte{
       text-align: center;
+      margin-top: 10%;
 
     }
     #parrafoc
@@ -609,8 +638,46 @@ display: none;
     
     
 }
+@media (max-width: 1100px)
+{
+  .sucursales{
+    display: none;
+  }
+  .sucursalesmovil
+  {
+    display: inline;
+  }
+
+}
+
 @media (max-width: 1368px)
 {
+  #tituloa
+  {
+    font-size: 4.8vw;
+  }
+  #tituloproducto
+{
+  
+ 
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 25%;
+  color: #fff;
+  border-bottom: 1px white dashed;
+}
+#parrafob
+{
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+ 
+  text-align: left;
+  color: grey;
+}
   #slider
   {
       background-image: url('../imagenes/hero-fondo.jpg');
@@ -636,6 +703,7 @@ display: none;
 #reservaciones{
   background-size: cover;
 }
+
 
 
 }

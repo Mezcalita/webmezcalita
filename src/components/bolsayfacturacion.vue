@@ -1,5 +1,5 @@
 <template>
-    <div class="container text-center nomovil " style="max-width:750px;"> 
+    <div class="container text-center nomovil " style="max-width:1200px;"> 
         <b-row cols="1" cols-md="2"  no-gutters>
          <b-col>
 
@@ -36,8 +36,7 @@ Asegúrate de tener el ticket a la mano. </p>
   >
     <b-card-text>
             <h5 id="titulod">bolsa de trabajo</h5>
- <p id="parrafoa">Cada día crecemos y buscamos gente como tu
-Para unirse al equipo La Mezcalita. </p>
+ <p id="parrafoa">En la Mezcalita seguimos creciendo y buscamos gente como tú para unirse a nuestro equipo de trabajo, deja aquí tu solicitud!</p>
     </b-card-text>
     
         <button class="buttonbordeblanco">VACANTES</button>

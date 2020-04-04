@@ -24,6 +24,9 @@
 <div v-if="subtab==6">
 <snacks></snacks>
   </div>
+ <div v-if="subtab==7">
+<especiales></especiales>
+  </div> 
 
   </div>
 </template>
@@ -40,6 +43,7 @@ import {mapState} from 'vuex';
   import botanas from '@/components/menu_components/categorias_components/botanas.vue'
   import postres from '@/components/menu_components/categorias_components/postres.vue'
   import snacks from '@/components/menu_components/categorias_components/snacks.vue'
+  import especiales from '@/components/menu_components/categorias_components/especiales.vue'
 
 
 
@@ -53,7 +57,8 @@ export default {
       sopes,
       botanas,
       postres,
-      snacks
+      snacks,
+      especiales
 
     },
      computed:

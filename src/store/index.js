@@ -14,30 +14,24 @@ export default new Vuex.Store({
     categorias_principal:[
       {
         id:1,
-        nombre:'Menu 20',
-        icono: 'iconos/menu/platillos.svg'
+        nombre:'Comida',
+        icono: 'iconos/menu/menu20.svg'
 
       },
       {
         id:2,
-        nombre:'Especiales',
-        icono: 'iconos/menu/especiales.svg'
-
-      },
-      {
-        id:3,
         nombre:'Bebidas',
         icono: 'iconos/menu/bebidas.svg'
 
       },
       {
-        id:4,
+        id:3,
         nombre:'Mixología',
         icono: 'iconos/menu/mixologia.svg'
 
       },
       {
-        id:5,
+        id:4,
         nombre:'Destilados',
         icono: 'iconos/menu/destilados.svg'
 
@@ -73,6 +67,10 @@ export default new Vuex.Store({
     {
       id:7,
       nombre: 'snacks'
+    },
+    {
+      id:8,
+      nombre: 'especiales'
     }
   ],
   
@@ -164,17 +162,18 @@ export default new Vuex.Store({
       descripcion:'tortitas',
       imagen:'imagenes/fotos menu/tortitas/camaron-bañado.jpg'
     },
+    
     {
       id:2,
-      nombre: 'Chicharron prensado ',
-      descripcion:'tortitas',
-      imagen:'imagenes/fotos menu/tortitas/chicharron-prensado.jpg'
-    },
-    {
-      id:3,
       nombre: 'Cochinita pibil ',
       descripcion:'tortita',
       imagen:'imagenes/fotos menu/tortitas/cochinita-pibil.jpg'
+    },
+    {
+      id:3,
+      nombre: 'Chicharron prensado',
+      descripcion:'tortitas',
+      imagen:'imagenes/fotos menu/tortitas/chicharron-prensado.jpg'
     },
     {
       id:4,
@@ -191,18 +190,19 @@ export default new Vuex.Store({
       descripcion:'sope',
       imagen:'imagenes/fotos menu/sopes/arrachera.jpg',
     },
+    
     {
       id:2,
+      nombre:'Cochinita pibil',
+      descripcion:'sope',
+      imagen:'imagenes/fotos menu/sopes/cochinita-pibil.jpg'
+    },
+    {
+      id:3,
       nombre:'Chicharron prensado',
       descripcion:'sope',
       imagen:'imagenes/fotos menu/sopes/chicharron-prensado.jpg'
     },
-    {
-      id:3,
-      nombre:'Cochinita pibil',
-      descripcion:'sope',
-      imagen:'imagenes/fotos menu/sopes/cochinita-pibil.jpg'
-    }
   
   ],
   botanas:[
@@ -353,7 +353,7 @@ export default new Vuex.Store({
       id:2,
       nombre:'Mezcalita fresa',
       descripcion:'mezcalita',
-      imagen:'imagenes/fotos menu/mixologia/durazno.jpg'
+      imagen:'imagenes/fotos menu/mixologia/fresa.jpg'
     },
     {
       id:3,
@@ -393,7 +393,7 @@ export default new Vuex.Store({
     },
   
   ],
-  tipos_destilado:['mezcal','whisky','ginebra','mezcal sabor','tequila','ron','vodka','brandy','licores','otros'],
+  tipos_destilado:['mezcal','whisky','ginebra','mezcal sabor','tequila','ron','vodka','brandy','licores'],
   destilados:[
     {
       id:1,
@@ -666,47 +666,11 @@ export default new Vuex.Store({
     },
     {
       id:4,
-      nombre:'Limonada',
-      descripcion:'',
-      imagen:'imagenes/fotos menu/bebidas/limonada.jpg'
-
-    },
-    {
-      id:5,
-      nombre:'Naranjada',
-      descripcion:'',
+      nombre:'Sin alcohol',
+      descripcion:'Naranjada, limonada, Agua del dia, Jugo',
       imagen:'imagenes/fotos menu/bebidas/naranjada.jpg'
 
-    },
-    {
-      id:6,
-      nombre:'Agua del dia',
-      descripcion:'',
-      imagen:'imagenes/fotos menu/bebidas/agua-del-dia.jpg'
-
-    },
-    {
-      id:7,
-      nombre:'Jugo',
-      descripcion:'',
-      imagen:'imagenes/fotos menu/bebidas/jugo.jpg'
-
-    },
-     {
-      id:8,
-      nombre:'Refresco',
-      descripcion:'',
-      imagen:'imagenes/fotos menu/bebidas/refresco.jpg'
-
-    },
-    {
-      id:9,
-      nombre:'Agua natural',
-      descripcion:'',
-      imagen:'imagenes/fotos menu/bebidas/agua-natural.jpg'
-
-    },
-
+    }
   ],
   carrusel: ['imagenes/carrusel/carrusel-1.jpg','imagenes/carrusel/carrusel-2.jpg','imagenes/carrusel/carrusel-3.jpg','imagenes/carrusel/carrusel-4.jpg'],
 
@@ -746,32 +710,35 @@ export default new Vuex.Store({
   sucursales:[
     {
       sucid:1,
-      nombre:'La Mezcalita Tetlan',
+      nombre:'Tetlan',
       direccion:'Gigantes #4029 Guadalajara.',
-      telefono:'33 2536 8221 ',
+      telefono:'33 3605 7664',
       maps:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.22730004252!2d-103.28093418558028!3d20.6603295861991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b3482000140f%3A0xae632908a9dd103b!2sLa%20Mezcalita%20(Tetl%C3%A1n)!5e0!3m2!1sen!2smx!4v1583876377731!5m2!1sen!2smx',
-      fblink:'https://www.facebook.com/tetlanlamezcalita/?ref=br_rs'
+      fblink:'https://www.facebook.com/tetlanlamezcalita/?ref=br_rs',
+      wplink: 'https://wa.me/5213336057664'
+
     },
     {
       sucid:2 ,
-      nombre:'La Mezcalita Rio Nilo',
+      nombre:'Rio Nilo',
       direccion:'Rio Nilo #2329 Tlaquepaque. ',
       telefono:'33 2536 8221 ',
       maps:'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14934.300867201864!2d-103.3110188!3d20.6461643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x22805b250d127728!2sLa%20Mezcalita%20Tlaquepaque!5e0!3m2!1sen!2smx!4v1585254012252!5m2!1sen!2smx',
      fblink:'https://www.facebook.com/lamezcalitarionilo/?ref=br_rs'
-
+      
     },
     {
       sucid:3,
-      nombre:'La Mezcalita Manzanillo',
+      nombre:'Manzanillo',
       direccion:'Elías Zamora 2114-A Manzanillo. ',
-      telefono:'33 2536 8221 ',
+      telefono:'314 218 3768',
       maps:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.9367229093564!2d-104.31845858509834!3d19.110431687068175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8424d5e613b8369f%3A0x89f99ccd9c36899e!2sLa%20Mezcalita%20Manzanillo!5e0!3m2!1sen!2smx!4v1583877742315!5m2!1sen!2smx',
-      fblink:'https://www.facebook.com/lamezcalitamanzanillo/'
+      fblink:'https://www.facebook.com/lamezcalitamanzanillo/',
+      wplink: 'https://wa.me/5213142183768'
     },
     {
       sucid:4,
-      nombre:'La La Mezcalita CDMX',
+      nombre:'CDMX',
       direccion:'Gigantes #4029 Guadalajara. ',
       telefono:'33 2536 8221 ',
     }
@@ -830,7 +797,50 @@ export default new Vuex.Store({
     fecha:'1 marzo',
     titulo:'chivas vs atlas',
     hora: '7:00pm'
-    }
+    },
+    {
+      id_deporte: 5,
+      imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',
+      fecha:'1 marzo',
+      titulo:'chivas vs atlas',
+      hora: '7:00pm'
+
+    },
+    {
+      id_deporte: 6,
+      imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',
+      fecha:'1 marzo',
+      titulo:'chivas vs atlas',
+      hora: '7:00pm'
+
+
+    },
+    {
+    id_deporte: 7,
+    imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',
+    fecha:'1 marzo',
+    titulo:'chivas vs atlas',
+    hora: '7:00pm'
+    },
+    {
+      id_deporte: 8,
+      imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',
+      fecha:'1 marzo',
+      titulo:'chivas vs atlas',
+      hora: '7:00pm'
+
+    },
+    {
+      id_deporte: 9,
+      imagen_deporte: 'iconos/deportes/ligas/ligamx.svg',
+      fecha:'1 marzo',
+      titulo:'chivas vs atlas',
+      hora: '7:00pm'
+
+
+    },
+     
+    
   
   ],
   

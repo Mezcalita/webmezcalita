@@ -43,15 +43,17 @@
       <div class="container text-center simovil " style="max-width:600px;"> 
         <b-row cols="1"   >
          <b-col >
-           <h5 id="tituloa">contacto</h5>
+           <h5 id="tituloa2">contacto</h5>
+                      <h5 id="tituloa2">Servicio a clientes</h5>
+
     <form>
-     <input  type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
+     <input  type="text" name="nombre" id="nombre_contactom" placeholder="Nombre">
       <br>
-      <input type="text" name="email" id="email_contacto" placeholder="Email">
+      <input type="text" name="email" id="email_contactom" placeholder="Email">
       <br>
-      <input type="text" name="telefono" id="telefono_contacto" placeholder="Telefono">
+      <input type="text" name="telefono" id="telefono_contactom" placeholder="Telefono">
       <br>
-<textarea name="mensaje" id="mensaje_contacto" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
+<textarea name="mensaje" id="mensaje_contactom" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
 </textarea>   
 
 <button class="buttonbordeblanco mt-4 ">ENVIAR</button>

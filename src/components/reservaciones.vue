@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid d-flex  " id="reservaciones">
-    <div class="container " style="max-width:520px">
+    <div class="container transparencia " style="max-width:720px">
     
       <ul class="list-group bg-transparent border-0  pt-2" >
         <li class="list-group-item  bg-transparent border-0  text-center ">
@@ -12,16 +12,14 @@
         </li>
     
         <li class="list-group-item  bg-transparent border-0 text-center ">
-           <form class="inline">  
-          
-      <select id="select" class="buttonborde mr-4 mt-2">
-        <option selected>Choose...</option>
-        <option>...</option>
+          <select v-model="selected" class="mb-2">
+                    <option disabled value="">Escoge tu sucursal</option>
+        <option  v-for="sucursal in sucursales" 
+                     :key="sucursal.id" >                        
+                     {{sucursal.nombre}}
+                     </option>
       </select>
-      
-        <button class="buttonrojo mt-2" type="submit">Reserva aquí</button>
-
-</form>
+        <button class="buttonrojo ml-2">RESERVA AQUÍ</button>
 
         </li>
         
@@ -33,7 +31,18 @@
 </div>   
 </template>
 <script>
+import {mapState} from 'vuex';
+
 export default {
-    name:'reservaciones'
+    name: 'reservaciones',
+     data() {
+    return {
+       selected: ''
+    };
+  },
+     computed:
+    {
+      ...mapState(['sucursales'])
+    }
 }
 </script>

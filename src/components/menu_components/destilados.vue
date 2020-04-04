@@ -1,15 +1,15 @@
 <template>
     <div class="container  text-center mt-4" style="max-width:1920px;background-color: black;">
-<div class="container text-center" style="max-width:1000px">
-<carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:10},1366:{items:10},1920:{items:10}}">
-     <carousel-item v-for="(tipo, index) in tipos_destilado" 
+<div class="container text-center" style="max-width:800px">
+<carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:9},1366:{items:9},1920:{items:9}}">
+     <div v-for="tipo in tipos_destilado" 
                      :key="tipo.id"  >
                          <a class="subtab" 
                          :class="{subtabclick: tipodes === tipo}" 
                          @click="activarsubtabdes(tipo)"
                           href="#menu_mezcalita" >
                          {{tipo}}</a>
-     </carousel-item>
+     </div>
        </carousel>
 </div>
 <br>

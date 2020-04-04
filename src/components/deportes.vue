@@ -1,20 +1,51 @@
 <template>
- <div class="container-fluid d-flex  " id="deportes">
-           
-             <div class="container text-center mt-4 " style="max-width:1920px;" > 
-          <h5 id="tituloc"  >deportes</h5>
-                
-
+ <div class="container  text-center" >
+            <h5 id="tituloc"  >deportes</h5>
           <h5 class="rectangulo"></h5>
+          <br>
+           <h5 id="parrafoa"  >¡Sigue los mejores eventos deportivos minuto a minuto!</h5>
+ <div class="nomovil">
+ <div class="container d-flex mt-4 " id="deportes"   > 
          
-   <carousel id="carouseldeportes"   :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1, stagePadding:75},578:{items:2, stagePadding:100},1366:{items:3},1920:{items:4}}">
+          <br>
+ <br>
+     <b-row  cols="3"   no-gutters  style="max-width:1200px;">
 
-<carousel-item v-for="deporte in deportes" 
+<b-col  v-for="deporte in deportes" 
+                     :key="deporte.id_deporte"  >
+<div>
+  <b-card no-body class="overflow-hidden mt-4  border-0" style="max-width: 400px;"  bg-variant="transparent" >
+    <b-row >
+      <b-col md="6" class="nomovil" >
+        <img :src="deporte.imagen_deporte" class="rounded-0">
+      </b-col>
+      <b-col md="6">
+          <b-card-text > 
+          <p id="titulodeporte">{{deporte.fecha}}</p>
+          <h5 id="parrafoc">{{deporte.titulo}}</h5>
+          <h5 id="parrafoc">{{deporte.hora}}</h5>
+          </b-card-text>
+      </b-col>
+    </b-row>
+  </b-card>
+</div>
+</b-col>
+     </b-row>
+
+
+ 
+  </div>
+ </div>
+ <!-- version movil -->
+ <div class="simovil">
+<carousel  id="carouseldeportes"   :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1, stagePadding:75},578:{items:2},1366:{items:3},1920:{items:4}}">
+
+<div v-for="deporte in deportes" 
                      :key="deporte.id_deporte"  >
 <div>
   <b-card no-body class="overflow-hidden mt-3 ml-2" style="max-width: 400px;" border-0 bg-variant="transparent">
     <b-row >
-      <b-col md="6" class="nomovil" >
+      <b-col md="6"  >
         <b-card-img :src="deporte.imagen_deporte" class="rounded-0 card-img"></b-card-img>
       </b-col>
       <b-col md="6">
@@ -27,14 +58,11 @@
     </b-row>
   </b-card>
 </div>
-</carousel-item>
+</div>
 
 
 </carousel>
- 
-  </div>
-
-  
+ </div>
 </div>       
 
 

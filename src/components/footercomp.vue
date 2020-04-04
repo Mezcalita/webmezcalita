@@ -5,14 +5,14 @@
   <b-row cols="1" cols-sm="2" cols-md="6"  >
     <b-col>
       <ul class="list-group text-left">
+         <li class="list-group-item  bg-transparent border-0">
+            <h5  id="parrafoa">La mezcalita</h5>
+  </li>
   <li class="list-group-item bg-transparent border-0 ">
-            <a href="#" id="parrafoa">Menú</a>
+            <a href="#menu" id="parrafoa">Menú</a>
   </li>
   <li class="list-group-item  bg-transparent border-0">
-                    <a href="#" id="parrafoa">Promociones</a>
-  </li>
-  <li class="list-group-item  bg-transparent border-0">
-            <a href="#" id="parrafoa">Pide por rappi</a>
+        <a href="#promociones" id="parrafoa">Promociones</a>
   </li>
 
 </ul>
@@ -20,52 +20,56 @@
     </b-col>
     <b-col>
             <ul class="list-group text-left">
-  <li class="list-group-item bg-transparent border-0 ">
-            <a href="#" id="parrafoa">Deportes</a>
+   <li class="list-group-item  bg-transparent border-0">
+            <h5  id="parrafoa">Eventos</h5>
   </li>
   <li class="list-group-item  bg-transparent border-0">
-                    <a href="#" id="parrafoa">Música</a>
+                    <a href="#deportes" id="parrafoa">Deportes</a>
+  </li>
+  <li class="list-group-item  bg-transparent border-0">
+                    <a href="#musica" id="parrafoa">Música</a>
   </li>
 
 </ul>
     </b-col>
     <b-col>
             <ul class="list-group text-left">
-  <li class="list-group-item bg-transparent border-0 ">
-            <a href="#" id="parrafoa">Bolsa de trabajo</a>
+   <li class="list-group-item  bg-transparent border-0">
+            <h5  id="parrafoa">Ubicación</h5>
   </li>
   <li class="list-group-item  bg-transparent border-0">
-                    <a href="#" id="parrafoa">Facturación</a>
+                    <a href="#sucursales" id="parrafoa">Sucursales</a>
+  </li>
+   <li class="list-group-item bg-transparent border-0 ">
+            <a href="#sucursales" id="parrafoa">Redes sociales</a>
   </li>
 
 </ul>
     </b-col>
     <b-col>
             <ul class="list-group text-left">
-  <li class="list-group-item bg-transparent border-0 ">
-            <a href="#" id="parrafoa">Redes sociales</a>
+  <li class="list-group-item  bg-transparent border-0">
+            <h5  id="parrafoa">Nosotros</h5>
   </li>
   <li class="list-group-item  bg-transparent border-0">
-                    <a href="#" id="parrafoa">Sucursales</a>
+                    <a href="#bolsayfacturacion" id="parrafoa">Bolsa de trabajo</a>
   </li>
-  <li class="list-group-item  bg-transparent border-0">
-            <a href="#" id="parrafoa">Franquicias</a>
+   <li class="list-group-item bg-transparent border-0 ">
+            <a href="#franquicias" id="parrafoa">Franquicias</a>
   </li>
-
 </ul>
     </b-col>
     <b-col>
             <ul class="list-group text-left">
-  <li class="list-group-item bg-transparent border-0 ">
-            <a href="#" id="parrafoa">Contacto</a>
+  <li class="list-group-item  bg-transparent border-0">
+            <h5  id="parrafoa">Servicios</h5>
   </li>
   <li class="list-group-item  bg-transparent border-0">
-                    <a href="#" id="parrafoa">ayuda@lamezcalita.mx</a>
+                    <a href="#bolsaytrabajo" id="parrafoa">Facturación</a>
   </li>
-  <li class="list-group-item  bg-transparent border-0">
-            <a href="#" id="parrafoa">+52 554 5647 453</a>
+   <li class="list-group-item bg-transparent border-0 ">
+            <a href="#menu"  id="parrafoa">Pide por rappi</a>
   </li>
-
 </ul>
     </b-col>
     <b-col>   <img src="iconos/footer/logo-footer.svg"  

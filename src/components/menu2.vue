@@ -6,8 +6,8 @@
    
               <h5 id="tituloc" >menu</h5>
                 <h5 class="rectangulo"  ></h5>
-       <carousel class="nomovil" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:10},578:{items:5},1366:{items:5},1920:{items:5}}">
-     <carousel-item v-for="(categoria, index) in categorias_principal" 
+       <carousel class="nomovil" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:10},578:{items:4},1366:{items:4},1920:{items:4}}">
+     <div v-for="(categoria, index) in categorias_principal" 
                      :key="categoria.id"  >
 
                          <button class="tab" 
@@ -24,7 +24,7 @@
       </b-col>
     </b-row>
     </button>
-     </carousel-item>
+     </div>
        </carousel>
        <!-- version movil -->
 <div class="simovil ">
@@ -47,9 +47,9 @@
 
     <div class="container nomovil text-center mt-4" style="max-width:1920px;background-color: black;">
 <div v-if=" tab==0 " >
-<div class="container  text-center"  style="max-width:800px">
-       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:7},1366:{items:7},1920:{items:7}}">
-     <carousel-item v-for="(cat20, index) in cat_menu20" 
+<div class="container  text-center"  style="max-width:1000px">
+       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:8},1366:{items:8},1920:{items:8}}">
+     <div v-for="(cat20, index) in cat_menu20" 
                      :key="cat20.id"  >
                 
                          <a class="subtab" 
@@ -57,36 +57,36 @@
                          @click="activarsubtab(index)"
                           href="#menu_mezcalita" >
                          {{cat20.nombre}}</a>
-     </carousel-item>
+     </div>
        </carousel>
 </div>
  <c_20></c_20>
 </div>
 
 <div v-if="tab==1">
-  <especiales></especiales>
-</div>
-<div v-if="tab==2">
   <bebidas></bebidas>
 </div>
+<div v-if="tab==2">
+    <mixologia></mixologia>
+
+</div>
 <div v-if="tab==3">
-  <mixologia></mixologia>
+    <destilados></destilados>
+
 </div>
-<div v-if="tab==4">
-  <destilados></destilados>
-</div>
+
 <br>
   <h5 id="parrafoa"  >¡Lo llevamos hasta tu casa!</h5>
-      <img src="iconos/menu/boton-rappi.svg" width="161" >
+      <img src="iconos/menu/boton-rappi.svg" width="220" >
     </div>
 
 
  <!-- version movil -->
  <div class="container simovil text-center mt-4" style="max-width:1920px;background-color: black;">
- <div v-if="selected === 'Menu 20'"  >
-<div class="container  text-center"  style="max-width:800px">
-       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:7},1366:{items:7},1920:{items:7}}">
-     <carousel-item v-for="(cat20, index) in cat_menu20" 
+ <div v-if="selected === 'Comida'"  >
+<div class="container  text-center"  style="max-width:1000px">
+       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:8},1366:{items:8},1920:{items:8}}">
+     <div v-for="(cat20, index) in cat_menu20" 
                      :key="cat20.id"  >
                 
                          <a class="subtab" 
@@ -94,15 +94,12 @@
                          @click="activarsubtab(index)"
                           href="#menu_mezcalita" >
                          {{cat20.nombre}}</a>
-     </carousel-item>
+     </div>
        </carousel>
 
 </div>
  <c_20></c_20>
  </div>
-<div v-if="selected === 'Especiales'">
-  <especiales></especiales>
-</div>
 <div v-if="selected === 'Bebidas'">
   <bebidas></bebidas>
 </div>
@@ -126,7 +123,6 @@ import carousel from 'vue-owl-carousel';
 import {mapState, mapMutations} from 'vuex';
  import c_20 from '@/components/menu_components/categorias_components/categorias_menu20.vue'
  
- import especiales from '@/components/menu_components/especiales.vue'
  import bebidas from '@/components/menu_components/bebidas.vue'
  import mixologia from '@/components/menu_components/mixologia.vue'
  import destilados from '@/components/menu_components/destilados.vue'
@@ -137,12 +133,11 @@ export default {
     name: 'menu2', 
     data() {
     return {
-       selected: 'Menu 20'
+       selected: 'Comida'
     };
   },
     components:{
 c_20,
-        especiales,
         bebidas,
         mixologia,
         destilados,

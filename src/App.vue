@@ -6,9 +6,9 @@
  <b-row  style="background-color: black" > 
     <b-col class="text-center" >
       <img src="iconos/header/logo-header.svg"  
-    width="38" id="logoa" class="nomovil" >
+    width="38" id="logoa" class="nomovil mt-4" >
      <b-row>
-      <div class="container  " style="max-width:1200px" id="menu"> 
+      <div class="container  " style="max-width:1400px" id="menu"> 
 
   <b-navbar bg-transparent toggleable="lg" class="px-auto " type="dark"   >
     <b-navbar-brand id="brand" ><img src="iconos/header/logo-header.svg"  height="42"
@@ -19,14 +19,13 @@
     <b-collapse  id="nav-collapse" is-nav>
       <b-navbar-nav  >
    
-        <b-nav-item class="pl-3"  href="#menu_mezcalita" > Menú</b-nav-item>
-        <b-nav-item  class="pl-3" href="#reservaciones"  > Reservaciones</b-nav-item>
-         <b-nav-item class="pl-3" href="#musicaenvivo" >Eventos</b-nav-item>
-         <b-nav-item class="pl-3" href="#franquicias"  >Franquicias</b-nav-item>
-         <b-nav-item class="pl-3" href="#promociones" >Promociones</b-nav-item>
-         <b-nav-item class="pl-3" href="#bolsayfacturacion" >Bolsa de trabajo</b-nav-item>
-         <b-nav-item class="pl-3" href="#bolsayfacturacion" >Facturación</b-nav-item>
-         <b-nav-item class="pl-3" href="#contacto" >Contacto</b-nav-item>
+        <b-nav-item   href="#menu_mezcalita" > Menú</b-nav-item>
+          <b-nav-item href="#promociones" >Promociones</b-nav-item>
+         <b-nav-item  href="#musicaenvivo" >Eventos</b-nav-item>
+        <b-nav-item   href="#reservaciones"  > Reservaciones</b-nav-item>
+                <b-nav-item   href="#franquicias"  > Franquicias</b-nav-item>
+         <b-nav-item  href="#sucursales"  >Sucursales</b-nav-item>
+         <b-nav-item  href="#contacto" >Contacto</b-nav-item>
 
       </b-navbar-nav>
   
@@ -44,7 +43,6 @@
 <br>
 <br>
     <headercomp></headercomp>
-
 
 
       <a name="nosotros"></a>
@@ -84,6 +82,7 @@
        <h5 class="espacio"></h5>
 
   <franquicias></franquicias>
+                               <a name="sucursales"></a>
 
          <h5 class="espacio"></h5>
 
@@ -107,6 +106,7 @@
 
 
 <script>
+
 
 import headercomp from '@/components/headercomp.vue'
 import nosotros from '@/components/nosotros.vue'
@@ -140,7 +140,7 @@ export default {
     musicaenvivo,
     deportes,
     contacto,
-    footercomp
+    footercomp,
   },
   
 }
