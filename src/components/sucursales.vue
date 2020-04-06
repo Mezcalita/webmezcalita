@@ -64,14 +64,13 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       <br>
 <div v-for="sucursal in sucursales" 
                      :key="sucursal.sucid" >
-          <transition name="fade">
-       <p class="sucdireccionclick"  v-if="selected === sucursal.nombre" >
+        
+       <p class="sucdireccionclick"  v-if="selected === sucursal.nombre || predeterminado === sucursal.nombre" >
             <br> {{sucursal.direccion}}<br>
           <a  class="sucdireccionclick" :href="sucursal.wplink"><i class="fab fa-whatsapp"></i> {{sucursal.telefono}}</a>
             <br>               
              <a  class="sucdireccionclick" :href="sucursal.fblink"><i class="fab fa-facebook"></i>La mezcalita {{sucursal.nombre}}</a>
 </p>
-          </transition>
   </div>
 </b-col>
 
@@ -84,7 +83,7 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           <transition name="fade">
 <b-embed 
 class=""
-v-if="selected === sucursal.nombre"
+v-if="selected === sucursal.nombre || predeterminado === sucursal.nombre"
     type="iframe"
     aspect="1by1"
     :src="sucursal.maps"
@@ -114,7 +113,8 @@ export default {
     name: 'sucursales',
     data() {
     return {
-       selected: 'Tetlan'
+       selected: '',
+       predeterminado: 'Tetlan'
     };
   },
 

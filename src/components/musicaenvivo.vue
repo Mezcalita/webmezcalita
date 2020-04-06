@@ -42,7 +42,7 @@ export default {
     name: 'musicaenvivo',
      data() {
     return {
-       selected: 'Tetlan'
+       selected: ''
     };
   },
      computed:

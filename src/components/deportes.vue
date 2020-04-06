@@ -37,8 +37,8 @@
  
   </div>
  <!-- version movil -->
- <div class="simovil">
-<carousel  id="carouseldeportes"   :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1, stagePadding:75},578:{items:2},1366:{items:3},1920:{items:4}}">
+ <div class="simovil container text-center" id="carouseldeportes">
+<carousel     :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1, stagePadding:75},578:{items:2},1366:{items:3},1920:{items:4}}">
 
 <div v-for="deporte in deportes" 
                      :key="deporte.id_deporte"  >
