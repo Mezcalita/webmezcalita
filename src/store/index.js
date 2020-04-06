@@ -672,7 +672,30 @@ export default new Vuex.Store({
 
     }
   ],
-  carrusel: ['imagenes/carrusel/carrusel-1.jpg','imagenes/carrusel/carrusel-2.jpg','imagenes/carrusel/carrusel-3.jpg','imagenes/carrusel/carrusel-4.jpg'],
+  carrusel: [
+    
+    {
+      imagen:'../imagenes/carrusel/carrusel-1.jpg',
+      instagram: '../imagenes/carrusel/insta-1.png'
+    },
+    {
+      imagen:'../imagenes/carrusel/carrusel-2.jpg',
+      instagram: '../imagenes/carrusel/insta-2.png'
+
+    },
+    {
+      imagen:'../imagenes/carrusel/carrusel-3.jpg',
+      instagram: '../imagenes/carrusel/insta-3.png'
+
+    },
+    {
+      imagen:'../imagenes/carrusel/carrusel-4.jpg',
+      instagram: '../imagenes/carrusel/insta-4.png'
+
+    },
+      
+     
+  ],
 
   promos:
   [

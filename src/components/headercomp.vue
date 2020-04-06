@@ -30,10 +30,10 @@
 
   </div>
 
-   <div class="container simovil mt-4" style="max-width:800px" >
+   <div class="container simovil " style="max-width:800px" >
     <div class="row ">
       <div class=" col-xl-4 text-center"  >
-        <img src="imagenes/alacran2.png"  class="   text-center  " >
+        <img src="imagenes/alacran2.png"  class="  pr-2 imgalacran text-center  " >
 
       </div>
       <div class="col-xl-5 " >

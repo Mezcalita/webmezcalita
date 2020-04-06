@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid  d-flex    " id="franquicias"   >
+    <div class="container-fluid  d-flex    "  >
     <div class="container nomovil"  style="max-width:1400px;" >
     <div class="row mt-4  ">
       <div class="col-md-7 "  >

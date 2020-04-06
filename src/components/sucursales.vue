@@ -1,6 +1,6 @@
 <template>
-   <div class="container-fluid "   >
- <div class="container text-center sucursales " style="max-width:1200px;"> 
+   <div class="container-fluid "   style="max-width:1400px;" >
+ <div class="container text-center sucursales "> 
 <b-row cols="1" cols-md="2" > 
 <b-col md="4"> 
       <h5 id="tituloc" class="text-left ">sucursales</h5>
@@ -25,7 +25,7 @@
 <b-row cols="1" md="2" no-gutters> 
 
 <b-col md="5" >
- <img src="imagenes/sucursales/sucursal.jpg" width="100%" height="375" >
+ <img src="imagenes/sucursales/sucursal.jpg" width="100%" height="482" >
 </b-col>
 
 
@@ -34,7 +34,7 @@
                      :key="sucursal.sucid" >
 <iframe  :src="sucursal.maps" 
 v-if="tabsuc==index"
-class="nomovil" width="170%" height="375" 
+class="nomovil" width="180%" height="482" 
 frameborder="0" style="border:0;" 
 allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
@@ -61,6 +61,7 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                      {{sucursal.nombre}}
                      </option>
       </select>
+      <br>
 <div v-for="sucursal in sucursales" 
                      :key="sucursal.sucid" >
           <transition name="fade">

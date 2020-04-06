@@ -115,7 +115,6 @@ select{
   width: 180px;
 height: 38px;
 border: solid 1px #ad8c63;
-background: rgba(0, 0, 0, 0);
 font-family: HelveticaNeue;
 font-size: 14px;
 font-weight: bold;
@@ -130,7 +129,7 @@ border: solid 1px #fff;
 
   select,
   option{
-  background-color: black;
+background: rgba(0, 0, 0, 0.5);
   font-family: Helvetica;
 font-size: 14px;
 color: #fff;
@@ -243,19 +242,43 @@ textarea{
   background-position: center;
   height: auto;
   align-items:center;
-    border: solid 1px #fff;
+  max-width: 1920px;
+
 
 
 }
 #carouseldeportes
 {
-  background-image: url('../imagenes/fondo-deportes.jpg');
-  background-size: cover;
-  background-position: center;
-  align-items:center;
   height: auto;
     border: solid 1px #fff;
+    max-width: 1400px;
 
+
+}
+.carrusel
+{
+  background-size: 100% 100%;
+  background-position: center;
+  height: 23vw;
+  align-items: center;
+  justify-content: center;
+  max-height: 456px;
+}
+.carruselhover
+{  
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  background-size: 100% 100%;
+  background-position: center;
+  width: 40vw;
+  height: 23vw;
+  align-items: center;
+  justify-content: center;
+  max-height: 456px;
+   display: flex;
 }
 #contacto
 {
@@ -367,10 +390,7 @@ textarea{
     width: 100%
    
   }
-  .imgalacran
-  {
-    width: 320px;
-  }
+  
   .rectangulo {
     width: 18px;
     height: 6px;
@@ -437,7 +457,7 @@ textarea{
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
-margin-top: 25%;
+margin-top: 10%;
   text-align: left;
   color: #fff;
 
@@ -529,11 +549,11 @@ margin-top: 25%;
 display: none;
 }
 
-@media (max-width: 360px) 
+@media (max-width: 361px) 
   {
   .imgalacran
   {
-    width: 250px;
+    width: 280px;
   }
   }
 @media (max-width: 576px) 
@@ -541,7 +561,7 @@ display: none;
     
   #slider
   {
-    height:auto;
+    height:100px;
   }
 
    #musicaenvivo
@@ -561,8 +581,18 @@ display: none;
   height: auto;
 }
  
+.rectangulo {
+ 
+  margin-left: 48%;
   
-  
+  }
+  .buttonrojo
+  {
+    margin-right: 2%;
+  }
+  .buttonborde{
+    margin-left: 6%;
+  }
 
 
 
@@ -589,8 +619,7 @@ display: none;
       font-family: Knucklehead;
       font-size: 9.3vw;
         color:#ad8c63;
-      line-height: 8vw;
-      margin-bottom: 3vw;
+      line-height: 9vw;
     }
     
     #brand
@@ -621,20 +650,8 @@ display: none;
     {
       text-align: center;
     }
-    .rectangulo {
-      width: 18px;
-      height: 6px;
-      background-color: #fff;
-      margin-left: 48%;
-      margin-bottom: 20px;
-      }
-    .buttonrojo
-    {
-      margin-right: 2%;
-    }
-    .buttonborde{
-      margin-left: 6%;
-    }
+    
+   
     
     
 }

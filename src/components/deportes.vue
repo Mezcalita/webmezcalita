@@ -1,23 +1,24 @@
 <template>
+<div>
  <div class="container  text-center" >
             <h5 id="tituloc"  >deportes</h5>
           <h5 class="rectangulo"></h5>
           <br>
            <h5 id="parrafoa"  >¡Sigue los mejores eventos deportivos minuto a minuto!</h5>
- <div class="nomovil">
- <div class="container d-flex mt-4 " id="deportes"   > 
-         
-          <br>
- <br>
-     <b-row  cols="3"   no-gutters  style="max-width:1200px;">
+ </div>
+ <div class="container fluid d-flex " id="deportes">
+
+ <div class="container text-center nomovil"   id="carouseldeportes"  > 
+         <div class="container "  style="max-width:1200px">
+     <b-row  cols="3"   no-gutters >
 
 <b-col  v-for="deporte in deportes" 
                      :key="deporte.id_deporte"  >
 <div>
-  <b-card no-body class="overflow-hidden mt-4  border-0" style="max-width: 400px;"  bg-variant="transparent" >
+  <b-card no-body class="overflow-hidden  border-0" style="max-width: 400px;"  bg-variant="transparent" >
     <b-row >
       <b-col md="6" class="nomovil" >
-        <img :src="deporte.imagen_deporte" class="rounded-0">
+        <img :src="deporte.imagen_deporte" class="rounded-0 mb-2 mt-2">
       </b-col>
       <b-col md="6">
           <b-card-text > 
@@ -32,10 +33,9 @@
 </b-col>
      </b-row>
 
-
+         </div>
  
   </div>
- </div>
  <!-- version movil -->
  <div class="simovil">
 <carousel  id="carouseldeportes"   :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1, stagePadding:75},578:{items:2},1366:{items:3},1920:{items:4}}">
@@ -62,6 +62,8 @@
 
 
 </carousel>
+ </div>
+
  </div>
 </div>       
 

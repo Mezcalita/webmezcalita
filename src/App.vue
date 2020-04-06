@@ -23,7 +23,7 @@
           <b-nav-item href="#promociones" >Promociones</b-nav-item>
          <b-nav-item  href="#musicaenvivo" >Eventos</b-nav-item>
         <b-nav-item   href="#reservaciones"  > Reservaciones</b-nav-item>
-                <b-nav-item   href="#franquicias"  > Franquicias</b-nav-item>
+                <b-nav-item   href="#franquicia"  > Franquicias</b-nav-item>
          <b-nav-item  href="#sucursales"  >Sucursales</b-nav-item>
          <b-nav-item  href="#contacto" >Contacto</b-nav-item>
 
@@ -49,13 +49,15 @@
 
      <nosotros></nosotros>
                  <a name="menu_mezcalita"></a>
-
+<br>
                <h5 class="espacio"></h5>
 
 
 <menu2></menu2>
-<br>      <a name="promociones"></a>
+     <a name="promociones"></a>
 
+<br> 
+<br> 
      <h5 class="espacio"></h5>
 
      <promociones></promociones>
@@ -77,7 +79,7 @@
           <h5 class="espacio"></h5>
 
   <carrusel></carrusel>
-        <a name="franquicias"></a>
+        <a name="franquicia"></a>
 
        <h5 class="espacio"></h5>
 
