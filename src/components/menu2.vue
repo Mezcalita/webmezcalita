@@ -5,8 +5,9 @@
     <div class="container text-center" style="max-width:800px">
    
               <h5 id="tituloc" >menu</h5>
-                <h5 class="rectangulo"  ></h5>
-       <carousel class="nomovil" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:10},578:{items:4},1366:{items:4},1920:{items:4}}">
+              <br>
+                <h5 class="rectangulo mt-4"  ></h5>
+       <carousel class="nomovil"  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:10},578:{items:4},1366:{items:4},1920:{items:4}}">
      <div v-for="(categoria, index) in categorias_principal" 
                      :key="categoria.id"  >
 
@@ -44,8 +45,7 @@
 
 
     </div>
-
-    <div class="container nomovil text-center mt-4" style="max-width:1920px;background-color: black;">
+    <div class="container nomovil text-center mt-4 mb-4" style="max-width:1920px;background-color: black;">
 <div v-if=" tab==0 " >
 <div class="container  text-center"  style="max-width:1000px">
        <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:8},1366:{items:8},1920:{items:8}}">
@@ -74,9 +74,11 @@
     <destilados></destilados>
 
 </div>
+<br>
 
 <br>
   <h5 id="parrafoa"  >¡Lo llevamos hasta tu casa!</h5>
+<br>
       <img src="iconos/menu/boton-rappi.svg" width="220" >
     </div>
 

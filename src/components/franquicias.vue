@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid  d-flex    "  >
+    <div class="container-fluid  d-flex    " id="franquicias"   >
     <div class="container nomovil"  style="max-width:1400px;" >
     <div class="row mt-4  ">
       <div class="col-md-7 "  >
@@ -12,9 +12,7 @@
             </li>
       <li class="list-group-item border-0 bg-transparent  "> 
         
-        <h1  id="tituloc"  >te gustaría invertir en una mezcalita?
-
-        </h1>
+        <h1  id="titulofranquicia"  >te gustaría invertir en una mezcalita?</h1>
         <h1 id="parrafoa" style="max-width:800px;">
             Tu primer paso para disfrutar de una vida 
 más relajada, adquiere experiencia en el
@@ -23,7 +21,7 @@ medio y logra tu libertad financiera.
 <br>
 
 
-        <button class="buttonborde" style="width: 270px">QUIERO MAS INFORMACIÓN</button>
+        <button class="buttonborde" style="width:270px">QUIERO MÁS INFORMACIÓN</button>
 
         </li>
   
@@ -35,8 +33,8 @@ medio y logra tu libertad financiera.
       </div>
     </div>
     </div>
-    <div class="container simovil text-center"  style="max-width:1000px;" id="franquicias" >
-    <div class=" col-md-12 " >
+    <div class="container simovil text-center"  style="max-width:800px;" id="franquicias" >
+    <div class=" col-lg-6 " >
         <div class="card-body  bg-transparent   " id="adentro" >
           <ul class="list-group list-group-flush bg-transparent mb-5   ">
             <li class="list-group-item bg-transparent  border-0  ">
@@ -52,7 +50,7 @@ medio y logra tu libertad financiera.
 <br>
 
 
-        <button class="buttonborde" >MAS INFORMACIÓN</button>
+        <button class="buttonborde">MAS INFORMACIÓN</button>
 
         </li>
   

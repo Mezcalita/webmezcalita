@@ -2,11 +2,10 @@
     <div class="container text-center " style="width:100%;max-width:1920px;"> 
     
                 <h5 id="tituloc"  >promociones</h5>
-
                 <h5 class="rectangulo"  ></h5>
-                <br>
-
-                  <h5 id="parrafoa"  >¡Promociones todos los días!</h5>
+<br>
+                  <h5 id="subtituloa"  >¡Promociones todos los días!</h5>
+<br>
 <br>
 <b-row > 
  <b-col cols="3"  class="nomovil">

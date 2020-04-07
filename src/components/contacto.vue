@@ -19,7 +19,7 @@
          </b-col>
          <b-col>
     <ul class="list-group text-left">
-  <li class="list-group-item bg-transparent border-0 nomovil" id="tituloa">contacto</li>
+  <li class="list-group-item bg-transparent border-0 nomovil" id="titulocontacto">contacto</li>
   <li class="list-group-item bg-transparent border-0 ">
        <img src="iconos/header/logo-header.svg"  
     width="90" id="logoa">
@@ -29,7 +29,7 @@
     width="17" id="logoa"></li>
   <li class="list-group-item bg-transparent border-0" id="tituloe">Servicio a clientes</li>
   <li class="list-group-item bg-transparent border-0" id="parrafod">hola@lamezcalita.mx</li>
-    <li class="list-group-item bg-transparent border-0" id="parrafod">+52 554 5667 453</li>
+    <li class="list-group-item bg-transparent border-0" id="parrafod"><i class="fab fa-whatsapp"></i>+52 554 5667 453</li>
 
   
 </ul>
@@ -43,17 +43,17 @@
       <div class="container text-center simovil " style="max-width:600px;"> 
         <b-row cols="1"   >
          <b-col >
-           <h5 id="tituloa2">contacto</h5>
-                      <h5 id="tituloa2">Servicio a clientes</h5>
-
+           <h5 id="titulocontacto">contacto</h5>
+         <h5 class="text-center " id="tituloe">Servicio a clientes</h5>
+<!-- fomulario -->
     <form>
-     <input  type="text" name="nombre" id="nombre_contactom" placeholder="Nombre">
+     <input  type="text" name="nombre" id="nombre_contactomovil" placeholder="Nombre">
       <br>
-      <input type="text" name="email" id="email_contactom" placeholder="Email">
+      <input type="text" name="email" id="email_contactomovil" placeholder="Email">
       <br>
-      <input type="text" name="telefono" id="telefono_contactom" placeholder="Telefono">
+      <input type="text" name="telefono" id="telefono_contactomovil" placeholder="Telefono">
       <br>
-<textarea name="mensaje" id="mensaje_contactom" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
+<textarea name="mensaje" id="mensaje_contactomovil" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
 </textarea>   
 
 <button class="buttonbordeblanco mt-4 ">ENVIAR</button>
@@ -71,7 +71,7 @@
     width="25" id="logoa">  <img class="ml-1" src="iconos/contacto/instagram-contacto.svg"  
     width="25" id="logoa"></li>
   <li class="list-group-item bg-transparent border-0 text-center" id="parrafod">hola@lamezcalita.mx</li>
-    <li class="list-group-item bg-transparent border-0 text-center" id="parrafod">+52 554 5667 453</li>
+    <li class="list-group-item bg-transparent border-0 text-center" id="parrafod"><i class="fab fa-whatsapp"></i>+52 554 5667 453</li>
 
   
 </ul>

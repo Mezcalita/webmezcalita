@@ -41,7 +41,8 @@
  background-color: #000000;
  
   font-weight: bold;
-
+  font-stretch: normal;
+  font-style: normal;
   line-height: 1.24;
   letter-spacing: normal;
   color: white;
@@ -69,8 +70,8 @@
   height: 38px;
   border: solid 1px #ad8c63;
   background-color: #ad8c63;
-  font-family: Helvetica;
-  font-size: 14px;
+  font-family: HelveticaNeue;
+  font-size: 13px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -85,8 +86,8 @@
   height: 38px;
   border: solid 1px #ad8c63;
   background: rgba(0, 0, 0, 0);
-  font-family: Helvetica;
-  font-size: 14px;
+  font-family: HelveticaNeue;
+  font-size: 13px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -101,8 +102,8 @@
   height: 38px;
   border: solid 1px #ad8c63;
   background: rgba(0, 0, 0, 0);
-  font-family: Helvetica;
-  font-size: 14px;
+  font-family: HelveticaNeue;
+  font-size: 13px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -112,11 +113,12 @@
   border: solid 1px #fff;
 }
 select{
-  width: 180px;
+  width: 270px;
 height: 38px;
 border: solid 1px #ad8c63;
+background: rgba(0, 0, 0, 0);
 font-family: HelveticaNeue;
-font-size: 14px;
+font-size: 16px;
 font-weight: bold;
 font-stretch: normal;
 font-style: normal;
@@ -129,9 +131,9 @@ border: solid 1px #fff;
 
   select,
   option{
-background: rgba(0, 0, 0, 0.5);
-  font-family: Helvetica;
-font-size: 14px;
+  background-color: black;
+  font-family: HelveticaNeue;
+font-size: 13px;
 color: #fff;
 
   }
@@ -142,7 +144,7 @@ input[type=text] {
   border: none;
   border-bottom: 2px solid white;
   background: rgba(0, 0, 0, 0);
-  font-family: Helvetica;
+  font-family: HelveticaNeue;
   font-size: 14px;
   font-stretch: normal;
   font-style: normal;
@@ -162,7 +164,7 @@ textarea{
   border: none;
   border-bottom: 2px solid white;
   background: rgba(0, 0, 0, 0);
-  font-family: Helvetica;
+  font-family: HelveticaNeue;
   font-size: 14px;
   font-stretch: normal;
   font-style: normal;
@@ -183,7 +185,7 @@ textarea{
     background-image: url('../imagenes/hero-fondo.jpg');
     align-items:center;
     justify-content: center;
-  height: 800px;
+  height: 764px;
   background-size: 100% 100%;
     background-position: center;
     max-width: 1920px;
@@ -202,7 +204,7 @@ textarea{
 }
 #nosotros
 {
-  background-image: url('../imagenes/fondo-nosotros-85.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../imagenes/fondo-nosotros-85.jpg');
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
@@ -221,7 +223,7 @@ textarea{
   background-size: 100% 100%;
   background-position: center;
   align-items:center;
-  height: 664px; 
+  height: 664px;  background-size: 100% 100%;
 
   max-width: 1920px;
 
@@ -240,21 +242,22 @@ textarea{
   background-image: url('../imagenes/fondo-deportes.jpg');
   background-size: 100% 100%;
   background-position: center;
-  height: auto;
   align-items:center;
   max-width: 1920px;
-
+  
 
 
 }
 #carouseldeportes
 {
-  height: auto;
-    border: solid 1px #fff;
+  height: 500px;
+    border: solid 1px #80715e;
     max-width: 1400px;
-
+    align-items:center;
+    justify-content: center;
 
 }
+
 .carrusel
 {
   background-size: 100% 100%;
@@ -302,7 +305,7 @@ textarea{
   height: 38px;
   border: solid 1px #2e2e2e;
   background-color: #2e2e2e;
-  font-family: Helvetica;
+  font-family: HelveticaNeue;
   font-size: 14px;
   padding: 5px 10px;
   
@@ -325,7 +328,7 @@ textarea{
   
   .subtab
   {
-    font-family: Helvetica;
+    font-family: HelveticaNeue;
     font-size: 16px;
   
     line-height: 1.53;
@@ -345,12 +348,12 @@ textarea{
   }
   .tabsuc
   {
-    font-family: Helvetica;
-    font-size: 18px;
+    font-family: HelveticaNeue;
+    font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.9;
+    line-height: 1.53;
     letter-spacing: normal; 
     color: grey;
   }
@@ -367,9 +370,9 @@ textarea{
   }
   .sucdireccion
   {
-    font-family: Helvetica;
-    font-size: 14px;
-   line-height: .2;
+    font-family: HelveticaNeue;
+    font-size: 11px;
+   
     color: grey;
   }
   .sucdireccionclick
@@ -382,7 +385,7 @@ textarea{
   .infopromo
   {
     /* width: 336px; */
-    width: 108%
+    width: 106%
   }
   .imagenpromo
   {
@@ -390,16 +393,16 @@ textarea{
     width: 100%
    
   }
-  
+  .imgalacran
+  {
+    width: 320px;
+  }
   .rectangulo {
     width: 18px;
     height: 6px;
     background-color: #fff;
     margin-left: 49%;
     margin-bottom: 20px;
-    margin-top: 10px;
-
-
     }
 
 
@@ -411,7 +414,7 @@ textarea{
 {
   font-family: CheddarGothic , 'Teko', Impact;
   font-display: block;
-  font-size: 70px ;
+  font-size: 74.88px;
 
   
   color: #fff;
@@ -421,16 +424,16 @@ textarea{
 #titulob
 {
   font-family: Knucklehead;
-  font-size:  80px;
-  line-height: .6;
+  font-size:  89.85px;
+
   color:#fff;
 }
 #tituloc
 {
   font-family: Knucklehead;
-  font-size: 80px;
+  font-size: 89.85px;
     color:#ad8c63;
-    line-height: .6;
+    line-height: .8;
 
 }
 #titulod
@@ -444,46 +447,71 @@ textarea{
 {
   
  
-  font-family: Helvetica;
-  font-size: 26px;
+  font-family: HelveticaNeue;
+  font-size: 19px;
   font-weight: 700;
+margin-top: 25%;
   text-align: left;
-  margin-top: 25%;
   color: #fff;
   border-bottom: 1px white dashed;
 }
 #titulodeporte
 {
-  font-family: Helvetica;
+  font-family: HelveticaNeue;
   font-size: 23px;
   font-weight: bold;
-margin-top: 10%;
+
   text-align: left;
   color: #fff;
 
 }
+
 #titulomusica
 {
   font-family: Helvetica;
-  font-size: 19px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: bold;
   margin-top: 10%;
 
   text-align: left;
   color: #fff;
 
 }
+#titulofranquicia
+{
+  font-family: Knucklehead;
+  font-size: 60px;
+    color:#ad8c63;
+    line-height: .8;
+}
+#titulocontacto
+{
+  font-family: CheddarGothic , 'Teko', Impact;
+  font-display: block;
+  font-size: 70px;
+
+  
+  color: #fff;
+
+}
 #tituloe
 {
-  font-family: Helvetica;
+  font-family: HelveticaNeue;
   font-size: 23px;
   text-align: left;
   color: grey;
 }
+#subtituloa
+{
+  font-family: HelveticaNeue;
+  font-size: 21px;
+
+  color: #fff;
+}
 #parrafoa
 {
-  font-family: Helvetica;
-  font-size: 18px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -492,9 +520,10 @@ margin-top: 10%;
 }
 #parrafob
 {
-  font-family: Helvetica;
-  font-size: 24px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
   font-weight: 300;
+ 
   font-style: italic;
  
   text-align: left;
@@ -502,8 +531,8 @@ margin-top: 10%;
 }
 #parrafoc
 {
-  font-family: Helvetica;
-  font-size: 17px;
+  font-family: HelveticaNeue;
+  font-size: 15px;
   font-weight: 300;
  
   font-style: italic;
@@ -513,7 +542,7 @@ margin-top: 10%;
 }
 #parrafod
 {
-  font-family: Helvetica;
+  font-family: HelveticaNeue;
   font-size: 17px;
   font-weight: 300;
  
@@ -529,40 +558,34 @@ margin-top: 10%;
     width: 100px;
     height: 85px;
   }
+.borderight
+{
+  border-right: 1px #80715e solid;
 
+}
 
 #brand
 {
   display: none;
 
 } 
-.sucursales
-{
-  display: inline;
-} 
-.sucursalesmovil{
-  display: none;
-}
+
+
 
 /*responsive*/
 .simovil{
 display: none;
 }
 
-@media (max-width: 361px) 
+@media (max-width: 360px) 
   {
   .imgalacran
   {
-    width: 280px;
+    width: 250px;
   }
   }
 @media (max-width: 576px) 
   {
-    
-  #slider
-  {
-    height:100px;
-  }
 
    #musicaenvivo
    {
@@ -576,35 +599,33 @@ display: none;
    }
 
   
-   #headerpost
-{
-  height: auto;
-}
- 
-.rectangulo {
- 
-  margin-left: 48%;
   
-  }
-  .buttonrojo
+ 
+   .infopromo
+   {
+     width: 50%;
+    }
+  .simovil
   {
-    margin-right: 2%;
-  }
-  .buttonborde{
-    margin-left: 6%;
-  }
+    display: inline ;
+
+  }  
+ .nomovil
+    {
+      display: none ;
+    }
+ 
+
 
 
 
 }
-
 @media (max-width: 1000px) 
   {
-   
-    #tituloa2
+    #titulocontacto
     {
       font-family: CheddarGothic ;
-      font-size: 6.3vw;
+      font-size: 9.3vw;
       color: #fff;
     }
     
@@ -619,9 +640,14 @@ display: none;
       font-family: Knucklehead;
       font-size: 9.3vw;
         color:#ad8c63;
-      line-height: 9vw;
+      line-height: 8vw;
+      margin-bottom: 3vw;
     }
-    
+    #carouseldeportes
+    {
+      height: auto;
+    }
+ 
     #brand
     {
       display: inline ;
@@ -641,73 +667,47 @@ display: none;
       display: inline;
     }
     
-    #titulodeporte{
-      text-align: center;
-      margin-top: 10%;
+   
+    .rectangulo {
+      width: 18px;
+      height: 6px;
+      background-color: #fff;
+      margin-left: 48%;
+      margin-bottom: 20px;
+      }
+    .buttonrojo
+    {
+      margin-right: 2%;
+    }
+    .buttonborde{
+      margin-left: 6%;
+    }
+    select
+    {
+      width: 180px;
 
     }
-    #parrafoc
-    {
-      text-align: center;
-    }
-    
-   
     
     
 }
 @media (max-width: 1100px)
 {
-  .sucursales{
-    display: none;
-  }
-  .sucursalesmovil
-  {
-    display: inline;
-  }
-
-}
-
+ #slider{
+   height: 664px;
+ }
+ #headerpost
+ {
+   height: 500px;
+ }
+}  
 @media (max-width: 1368px)
 {
-  #tituloa
-  {
-    font-size: 4.8vw;
-  }
-  #tituloproducto
-{
-  
- 
-  font-family: Helvetica;
-  font-size: 19px;
-  font-weight: 700;
-  text-align: left;
-  margin-top: 25%;
-  color: #fff;
-  border-bottom: 1px white dashed;
-}
-#parrafob
-{
-  font-family: Helvetica;
-  font-size: 18px;
-  font-weight: 300;
-  font-style: italic;
- 
-  text-align: left;
-  color: grey;
-}
-  #slider
-  {
-      background-image: url('../imagenes/hero-fondo.jpg');
-      align-items:center;
-      justify-content: center;
-    height: 764px;
-    background-size: 100% 100%;
-      background-position: center;
-      max-width: 1920px;
-  
-  }
+
   /*titulos y parrafos*/
- 
+ #tituloa
+ {
+   font-size: 3.9vw
+ }
 }
 
 
@@ -720,7 +720,6 @@ display: none;
 #reservaciones{
   background-size: cover;
 }
-
 
 
 }

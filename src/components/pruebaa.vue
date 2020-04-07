@@ -1,0 +1,104 @@
+<template>
+ <!-- partial:index.partial.html -->
+ <div>
+
+<div class="owl-carousel owl-theme">
+  <div class="carousel-item">
+    <a href="#">
+      <div class="carousel-item-image">
+        <img src="https://f.i.uol.com.br/fotografia/2016/03/11/594620-970x600-1.jpeg" class="item-image">
+      </div>
+      <div class="carousel-item-text">
+        <span class="item-kicker">Restaurante de São Paulo</span>
+        <h3 class="item-title">Mani</h3>
+      </div>
+    </a>
+  </div>
+  <div class="carousel-item">
+    <a href="#">
+      <div class="carousel-item-image">
+        <img src="https://f.i.uol.com.br/fotografia/2016/03/11/594616-970x600-1.jpeg" class="item-image">
+      </div>
+      <div class="carousel-item-text">
+        <span class="item-kicker">Restaurante de São Paulo</span>
+        <h3 class="item-title">Tordesilhas</h3>
+      </div>
+    </a>
+  </div>
+  <div class="carousel-item">
+    <a href="#">
+      <div class="carousel-item-image">
+        <img src="https://f.i.uol.com.br/fotografia/2016/03/11/594617-970x600-1.jpeg" class="item-image">
+      </div>
+      <div class="carousel-item-text">
+        <span class="item-kicker">Restaurante que você já foi</span>
+        <h3 class="item-title">Bar do Luiz Fernandes</h3>
+      </div>
+    </a>
+  </div>
+  <div class="carousel-item">
+    <a href="#">
+      <div class="carousel-item-image">
+        <img src="https://f.i.uol.com.br/fotografia/2016/03/11/594619-970x600-1.jpeg" class="item-image">
+      </div>
+      <div class="carousel-item-text">
+        <span class="item-kicker">Para ir a dois</span>
+        <h3 class="item-title">A Figueira Rubaiyat</h3>
+      </div>
+    </a>
+  </div>
+  <div class="carousel-item">
+    <a href="#">
+      <div class="carousel-item-image">
+        <img src="https://f.i.uol.com.br/fotografia/2016/03/11/594618-970x600-1.jpeg" class="item-image">
+      </div>
+      <div class="carousel-item-text">
+        <span class="item-kicker">Coxinha</span>
+        <h3 class="item-title">Ragazzo</h3>
+      </div>
+    </a>
+  </div>
+  <div class="carousel-item">
+    <a href="#">
+      <div class="carousel-item-image">
+        <img src="https://f.i.uol.com.br/fotografia/2016/03/11/594615-970x600-1.jpeg" class="item-image">
+      </div>
+      <div class="carousel-item-text">
+        <span class="item-kicker">Cafeteria</span>
+        <h3 class="item-title">Starbucks</h3>
+      </div>
+    </a>
+  </div>
+</div>
+ </div>
+</template>
+<script>
+
+export default {
+    name:'pruebaa'
+    
+}
+
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 30,
+  dots: true,
+  nav: false,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 2,
+      margin: 10,
+      stagePadding: 20,
+    },
+    600: {
+      items: 3,
+      margin: 20,
+      stagePadding: 50,
+    },
+    1000: {
+      items: 4
+    }
+  }
+});
+</script>

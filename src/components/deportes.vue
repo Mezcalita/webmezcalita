@@ -4,25 +4,28 @@
             <h5 id="tituloc"  >deportes</h5>
           <h5 class="rectangulo"></h5>
           <br>
-           <h5 id="parrafoa"  >¡Sigue los mejores eventos deportivos minuto a minuto!</h5>
+           <h5 id="subtituloa"  >¡Sigue los mejores eventos deportivos minuto a minuto!</h5>
+                     <br>
+        
+
  </div>
- <div class="container fluid d-flex " id="deportes">
+ <div class="container fluid d-flex  " id="deportes">
+   <div class="nomovil container" style="max-width:1366px">
+ <div class="container  d-flex text-center  "   id="carouseldeportes"  > 
+         <div class="container  "  style="max-width:1200px">
+     <b-row  cols="3"  class="mb-2" >
 
- <div class="container text-center nomovil"   id="carouseldeportes"  > 
-         <div class="container "  style="max-width:1200px">
-     <b-row  cols="3"   no-gutters >
-
-<b-col  v-for="deporte in deportes" 
+<b-col  class="mb-4" v-for="deporte in deportes" 
                      :key="deporte.id_deporte"  >
 <div>
-  <b-card no-body class="overflow-hidden  border-0" style="max-width: 400px;"  bg-variant="transparent" >
+  <b-card no-body class="overflow-hidden  border-0" style="max-width: 380px;"  bg-variant="transparent" >
     <b-row >
-      <b-col md="6" class="nomovil" >
-        <img :src="deporte.imagen_deporte" class="rounded-0 mb-2 mt-2">
+      <b-col md="4" class="borderight" >
+        <img :src="deporte.imagen_deporte" class="rounded-0">
       </b-col>
-      <b-col md="6">
+      <b-col md="5">
           <b-card-text > 
-          <p id="titulodeporte">{{deporte.fecha}}</p>
+          <h5 id="titulodeporte">{{deporte.fecha}}</h5>
           <h5 id="parrafoc">{{deporte.titulo}}</h5>
           <h5 id="parrafoc">{{deporte.hora}}</h5>
           </b-card-text>
@@ -34,23 +37,23 @@
      </b-row>
 
          </div>
- 
-  </div>
+ </div>
+   </div>
  <!-- version movil -->
  <div class="simovil container text-center" id="carouseldeportes">
-<carousel     :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1, stagePadding:75},578:{items:2},1366:{items:3},1920:{items:4}}">
+<carousel     :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1, stagePadding:20},578:{items:2,stagePadding:20},1024:{items:3},1920:{items:4}}">
 
 <div v-for="deporte in deportes" 
                      :key="deporte.id_deporte"  >
 <div>
-  <b-card no-body class="overflow-hidden mt-3 ml-2" style="max-width: 400px;" border-0 bg-variant="transparent">
+  <b-card no-body class="overflow-hidden mt-3 " style="max-width: 240px;" border-0 bg-variant="transparent">
     <b-row >
-      <b-col md="6"  >
-        <b-card-img :src="deporte.imagen_deporte" class="rounded-0 card-img"></b-card-img>
+      <b-col class="borderight" >
+        <img :src="deporte.imagen_deporte" class="rounded-0  ">
       </b-col>
-      <b-col md="6">
+      <b-col >
           <b-card-text > 
-          <p id="titulodeporte">{{deporte.fecha}}</p>
+          <h5 id="titulodeporte">{{deporte.fecha}}</h5>
           <h5 id="parrafoc">{{deporte.titulo}}</h5>
           <h5 id="parrafoc">{{deporte.hora}}</h5>
           </b-card-text>
@@ -58,14 +61,17 @@
     </b-row>
   </b-card>
 </div>
+
+
 </div>
 
 
 </carousel>
  </div>
+  </div>
+   </div>
 
- </div>
-</div>       
+
 
 
 </template>

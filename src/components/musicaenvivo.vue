@@ -7,6 +7,7 @@
              <div class="container text-center  " style="max-width:1920px;" > 
           <h5 id="tituloc"  >música en vivo</h5>
           <h5 class="rectangulo"></h5>
+         
          <select v-model="selected" class="mb-3">
         <option disabled value="">Escoge tu sucursal</option>
         <option  v-for="sucursal in sucursales" 
@@ -14,7 +15,8 @@
                      {{sucursal.nombre}}
                      </option>
       </select>
-    
+     <br>
+          <br>
    <carousel  :margin="3" :nav="false" :dots="true" :autoplay="true" :responsive="{0:{items:1},768:{items:2},1366:{items:3}}">
 
 <div v-for="musica in musicaenvivo" 
@@ -37,7 +39,6 @@
 <script>
 import carousel from 'vue-owl-carousel';
 import {mapState} from 'vuex';
-
 export default {
     name: 'musicaenvivo',
      data() {
@@ -55,3 +56,4 @@ export default {
     }
 }
 </script>
+

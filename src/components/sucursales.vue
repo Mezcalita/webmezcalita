@@ -1,6 +1,6 @@
 <template>
-   <div class="container-fluid "   style="max-width:1400px;" >
- <div class="container text-center sucursales "> 
+   <div class="container-fluid "  >
+ <div class="container text-center nomovil " style="max-width:1200px;"> 
 <b-row cols="1" cols-md="2" > 
 <b-col md="4"> 
       <h5 id="tituloc" class="text-left ">sucursales</h5>
@@ -21,11 +21,12 @@
 </b-col>
 
 
-<b-col class="mt-4" md="6">
+
+<b-col md="6" class="mt-4">
 <b-row cols="1" md="2" no-gutters> 
 
 <b-col md="5" >
- <img src="imagenes/sucursales/sucursal.jpg" width="100%" height="482" >
+ <img src="imagenes/sucursales/sucursal.jpg" width="233" >
 </b-col>
 
 
@@ -34,10 +35,9 @@
                      :key="sucursal.sucid" >
 <iframe  :src="sucursal.maps" 
 v-if="tabsuc==index"
-class="nomovil" width="180%" height="482" 
+class="nomovil" width="200%" height="360" 
 frameborder="0" style="border:0;" 
 allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
 
 </div>
 </b-col>
@@ -50,7 +50,7 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 <!-- version movil -->
 
-  <div class="container text-center sucursalesmovil" > 
+  <div class="container text-center simovil" > 
 <b-row cols="1" > 
 <b-col md="6"> 
       <h5 id="tituloc" class="text-center ">sucursales</h5>
