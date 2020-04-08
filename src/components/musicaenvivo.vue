@@ -1,7 +1,6 @@
 <template>
     
   
-    
        <div class="container-fluid d-flex  " id="musicaenvivo">
            
              <div class="container text-center  " style="max-width:1920px;" > 
@@ -28,10 +27,8 @@
 </div>
 
 
-
 </carousel>
  
-
    
   </div>
 </div>   

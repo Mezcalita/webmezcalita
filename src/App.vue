@@ -26,6 +26,8 @@
                 <b-nav-item   href="#franquicia"  > Franquicias</b-nav-item>
          <b-nav-item  href="#sucursales"  >Sucursales</b-nav-item>
          <b-nav-item  href="#contacto" >Contacto</b-nav-item>
+        <!-- <b-nav-item   :to="{name: 'About' }"> about</b-nav-item>
+        <b-nav-item   :to="{name: 'Home' }"> home</b-nav-item> -->
 
       </b-navbar-nav>
   
@@ -42,10 +44,11 @@
 <br>
 <br>
 <br>
-    <headercomp></headercomp>
+    <!-- <headercomp></headercomp> -->
 
+    <router-view/>
 
-      <a name="nosotros"></a>
+      <!-- <a name="nosotros"></a>
 
      <nosotros></nosotros>
                  <a name="menu_mezcalita"></a>
@@ -101,7 +104,7 @@
                            <h5 class="espacio"></h5>
                                <hr>
 
-<footercomp></footercomp>
+<footercomp></footercomp> -->
 
 
   </div>

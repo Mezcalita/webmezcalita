@@ -410,6 +410,8 @@ textarea{
 /*titulos parrafos     width: 318px;
 */
 
+
+
 #tituloa
 {
   font-family: CheddarGothic , 'Teko', Impact;
@@ -431,7 +433,7 @@ textarea{
 #tituloc
 {
   font-family: Knucklehead;
-  font-size: 89.85px;
+  font-size: min(9.8vw, 89px);
     color:#ad8c63;
     line-height: .8;
 

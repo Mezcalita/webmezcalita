@@ -1,39 +1,63 @@
 <template>
   <div class="home">
- <headercomp></headercomp>
+<headercomp></headercomp> 
 
-  <h5 class="espacio"></h5>
-
-      <a name="nosotros"></a>
+    <a name="nosotros"></a>
      <nosotros></nosotros>
-          <h5 class="espacio"></h5>
+                 <a name="menu_mezcalita"></a>
+<br>
+               <h5 class="espacio"></h5>
 
-    
- 
+
+<menu2></menu2>
+     <a name="promociones"></a>
+
+<br> 
+<br> 
+     <h5 class="espacio"></h5>
+
+     <promociones></promociones>
+        <a name="musicaenvivo"></a>
+
+     <h5 class="espacio"></h5>
+
+<!-- <musicaenvivo></musicaenvivo> -->
+      <a name="deportes"></a>
+
+     <h5 class="espacio"></h5>
+
+  <!-- <deportes></deportes> -->
+        <a name="reservaciones"></a>
+
+     <h5 class="espacio"></h5>
+
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>
 
-      <a name="carrusel"></a>
-
   <carrusel></carrusel>
+        <a name="franquicia"></a>
+
        <h5 class="espacio"></h5>
-      <a name="franquicias"></a>
 
   <franquicias></franquicias>
+           <a name="sucursales"></a>
+           <br>
 
          <h5 class="espacio"></h5>
 
-                 <a name="sucursales"></a>
-
-
        <sucursales></sucursales>
+                               <a name="contacto"></a>
+                        <a name="bolsayfacturacion"></a>
+
               <h5 class="espacio"></h5>
        <bolsayfacturacion></bolsayfacturacion>
+
                      <h5 class="espacio"></h5>
       <contacto></contacto>
                            <h5 class="espacio"></h5>
                                <hr>
 
+<footercomp></footercomp>
  
   </div>
 </template>

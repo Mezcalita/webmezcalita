@@ -739,7 +739,6 @@ export default new Vuex.Store({
       maps:'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.22730004252!2d-103.28093418558028!3d20.6603295861991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b3482000140f%3A0xae632908a9dd103b!2sLa%20Mezcalita%20(Tetl%C3%A1n)!5e0!3m2!1sen!2smx!4v1583876377731!5m2!1sen!2smx',
       fblink:'https://www.facebook.com/tetlanlamezcalita/?ref=br_rs',
       wplink: 'https://wa.me/5213336057664'
-
     },
     {
       sucid:2 ,
@@ -759,12 +758,7 @@ export default new Vuex.Store({
       fblink:'https://www.facebook.com/lamezcalitamanzanillo/',
       wplink: 'https://wa.me/5213142183768'
     },
-    {
-      sucid:4,
-      nombre:'CDMX',
-      direccion:'Gigantes #4029 Guadalajara. ',
-      telefono:'33 2536 8221 ',
-    }
+    
   ],
   musicaenvivo:[
 
