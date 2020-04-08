@@ -21,7 +21,7 @@
    
         <b-nav-item   href="#menu_mezcalita" > Menú</b-nav-item>
           <b-nav-item href="#promociones" >Promociones</b-nav-item>
-         <b-nav-item  href="#musicaenvivo" >Eventos</b-nav-item>
+         <!-- <b-nav-item  href="#musicaenvivo" >Eventos</b-nav-item> -->
         <b-nav-item   href="#reservaciones"  > Reservaciones</b-nav-item>
                 <b-nav-item   href="#franquicia"  > Franquicias</b-nav-item>
          <b-nav-item  href="#sucursales"  >Sucursales</b-nav-item>

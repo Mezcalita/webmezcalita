@@ -77,6 +77,8 @@ import musicaenvivo from '@/components/musicaenvivo.vue'
 
 import deportes from '@/components/deportes.vue'
 import contacto from '@/components/contacto.vue'
+import footercomp from '@/components/footercomp.vue'
+
 export default {
   name: 'Home',
   components:{
