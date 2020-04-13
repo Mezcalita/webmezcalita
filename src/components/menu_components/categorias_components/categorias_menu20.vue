@@ -1,6 +1,6 @@
 <template>
 
-    <div  v-if="tab==0" class="container text-center mt-4 " style="max-width:1920px;" > 
+    <div  class="container text-center mt-4 " style="max-width:1920px;" > 
 
 
 <div v-if="subtab==0">

@@ -14,10 +14,10 @@
     <b-col v-for="(item, index) in carrusel" 
          :key="index"  >
          
-   <div class="carrusel container d-flex " v-if="id == index" :style="{ 'background-image': 'url(' + item.instagram + ')' }" @mouseover="showhover(index)" @mouseout="dontshow()"  >
-   </div>
-   <div class="carrusel"  v-if="id != index" :style="{ 'background-image': 'url(' + item.imagen + ')' }"  @mouseover="showhover(index)"  @mouseout="dontshow()" >
-   </div>
+   <img class="carrusel  " v-if="id == index" :src="item.instagram"
+   @mouseout="dontshow()"  >
+   <img class="carrusel"  v-if="id != index" :src="item.imagen"  
+   @mouseover="showhover(index)"  >
    </b-col>
      </b-row>
     </div>

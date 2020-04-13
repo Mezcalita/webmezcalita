@@ -20,7 +20,7 @@
 
 <div v-for="musica in musicaenvivo" 
                      :key="musica.id_musica"  >
-   <b-col >
+   <b-col v-if="selected === musica.sucursal || predeterminado === musica.sucursal">
        <p class="text-center" id="titulomusica">{{musica.fecha}}</p>
         <img :src="musica.imagen_musica" width="100%" >
    </b-col>
@@ -40,7 +40,9 @@ export default {
     name: 'musicaenvivo',
      data() {
     return {
-       selected: ''
+       selected: '',
+      predeterminado: 'Tetlan'
+
     };
   },
      computed:

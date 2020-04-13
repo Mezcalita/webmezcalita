@@ -23,24 +23,23 @@
 
 
 <b-col md="6" class="mt-4">
-<b-row cols="1" md="2" no-gutters> 
-
+<b-row cols="1" md="2" no-gutters  v-for="(sucursal, index) in sucursales" 
+                     :key="sucursal.sucid"> 
 <b-col md="5" >
- <img src="imagenes/sucursales/sucursal.jpg" width="233" >
+ <img v-if="tabsuc==index" :src="sucursal.imagen" width="233" >
 </b-col>
 
 
 <b-col md="6">
-<div v-for="(sucursal, index) in sucursales" 
-                     :key="sucursal.sucid" >
+
 <iframe  :src="sucursal.maps" 
 v-if="tabsuc==index"
-class="nomovil" width="200%" height="360" 
+class="nomovil" width="580" height="355" 
 frameborder="0" style="border:0;" 
 allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-</div>
 </b-col>
+
 </b-row>
 </b-col>
 </b-row>
@@ -120,7 +119,7 @@ export default {
 
      computed:
     {
-      ...mapState(['sucursales','tabsuc'])
+      ...mapState(['sucursales','tabsuc','imagen_sucursal'])
     },
     methods:
   { 

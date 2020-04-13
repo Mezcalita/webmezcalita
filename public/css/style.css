@@ -267,22 +267,7 @@ textarea{
   justify-content: center;
   max-height: 456px;
 }
-.carruselhover
-{  
-  background-image: 
-  linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  );
-  background-size: 100% 100%;
-  background-position: center;
-  width: 40vw;
-  height: 23vw;
-  align-items: center;
-  justify-content: center;
-  max-height: 456px;
-   display: flex;
-}
+
 #contacto
 {
   align-items:center;
@@ -290,25 +275,13 @@ textarea{
 }
 .tab
   {
-    /* width: 125px;
-    height: 31px;
-    background-color: #2e2e2e;
-    font-family: HelveticaNeue;
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.53;
-  letter-spacing: normal;
-  color: #fff; */
-  max-width: 145px;
+  width: 200px;
   height: 38px;
   border: solid 1px #2e2e2e;
   background-color: #2e2e2e;
   font-family: HelveticaNeue;
   font-size: 14px;
-  padding: 5px 10px;
-  
+  padding: 10px 15px;
   color: #fff; 
   text-align: center;
   }
@@ -407,10 +380,19 @@ textarea{
 
 
  
-/*titulos parrafos     width: 318px;
+/*titulos parrafos     
 */
 
+#link
+{
+  text-decoration: none;
+  font-size: 13px;
+  font-family: HelveticaNeue;
 
+  color: #fff;
+
+
+}
 
 #tituloa
 {
@@ -426,7 +408,7 @@ textarea{
 #titulob
 {
   font-family: Knucklehead;
-  font-size:  89.85px;
+  font-size: min(9.8vw, 89px);
 
   color:#fff;
 }
@@ -490,7 +472,7 @@ margin-top: 25%;
 {
   font-family: CheddarGothic , 'Teko', Impact;
   font-display: block;
-  font-size: 70px;
+  font-size: min(9.8vw, 70px);
 
   
   color: #fff;
@@ -607,44 +589,14 @@ display: none;
    {
      width: 50%;
     }
-  .simovil
-  {
-    display: inline ;
-
-  }  
- .nomovil
-    {
-      display: none ;
-    }
  
-
 
 
 
 }
 @media (max-width: 1000px) 
   {
-    #titulocontacto
-    {
-      font-family: CheddarGothic ;
-      font-size: 9.3vw;
-      color: #fff;
-    }
-    
-    #titulob
-    {
-      font-family: Knucklehead;
-      font-size: 9.3vw;
-      color:#fff;
-    }
-    #tituloc
-    {
-      font-family: Knucklehead;
-      font-size: 9.3vw;
-        color:#ad8c63;
-      line-height: 8vw;
-      margin-bottom: 3vw;
-    }
+  
     #carouseldeportes
     {
       height: auto;

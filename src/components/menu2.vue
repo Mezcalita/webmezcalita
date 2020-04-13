@@ -7,26 +7,25 @@
               <h5 id="tituloc" >menu</h5>
               <br>
                 <h5 class="rectangulo mt-4"  ></h5>
-       <carousel class="nomovil"  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:10},578:{items:4},1366:{items:4},1920:{items:4}}">
-     <div v-for="(categoria, index) in categorias_principal" 
+                <div class="nomovil">
+<ul class="nav justify-content-center "> 
+    <li class="nav-item ml-4 "   v-for="(categoria, index) in categorias_principal" 
                      :key="categoria.id"  >
 
-                         <button class="tab" 
+                         <a  href="#menu_mezcalita"  class="tab"
                          :class="{tabclick: tab==index}" 
                          @click="activartab(index)"
-                          href="#menu_mezcalita" >
-                           <b-row cols="2" no-gutters>
-      <b-col sm="2"  >
+                        >
+                           
         <img :src="categoria.icono" width="20px" height="17px">
-      </b-col>
-      <b-col sm="9">
+      
       
           {{categoria.nombre}}
-      </b-col>
-    </b-row>
-    </button>
-     </div>
-       </carousel>
+  
+    </a>
+        </li>
+        </ul>
+                </div>
        <!-- version movil -->
 <div class="simovil ">
 <select v-model="selected">
@@ -48,17 +47,17 @@
     <div class="container nomovil text-center mt-4 mb-4" style="max-width:1920px;background-color: black;">
 <div v-if=" tab==0 " >
 <div class="container  text-center"  style="max-width:1000px">
-       <carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:8},1366:{items:8},1920:{items:8}}">
-     <div v-for="(cat20, index) in cat_menu20" 
+          <ul class="nav justify-content-center "> 
+    <li class="nav-item ml-4 "  v-for="(cat20, index) in cat_menu20" 
                      :key="cat20.id"  >
                 
-                         <a class="subtab" 
+                         <a class="subtab  ml-4 " 
                          :class="{subtabclick: subtab==index}" 
                          @click="activarsubtab(index)"
                           href="#menu_mezcalita" >
                          {{cat20.nombre}}</a>
-     </div>
-       </carousel>
+       </li>
+      </ul>
 </div>
  <c_20></c_20>
 </div>

@@ -17,16 +17,16 @@
      <h5 class="espacio"></h5>
 
      <promociones></promociones>
-        <a name="musicaenvivo"></a>
+        <!-- <a name="musicaenvivo"></a>
 
      <h5 class="espacio"></h5>
 
-<!-- <musicaenvivo></musicaenvivo> -->
+ <musicaenvivo></musicaenvivo>
       <a name="deportes"></a>
 
      <h5 class="espacio"></h5>
 
-  <!-- <deportes></deportes> -->
+  <deportes></deportes> -->
         <a name="reservaciones"></a>
 
      <h5 class="espacio"></h5>
@@ -94,6 +94,7 @@ export default {
     musicaenvivo,
     deportes,
     contacto,
+    footercomp
   },
   
 }
