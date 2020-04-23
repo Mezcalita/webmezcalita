@@ -1,29 +1,33 @@
 <template>
-    <div class="container  text-center mt-4" style="max-width:1920px;background-color: black;">
-<div class="container text-center" style="max-width:800px">
-<carousel  :nav="false" :dots="false" :autoplay="false" :responsive="{0:{items:2, stagePadding:50},578:{items:9},1366:{items:9},1920:{items:9}}">
-     <div v-for="tipo in tipos_destilado" 
-                     :key="tipo.id"  >
-                         <a class="subtab" 
-                         :class="{subtabclick: tipodes === tipo}" 
-                         @click="activarsubtabdes(tipo)"
-                          href="#menu_mezcalita" >
-                         {{tipo}}</a>
-     </div>
-       </carousel>
+ 
+<carousel :autoplay="true" :nav="false" :dots="true"  :responsive="{0:{items:1},578:{items:2},1366:{items:3}}">
+
+<div v-for="destilado in destilados " :key="destilado.id"  >
+<div>
+  <b-card no-body class="overflow-hidden " style="max-width: 640px;" bg-variant="transparent">
+    <b-row  >
+      <b-col md="6" >
+        <img src="" class="rounded-0" style="width:100%">
+      </b-col>
+      <b-col md="6" >
+          <b-card-text>
+          <p id="tituloproducto">{{destilado.nombre}}  </p>
+          <h5 id="parrafob">{{destilado.marcas}}</h5>
+          </b-card-text>
+      </b-col>
+    </b-row>
+  </b-card>
 </div>
-<br>
-  <div v-for="destilado in destilados " :key="destilado.id"> 
-  <h5 class="text-center" id="parrafob" v-if="destilado.tipo === tipodes"  >{{destilado.nombre}}</h5>
-
-  </div>
-
-
 </div>
+
+
+
+</carousel>
+
 
 </template>
 <script>
-import {mapState, mapMutations} from 'vuex';
+import {mapState} from 'vuex';
 import carousel from 'vue-owl-carousel';
 
 export default {
@@ -34,12 +38,8 @@ export default {
     },
      computed:
     {
-      ...mapState(['destilados','tipos_destilado','subtabdes','tipodes'])
+      ...mapState(['destilados','tipos_destilado'])
     },
-     methods:
-     { 
-    ...mapMutations(['activarsubtabdes']),
-
-    }
+     
 }
 </script>

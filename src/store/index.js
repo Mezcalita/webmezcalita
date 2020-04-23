@@ -390,254 +390,59 @@ export default new Vuex.Store({
     },
   
   ],
-  tipos_destilado:['mezcal','whisky','ginebra','mezcal sabor','tequila','ron','vodka','brandy','licores'],
   destilados:[
     {
-      id:1,
-      tipo:'mezcal',
-      nombre:'Chupacabras 750ml'
-    },
-    {
-      id:2,
-      tipo:'mezcal',
-      nombre:'Bruxo 750ml'
-    },
-    {
-      id:3,
-      tipo:'mezcal',
-      nombre:'Zignum 750ml'
-    },
-    {
-      id:4,
-      tipo:'mezcal',
-      nombre:'Union 750ml'
-    },
-    {
-      id:5,
-      tipo:'mezcal',
-      nombre:'400 Conejos 750ml'
-    },
-    {
-      id:6,
-      tipo:'mezcal',
-      nombre:'Montelobos 750ml'
-    },
-    {
-      id:7,
-      tipo:'mezcal',
-      nombre:'Alipús 750ml'
-    },
-    {
-      id:8,
-      tipo:'mezcal',
-      nombre:'Mexcalito maracuya 750ml'
-    },
-    {
-      id:9,
-      tipo:'mezcal',
-      nombre:'Mexcalito coco 750ml'
-    },
-    {
-      id:10,
-      tipo:'mezcal',
-      nombre:'Agua maldita 750ml'
-    },
-    {
-      id:11,
-      tipo:'whisky',
-      nombre:'Black & white 750ml'
-    },
-    {
-      id:12,
-      tipo:'whisky',
-      nombre:'Etiqueta roja 750ml'
-    },
-    {
-      id:13,
-      tipo:'whisky',
-      nombre:'Jack daniel´s 700ml'
-    },
-    {
-      id:14,
-      tipo:'whisky',
-      nombre:'Buchanan´s 750ml'
-    },
-    {
-      id:15,
-      tipo:'whisky',
-      nombre:'Black & white 750ml'
-    },
-    {
-      id:16,
-      tipo:'mezcal sabor',
-      nombre:'Tamarindo'
-    },
-    {
-      id:17,
-      tipo:'mezcal sabor',
-      nombre:'Jamaica'
-    },
-    {
-      id:18,
-      tipo:'mezcal sabor',
-      nombre:'Maracuya'
-    },
-    {
-      id:19,
-      tipo:'mezcal sabor',
-      nombre:'Mango'
-    },
-    {
-      id:20,
-      tipo:'mezcal sabor',
-      nombre:'Piña colada'
-    },
-    {
-      id:21,
-      tipo:'mezcal sabor',
-      nombre:'Capuchino'
-    },
-    {
-      id:22,
-      tipo:'mezcal sabor',
-      nombre:'Arandano'
-    },
-    {
-      id:23,
-      tipo:'mezcal sabor',
-      nombre:'Chocolate'
-    },
-    {
-      id:24,
-      tipo:'ginebra',
-      nombre:'Tanqueray 750ml'
-    },
-    {
-      id:25,
-      tipo:'ginebra',
-      nombre:'Bombay 750ml'
-    },
-    {
-      id:26,
-      tipo:'ginebra',
-      nombre:'Bulldog 750ml'
-    },
-    {
-      id:27,
-      tipo:'tequila',
-      nombre:'Centenario plata 700ml'
-    },
-    {
-      id:28,
-      tipo:'tequila',
-      nombre:'Centenario reposado 700ml'
-    },
-    {
-      id:29,
-      tipo:'tequila',
-      nombre:'Antiguo plata 700ml'
-    },
-    {
-      id:30,
-      tipo:'tequila',
-      nombre:'Antiguo reposado 700ml'
-    },
-    {
-      id:31,
-      tipo:'tequila',
-      nombre:'Tradicional plata 695ml'
-    },
-    {
-      id:32,
-      tipo:'tequila',
-      nombre:'Tradicional reposado 695ml'
-    },
-    {
-      id:33,
-      tipo:'tequila',
-      nombre:'7 leguas 750ml'
-    },
-    {
-      id:34,
-      tipo:'tequila',
-      nombre:'Don julio blanco 750ml'
-    },
-    {
-      id:35,
-      tipo:'tequila',
-      nombre:'Herradura plata 700ml'
-    },
-    {
-      id:36,
-      tipo:'tequila',
-      nombre:'Herradura reposado 700ml'
-    },
-    {
-      id:37,
-      tipo:'tequila',
-      nombre:'Maestro dobel 750ml'
-    },
-    {
-      id:38,
-      tipo:'tequila',
-      nombre:'Herradura ultra 700ml'
-    },
-    {
-      id:39,
-      tipo:'tequila',
-      nombre:'Don julio 70 750ml'
-    },
-    {
-      id:40,
-      tipo:'ron',
-      nombre:'Appleton especial 750ml'
-    },
-    {
-      id:41,
-      tipo:'ron',
-      nombre:'Bacardi 750ml'
-    },
-    {
-      id:42,
-      tipo:'ron',
-      nombre:'Capitan morgan 750ml'
-    },
-    {
-      id:43,
-      tipo:'vodka',
-      nombre:'Sky 750ml'
-    },
-    {
-      id:44,
-      tipo:'vodka',
-      nombre:'Absolut 750ml'
-    },
-    {
-      id:45,
-      tipo:'vodka',
-      nombre:'Sotlchnaya 750ml'
-    },
-    {
-      id:46,
-      tipo:'brandy',
-      nombre:'Torres 10 700ml'
-    },
-    {
-      id:47,
-      tipo:'licores',
-      nombre:'Jaggermelster 700ml'
-    },
-    {
-      id:48,
-      tipo:'otros',
-      nombre:'Red bull'
-    },
-    {
-      id:49,
-      tipo:'otros',
-      nombre:'Cigarros'
-    },
+       nombre: 'Mezcal',
+       marcas: 'Chupacabras 750ml , Bruxo 750ml, Zignum 750ml, Union 750ml, 400 Conejos 750ml, Montelobos 750ml, Alipús 750ml, Mexcalito maracuya 750ml, Mexcalito coco 750ml, Agua maldita 750ml '
    
+    },
+    {
+      nombre: 'Whisky',
+      marcas: 'Black & white 750ml, Etiqueta roja 750ml, Jack daniel´s 700ml , Buchanan´s 750ml, Black & white 750ml'
+    
+    },
+    {
+      nombre: 'Mezcal de sabor',
+      marcas: 'Tamarindo, Jamaica, Maracuya, Mango, Piña colada, Capuchino, Arandano, Chocolate'
+    
+    },
+    {
+      nombre: 'Tequila blanco',
+      marcas: 'Jamaica, 7 leguas 750ml, Herradura ultra 700ml, Maestro dobel 750ml, Don julio blanco 750ml'
+    
+    },
+    {
+      nombre: 'Tequila reposado',
+      marcas: 'Centenario reposado 700ml, Antiguo reposado 700ml, Tradicional reposado 695ml, Herradura reposado 700ml'
+    
+    },
+    {
+      nombre: 'Tequila cristalino',
+      marcas: 'Tamarindo, Antiguo plata 700ml, Tradicional plata 695ml, Herradura plata 700ml, Centenario plata 700ml,  Don julio 70 750ml'
+    
+    },
+    {
+      nombre: 'Ron',
+      marcas: 'Appleton especial 750ml, Bacardi 750ml, Capitan morgan 750ml'
+    
+    },
+    {
+      nombre: 'Vodka',
+      marcas: 'Sky 750ml, Absolut 750ml, Sotlchnaya 750ml'
+    
+    },
+    {
+      nombre: 'Brandy',
+      marcas: 'Torres 10 700ml'
+    
+    },
+    {
+      nombre: 'Licores',
+      marcas: 'Jaggermelster 700ml'
+    
+    },
+    
+
   ],
   bebidas:[
     {
@@ -880,13 +685,6 @@ export default new Vuex.Store({
       state.tabsuc=selectedtab
 
   
-    },
-    activarsubtabdes(state,  tipo)
-    {
-      state.tipodes=tipo
-      
-
-
     }
   },
   actions: {
