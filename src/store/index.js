@@ -393,7 +393,7 @@ export default new Vuex.Store({
   destilados:[
     {
        nombre: 'Mezcal',
-       marcas: 'Chupacabras 750ml , Bruxo 750ml, Zignum 750ml, Union 750ml, 400 Conejos 750ml, Montelobos 750ml, Alipús 750ml, Mexcalito maracuya 750ml, Mexcalito coco 750ml, Agua maldita 750ml '
+       marcas: 'Chupacabras 750ml , Bruxo 750ml, 400 Conejos 750ml, Montelobos 750ml, Alipús 750ml, Mexcalito maracuya 750ml, Mexcalito coco 750ml, Agua maldita 750ml '
    
     },
     {
