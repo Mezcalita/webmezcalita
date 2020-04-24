@@ -408,7 +408,7 @@ export default new Vuex.Store({
     },
     {
       nombre: 'Tequila blanco',
-      marcas: 'Jamaica, 7 leguas 750ml, Herradura ultra 700ml, Maestro dobel 750ml, Don julio blanco 750ml'
+      marcas: '7 leguas 750ml, Herradura ultra 700ml, Maestro dobel 750ml, Don julio blanco 750ml'
     
     },
     {
@@ -418,7 +418,7 @@ export default new Vuex.Store({
     },
     {
       nombre: 'Tequila cristalino',
-      marcas: 'Tamarindo, Antiguo plata 700ml, Tradicional plata 695ml, Herradura plata 700ml, Centenario plata 700ml,  Don julio 70 750ml'
+      marcas: 'Antiguo plata 700ml, Tradicional plata 695ml, Herradura plata 700ml, Centenario plata 700ml,  Don julio 70 750ml'
     
     },
     {
