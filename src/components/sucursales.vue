@@ -53,10 +53,11 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 <b-row cols="1" > 
 <b-col md="6"> 
       <h5 id="tituloc" class="text-center ">sucursales</h5>
+      <br>
       <select v-model="selected">
                 <option disabled value="">Escoge tu sucursal</option>
         <option  v-for="sucursal in sucursales" 
-                     :key="sucursal.id" >                        
+                     :key="sucursal.id"  >                        
                      {{sucursal.nombre}}
                      </option>
       </select>
@@ -123,8 +124,12 @@ export default {
     },
     methods:
   { 
-    ...mapMutations(['activartabsuc'])
+    ...mapMutations(['activartabsuc']),
+    actualizarpredeterminado(eleccion)
+    {
+      this.predeterminado = eleccion;
 
+    }
 
     }
 

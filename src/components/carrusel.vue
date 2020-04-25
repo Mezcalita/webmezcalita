@@ -13,10 +13,10 @@
 
     <b-col v-for="(item, index) in carrusel" 
          :key="index"  >
-         
-   <img class="carrusel  " v-if="id == index" :src="item.instagram"
-   @mouseout="dontshow()"  >
-   <img class="carrusel"  v-if="id != index" :src="item.imagen"  
+   <a href="https://www.facebook.com/lamezcalitamx/"    @mouseout="dontshow()" > <img class=" card-img  " v-if="id == index" :src="item.instagram"
+ ></a>      
+  
+   <img class="card-img"  v-if="id != index" :src="item.imagen"  
    @mouseover="showhover(index)"  >
    </b-col>
      </b-row>
