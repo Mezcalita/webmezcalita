@@ -23,8 +23,9 @@ medio y logra tu libertad financiera.
 
         <button class="buttonborde" style="width:270px">
           
-           <router-link :to="'franquicias'" id="link">QUIERO MAS INFORMACIÓN</router-link>
-s         </button>
+           <!-- <router-link :to="'franquicias'" id="link">QUIERO MAS INFORMACIÓN</router-link> -->
+           QUIERO MAS INFORMACIÓN
+                 </button>
 
         </li>
   

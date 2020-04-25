@@ -65,7 +65,7 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 <div v-for="sucursal in sucursales" 
                      :key="sucursal.sucid" >
         
-       <p class="sucdireccionclick"  v-if="selected === sucursal.nombre || predeterminado === sucursal.nombre" >
+       <p class="sucdireccionclick"  v-if="selected === sucursal.nombre || (predeterminado === sucursal.nombre &&  selected === '') " >
             <br> {{sucursal.direccion}}<br>
           <a  class="sucdireccionclick" :href="sucursal.wplink"><i class="fab fa-whatsapp"></i> {{sucursal.telefono}}</a>
             <br>               
@@ -83,7 +83,7 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           <transition name="fade">
 <b-embed 
 class=""
-v-if="selected === sucursal.nombre || predeterminado === sucursal.nombre"
+v-if="selected === sucursal.nombre || (predeterminado === sucursal.nombre &&  selected === '')"
     type="iframe"
     aspect="1by1"
     :src="sucursal.maps"

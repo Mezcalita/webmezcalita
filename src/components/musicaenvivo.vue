@@ -20,7 +20,7 @@
 
 <div v-for="musica in musicaenvivo" 
                      :key="musica.id_musica"  >
-   <b-col v-if="selected === musica.sucursal || predeterminado === musica.sucursal">
+   <b-col v-if="selected === musica.sucursal ||(predeterminado === musica.sucursal &&  selected === '')">
        <p class="text-center" id="titulomusica">{{musica.fecha}}</p>
         <img :src="musica.imagen_musica" width="100%" >
    </b-col>
