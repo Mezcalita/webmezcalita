@@ -15,7 +15,7 @@
         
         <h5  class="card-title  " id="tituloa" >PARA TODO MAL MEZCAL</h5>
         <h5  class="card-title mb-4  " id="tituloa" >¡Y PARA TODO BIEN TAMBIEN!</h5>
-               <button class="buttonborde mb-2">PIDE POR RAPPI</button>
+               <button class="buttonborde mb-2">PIDE A DOMICILIO</button>
         <button class="buttonrojo ml-2">HACER RESERVACIÓN</button>
 
         </li>
