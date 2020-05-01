@@ -4,7 +4,34 @@
 
     <div class="container text-center" style="max-width:800px">
    
-              <h5 id="tituloc" >menu</h5>
+              <div class="container transparencia " style="max-width:720px">
+    
+      <ul class="list-group bg-transparent border-0  pt-2" >
+        <li class="list-group-item  bg-transparent border-0  text-center ">
+          <h5 id="titulob">Pide a domicilio</h5>
+<h5 id="subtituloa" >
+    Pide tus platillos y bebidas favoritas de <b>La Mezalita</b> desde la comodidad de tu casa, oficina o reunion! <img src="\imagenes\party-icon.png" width="30px">
+</h5>
+
+        </li>
+    
+        <li class="list-group-item  bg-transparent border-0 text-center ">
+          <select v-model="selected" class="mb-2" >
+                    <option disabled value="Escoge tu sucursal">Escoge tu sucursal</option>
+        <option  v-for="sucursal in sucursales" 
+                     :key="sucursal.id" >                        
+                     {{sucursal.nombre}}
+                     </option>
+      </select>
+        <button class="buttonrojo ml-2">Pedir a domicilio</button>
+
+        </li>
+        
+      </ul>
+      
+    
+
+  </div>
               <br>
                 <h5 class="rectangulo mt-4"  ></h5>
                 <div class="nomovil">
@@ -74,11 +101,12 @@
 
 </div>
 <br>
-
+<!--
 <br>
   <h5 id="parrafoa"  >¡Lo llevamos hasta tu casa!</h5>
 <br>
       <img src="iconos/menu/boton-rappi.svg" width="220" >
+  -->
     </div>
 
 
@@ -148,7 +176,7 @@ c_20,
     },
     computed:
     {
-      ...mapState(['tab','subtab','cat_menu20','categorias_principal'])
+      ...mapState(['tab','subtab','cat_menu20','categorias_principal','sucursales'])
     },
     methods:
   { 

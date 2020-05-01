@@ -1,9 +1,9 @@
 <template>
     <div class="container text-center" style="max-width:1920px;"> 
     
-                <h5 id="tituloc"  >el mejor ambiente</h5>
+                <h5 id="tituloc"  >Siguenos en Instagram</h5>
                 <h5 class="rectangulo"  ></h5>
-                  <h5 id="parrafoa"  >¡Síguenos en nuestras redes sociales!</h5>
+                  <h5 id="parrafoa"  >El mejor contenido de <b>La Mezcalita</b> al momento</h5>
 
 
 <br>
@@ -13,7 +13,7 @@
 
     <b-col v-for="(item, index) in carrusel" 
          :key="index"  >
-   <a href="https://www.facebook.com/lamezcalitamx/"    @mouseout="dontshow()" > <img class=" card-img  " v-if="id == index" :src="item.instagram"
+   <a href="https://www.instagram.com/lamezcalitamx/"  target="_blank"  @mouseout="dontshow()" > <img class=" card-img  " v-if="id == index" :src="item.instagram"
  ></a>      
   
    <img class="card-img"  v-if="id != index" :src="item.imagen"  

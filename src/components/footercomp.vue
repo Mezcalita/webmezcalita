@@ -68,7 +68,7 @@
                     <a href="#bolsaytrabajo" id="parrafoa">Facturación</a>
   </li>
    <li class="list-group-item bg-transparent border-0 ">
-            <a href="#menu"  id="parrafoa">Pide por rappi</a>
+            <a href="#menu"  id="parrafoa">Pide a domicilio</a>
   </li>
 </ul>
     </b-col>
@@ -82,10 +82,10 @@
 <p id="parrafoa">©La mezcalita 2020 Todos los derechos reservados</p>
   </b-col>
   <b-col class="text-right mr-2">
-<img src="iconos/footer/facebook.svg"  class="mr-2"
-    width="25" id="logoa"  >
-    <img src="iconos/footer/instagram.svg"  
-    width="25" id="logoa"  >
+<a href="https://www.facebook.com/lamezcalitamx/"><img src="iconos/footer/facebook.svg"  class="mr-2"
+    width="25" id="logoa"  ></a>
+    <a href="https://www.instagram.com/lamezcalitamx/"><img src="iconos/footer/instagram.svg"  
+    width="25" id="logoa"  ></a>
   </b-col>
 </b-row>
     

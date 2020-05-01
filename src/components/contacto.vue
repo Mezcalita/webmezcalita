@@ -24,9 +24,9 @@
        <img src="iconos/header/logo-header.svg"  
     width="90" id="logoa">
   </li>
-  <li class="list-group-item bg-transparent border-0"> <img src="iconos/contacto/facebook-contacto.svg"  
-    width="17" id="logoa">  <img src="iconos/contacto/instagram-contacto.svg"  
-    width="17" id="logoa"></li>
+  <li class="list-group-item bg-transparent border-0"> <a href="https://www.facebook.com/lamezcalitamx/"> <img src="iconos/contacto/facebook-contacto.svg"  
+    width="17" id="logoa"></a> <a href="https://www.instagram.com/lamezcalitamx/">  <img src="iconos/contacto/instagram-contacto.svg"  
+    width="17" id="logoa"></a></li>
   <li class="list-group-item bg-transparent border-0" id="tituloe">Servicio a clientes</li>
   <li class="list-group-item bg-transparent border-0" id="parrafod">hola@lamezcalita.mx</li>
     <li class="list-group-item bg-transparent border-0" id="parrafod"><i class="fab fa-whatsapp"></i>+52 554 5667 453</li>

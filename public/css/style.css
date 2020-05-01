@@ -358,12 +358,14 @@ textarea{
   .infopromo
   {
     /* width: 336px; */
-    width: 106%
+    width: 94%
   }
   .imagenpromo
   {
     /* width: 328px; */
-    width: 100%
+    width: 90%;
+    margin: 0;
+    
    
   }
   .imgalacran

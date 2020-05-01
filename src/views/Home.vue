@@ -1,20 +1,27 @@
 <template>
   <div class="home">
-<headercomp></headercomp> 
+
+    <a name="Hero"></a>
+      <headercomp></headercomp> 
 
     <a name="nosotros"></a>
      <nosotros></nosotros>
                  <a name="menu_mezcalita"></a>
-<br>
-               <h5 class="espacio"></h5>
-
+              <br>
+              <br>
+              <br>
+              <br>
 
 <menu2></menu2>
      <a name="promociones"></a>
 
-<br> 
-<br> 
-     <h5 class="espacio"></h5>
+         <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
 
      <promociones></promociones>
         <!-- <a name="musicaenvivo"></a>
@@ -27,9 +34,14 @@
      <h5 class="espacio"></h5>
 
   <deportes></deportes> -->
+  <br>
+     <br>
+     <br>
+     <br>
         <a name="reservaciones"></a>
 
-     <h5 class="espacio"></h5>
+     
+     
 
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>

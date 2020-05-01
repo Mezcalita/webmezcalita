@@ -19,7 +19,7 @@
 Asegúrate de tener el ticket a la mano. </p>
     </b-card-text>
     
-        <button class="buttonbordeblanco">FACTURAR</button>
+      <div class="mcwidget-embed" data-widget-id="10511068"></div>
   </b-card>
 
          </b-col>

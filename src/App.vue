@@ -11,7 +11,8 @@
       <div class="container  " style="max-width:1400px" id="menu"> 
 
   <b-navbar bg-transparent toggleable="lg" class="px-auto " type="dark"   >
-    <b-navbar-brand id="brand" ><img src="iconos/header/logo-header.svg"  height="42"
+    <b-navbar-brand  id="brand" >
+    <img src="iconos/header/logo-header.svg"  height="42"
     width="53" id="logo"></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -19,7 +20,7 @@
     <b-collapse  id="nav-collapse" is-nav>
       <b-navbar-nav  >
    
-        <b-nav-item  href="/#menu_mezcalita" > Menú</b-nav-item>
+        <b-nav-item  href="/#menu_mezcalita" >Menú</b-nav-item>
           <b-nav-item  href="/#promociones" >Promociones</b-nav-item>
          <!-- <b-nav-item  href="#musicaenvivo" >Eventos</b-nav-item> -->
         <b-nav-item   href="/#reservaciones"  > Reservaciones</b-nav-item>
@@ -55,9 +56,11 @@
 
 <script>
 
+
 export default {
   name: 'app',
   components:{
+    
     
   },
   
