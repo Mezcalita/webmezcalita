@@ -41,8 +41,8 @@
         <div class="card-body mt-4 bg-transparent  text-center " >
         
 
-               <button class="buttonborde  mb-2">PIDE A DOMICILIO</button>
-        <button class="buttonrojo ml-4">HACER RESERVACIÓN</button>
+             <a href="/#reservaciones"> <button href="/#menu_mezcalita" class="buttonborde mb-2">HACER RESERVACIÓN</button></a>
+        <a href="https://lamezcalita.pedidosenlinea.mx/" target="_blank"> <button class="buttonrojo ml-2">VER TIENDA ONLINE</button></a>
   
         </div>
       </div>
