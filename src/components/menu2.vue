@@ -5,11 +5,21 @@
     <div class="container text-center" style="max-width:800px">
    
               <div class="container transparencia " style="max-width:720px">
-    
+
+  </div>
+           
+               <!-- <h5 class="rectangulo mt-4"  ></h5> -->
+     <div class="nomovil">
+       <br>
+       <br>
+<h5 id="titulob">Menú</h5>
+
+       <!--
+<h5 id="titulob">Pide a domicilio</h5>
       <ul class="list-group bg-transparent border-0  pt-2" >
         <li class="list-group-item  bg-transparent border-0  text-center ">
-          <h5 id="titulob">Pide a domicilio</h5>
-<h5 id="subtituloa" >
+        
+<h5 id="subtituloa" style="margin-top:-30px" >
     Pide tus platillos y bebidas favoritas de <b>La Mezalita</b> desde la comodidad de tu casa, oficina o reunion! <img src="\imagenes\party-icon.png" width="30px">
 </h5>
 
@@ -23,23 +33,19 @@
                      {{sucursal.nombre}}
                      </option>
       </select>
-        <button class="buttonrojo ml-2">Pedir a domicilio</button>
+         <div class="mcwidget-embed" data-widget-id="10511068"></div>
 
         </li>
         
-      </ul>
-      
-    
+      </ul>-->
+      <br>
 
-  </div>
-              <br>
-                <h5 class="rectangulo mt-4"  ></h5>
-                <div class="nomovil">
+
 <ul class="nav justify-content-center "> 
     <li class="nav-item ml-4 "   v-for="(categoria, index) in categorias_principal" 
                      :key="categoria.id"  >
 
-                         <a  href="#menu_mezcalita"  class="tab"
+                         <a href="#menu_mezcalita"  class="tab"
                          :class="{tabclick: tab==index}" 
                          @click="activartab(index)"
                         >
@@ -55,12 +61,17 @@
                 </div>
        <!-- version movil -->
 <div class="simovil ">
+<h5 id="titulob">Menú</h5>
+  <!---
+<h5 id="titulob">Pide a domicilio</h5>
+--->
 <select v-model="selected">
         <option  v-for="categoria in categorias_principal" 
                      :key="categoria.id" >   
                      {{categoria.nombre}}
                      </option>
       </select>
+
 
 </div>
 
@@ -139,8 +150,6 @@
   <destilados></destilados>
 </div>
 <br>
- <h5 id="parrafoa"  >¡Lo llevamos hasta tu casa!</h5>
-  <h5 id="parrafoa"  ><img  src="iconos/menu/boton-rappi.svg" width="161" ></h5>
    
     </div>
     

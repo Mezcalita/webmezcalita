@@ -7,8 +7,14 @@
         <li class="list-group-item  bg-transparent border-0 text-center ">
           <h5 id="titulob"  >conoce la mezcalita</h5>
           
-<h5 id="parrafoa" >La mejor Mezcalería llega a México,
-                      prueba nuestros platillos y bebidas tradicionales más exóticos con el mejor ambiente, a un excelente precio.</h5>
+<h5 id="parrafoa"  style="font-size:21px">
+  "Somos una cantina mexicana tradicional para salir de la rutina y pasar un buen rato en compañía de amigos y familia.<br><br>
+
+  Fusionamos los sabores y texturas mas exóticos de Oaxaca, Durango, Guerrero y Jalisco para ofrecerte los mejores platillos y bebidas"<br><br>
+
+ Somos <b>La Mezcalería de México</b> 
+
+</h5>
 
         </li>
     

@@ -13,7 +13,7 @@
                        <h5 class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}"> 
                          <a class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}" :href="sucursal.wplink"><i class="fab fa-whatsapp"></i> {{sucursal.telefono}}</a></h5>
                         <h5 class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}"> 
-                         <a class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}" :href="sucursal.fblink"><i class="fab fa-facebook"></i> La Mezcalita{{sucursal.nombre}}</a></h5>
+                         <a class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}" :href="sucursal.fblink"><i class="fab fa-facebook"></i> La Mezcalita {{sucursal.nombre}}</a></h5>
                      </a>
       
                      </li>

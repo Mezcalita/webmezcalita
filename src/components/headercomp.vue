@@ -17,7 +17,7 @@
         <h5  class="card-title mb-4  " id="tituloa" >¡Y PARA TODO BIEN TAMBIEN!</h5>
 
               <a href="/#reservaciones"> <button href="/#menu_mezcalita" class="buttonborde mb-2">HACER RESERVACIÓN</button></a>
-        <a href="/#menu_mezcalita"> <button class="buttonrojo ml-2">PIDE A DOMICILIO</button></a>
+        <a href="https://lamezcalita.pedidosenlinea.mx/" target="_blank"> <button class="buttonrojo ml-2">VER TIENDA ONLINE</button></a>
 
         </li>
   

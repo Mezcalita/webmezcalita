@@ -19,14 +19,16 @@
 
     <b-collapse  id="nav-collapse" is-nav>
       <b-navbar-nav  >
-   
+        
         <b-nav-item  href="/#menu_mezcalita" >Menú</b-nav-item>
           <b-nav-item  href="/#promociones" >Promociones</b-nav-item>
          <!-- <b-nav-item  href="#musicaenvivo" >Eventos</b-nav-item> -->
         <b-nav-item   href="/#reservaciones"  > Reservaciones</b-nav-item>
                 <b-nav-item   href="/#franquicia"  > Franquicias</b-nav-item>
          <b-nav-item  href="/#sucursales"  >Sucursales</b-nav-item>
+         <b-nav-item  href="https://lamezcalita.pedidosenlinea.mx/" target="_blank"> Tienda </b-nav-item>
          <b-nav-item  href="/#contacto" >Contacto</b-nav-item>
+         
         <!-- <b-nav-item   :to="{name: 'About' }"> about</b-nav-item>
         <b-nav-item   :to="{name: 'Home' }"> home</b-nav-item> -->
 

@@ -14,9 +14,8 @@
         
         <h1  id="titulofranquicia"  >te gustaría invertir en una mezcalita?</h1>
         <h1 id="parrafoa" style="max-width:800px;">
-            Tu primer paso para disfrutar de una vida 
-más relajada, adquiere experiencia en el
-medio y logra tu libertad financiera.
+Nuestro modelo de inverisón esta diseñado para obtener las mejores tasas de rendimiento, además de promover la cultura y tradición mexicana y apoyar a productores artesanales. <br><br>
+Este es el primer paso para adquirir experiencia en el medio, lograr tu libertad financiera y disfrutar de un buen mezcal.
         </h1>
 <br>
 
