@@ -39,76 +39,88 @@ export default new Vuex.Store({
     cat_menu20:[
     {
       id:1,
-      nombre:'tacos'
+      nombre:'Tacos'
     },
     {
       id:2,
-      nombre:'tostadas'
+      nombre: 'Especiales'
     },
     {
       id:3,
-      nombre:'tortitas'
+      nombre:'Botanas '
     },
     {
       id:4,
-      nombre:'sopes '
+      nombre:'Tostadas'
     },
     {
       id:5,
-      nombre:'botanas '
+      nombre:'Sopes '
     },
     {
       id:6,
-      nombre:'postres '
+      nombre:'Tortitas'
     },
     {
       id:7,
-      nombre: 'snacks'
+      nombre: 'Snacks'
     },
     {
       id:8,
-      nombre: 'especiales'
-    }
+      nombre:'Postres '
+    },
   ],
   
   tacos:[
     {
       id_taco:1,
       nombre_taco:'Arrachera',
-      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      precio:'$22',
+      descripcion_taco:'Ricos trozos de arrachera marinada estilo la mezcalita, acompañado con cilantro y cebolla',
       imagen_taco:'imagenes/fotos menu/tacos/arrachera.jpg',
     },
     {
       id_taco:2,
-      nombre_taco:'Barbacoa',
-      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
-      imagen_taco:'imagenes/fotos menu/tacos/barbacoa.jpg'
-    },
-    {
-      id_taco:3,
-      nombre_taco:'Camaron capeado',
-      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      nombre_taco:'Camarón capeado',
+      precio:'$22',
+      descripcion_taco:'Exquisitos camarones capeados estilo La Paz acompañados de ensalada de zanahoria, col y crema de cilantro',
       imagen_taco:'imagenes/fotos menu/tacos/camaroncapeado.jpg',
-      imagen_taco2:'imagenes/fotos menu/tacos/camaroncapeado.jpg'
 
     },
     {
-      id_taco:4,
-      nombre_taco:'Carnitas',
-      precio_taco: '$20',
-      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
-      imagen_taco:'imagenes/fotos menu/tacos/carnitas.jpg'
-    },
-    {
-      id_taco:5,
-      nombre_taco:'Chicharron',
-      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      id_taco:3,
+      nombre_taco:'Chicharrón',
+      precio:'$22',
+      descripcion_taco:'Delicioso chicharrón prensado, se sirve con cilantro y cebolla, acompañado de una rica salsa martajada',
       imagen_taco:'imagenes/fotos menu/tacos/chicharron.jpg'
     },
     {
+      id_taco:4,
+      nombre_taco:'Guacamole con chapulines',
+      precio:'$22',
+      descripcion_taco:'Delicioso guacamole con chapulines, sabor único de la gastronomia de Oaxaca',
+      imagen_taco:'imagenes/fotos menu/tacos/chapulines.jpg'
+    },
+    {
+      id_taco:5,
+      nombre_taco:'Barbacoa',
+      precio:'$22',
+      descripcion_taco:'Sabroso taco de barbacoa estilo Hidalgo acompañado de cilantro y cebolla',
+      imagen_taco:'imagenes/fotos menu/tacos/barbacoa.jpg'
+    },
+
+    {
       id_taco:6,
-      nombre_taco:'Cochinita',
-      descripcion_taco:'preparado con tortilla taquera, cebolla y cilantro',
+      nombre_taco:'Carnitas',
+      precio:'$22',
+      descripcion_taco:'Taco de tradición, deliciosas carnitas de puerco estilo Michoacan',
+      imagen_taco:'imagenes/fotos menu/tacos/carnitas.jpg'
+    },
+    {
+      id_taco:7,
+      nombre_taco:'Cochinita pibil',
+      precio:'$22',
+      descripcion_taco:'Taco de cochinita, acompañado de cilantro y cebolla, con el sazón único de la mezcalita',
       imagen_taco:'imagenes/fotos menu/tacos/cochinita.jpg'
     }
  
@@ -116,38 +128,44 @@ export default new Vuex.Store({
   tostadas: [
     {
       id:1,
-      nombre: 'Aguachile mango  ',
-      descripcion:'tostada',
+      nombre: 'Aguachile mango',
+      precio:'$22',
+      descripcion:'Camarones frescos bañados de salsas de mango habanero, acompañados de pepino, cebolla morada y aguacate',
       imagen:'imagenes/fotos menu/tostadas/aguachile-mango.jpg'
     },
     {
       id:2,
-      nombre: 'Aguachile negro  ',
-      descripcion:'tostada',
+      nombre: 'Aguachile negro',
+      precio:'$22',
+      descripcion:'Camarones frescos bañados de salsas negras, acompañados de pepino, cebolla morada y aguacate',
       imagen:'imagenes/fotos menu/tostadas/aguachile-negro.jpg'
     },
     {
       id:3,
-      nombre: 'Aguachile rojo  ',
-      descripcion:'tostada',
+      nombre: 'Aguachile rojo',
+      precio:'$22',
+      descripcion:'Camarones frescos bañados de salsa aguachile rojo preparada a base de  chiles de arbol y limon',
       imagen:'imagenes/fotos menu/tostadas/aguachile-rojo.jpg'
     },
     {
       id:4,
-      nombre: 'Aguachile verde ',
-      descripcion:'tostada',
+      nombre: 'Aguachile verde',
+      precio:'$22',
+      descripcion:'Camarones frescos con la tradicional salsa de chile serrano, cebolla morada, aguacate y pepino',
       imagen:'imagenes/fotos menu/tostadas/aguachile-verde.jpg'
     },
     {
       id:5,
-      nombre: 'Ceviche  ',
-      descripcion:'tostada',
+      nombre: 'Ceviche de camarón',
+      precio:'$22',
+      descripcion:'Trocitos de camaron, cilantro, cebolla, jitomate y limon, con la original receta la mezcalita',
       imagen:'imagenes/fotos menu/tostadas/ceviche.jpg'
     },
     {
       id:6,
-      nombre: 'Cochinita  ',
-      descripcion:'tostada',
+      nombre: 'Cochinita',
+      precio:'$22',
+      descripcion:'Tradicional tostada de cochinita servida con cebolla morada y un toque de limon',
       imagen:'imagenes/fotos menu/tostadas/cochinita-pibil.jpg'
     }
 
@@ -155,82 +173,111 @@ export default new Vuex.Store({
   tortitas : [
     {
       id:1,
-      nombre: 'Camaron bañado ',
-      descripcion:'tortitas',
-      imagen:'imagenes/fotos menu/tortitas/camaron-bañado.jpg'
-    },
-    
-    {
-      id:2,
-      nombre: 'Cochinita pibil ',
-      descripcion:'tortita',
-      imagen:'imagenes/fotos menu/tortitas/cochinita-pibil.jpg'
-    },
-    {
-      id:3,
       nombre: 'Chicharron prensado',
-      descripcion:'tortitas',
+      precio:'$22',
+      descripcion:'Riquisima tortita de chicharron prensado, servida con un toque de crema de cilantro',
       imagen:'imagenes/fotos menu/tortitas/chicharron-prensado.jpg'
     },
     {
-      id:4,
-      nombre: 'Tortita ahogada ',
-      descripcion:'tortita',
+      id:2,
+      nombre: 'Ahogada de carnitas ',
+      precio:'$22',
+      descripcion:'Tortita de carnitas bañada con salsa de jitomate, acompañada de cebolla morada y limón, tradicional de Guadalajara.',
       imagen:'imagenes/fotos menu/tortitas/tortita-ahogada.jpg'
-    }
+    },
+    {
+      id:3,
+      nombre: 'Camaron bañado ',
+      precio:'$22',
+      descripcion:'Tortita de camaron bañada con una riquisima salsa de crema de chile chipotle y acompañada de aguacate',
+      imagen:'imagenes/fotos menu/tortitas/camaron-bañado.jpg'
+    },
+
+    {
+      id:4,
+      nombre: 'Cochinita pibil ',
+      precio:'$22',
+      descripcion:'Tortita de cochinita pibil servida con cebolla morada, limon y un toque de crema de cilantro',
+      imagen:'imagenes/fotos menu/tortitas/cochinita-pibil.jpg'
+    },
+
+
 
   ],
   sopes:[
     {
       id:1,
       nombre:'Arrachera',
-      descripcion:'sope',
+      precio:'$22',
+      descripcion:'Sope frito con trozos de arrachera marinada acompañada con cilantro y cebolla',
       imagen:'imagenes/fotos menu/sopes/arrachera.jpg',
     },
-    
     {
       id:2,
-      nombre:'Cochinita pibil',
-      descripcion:'sope',
-      imagen:'imagenes/fotos menu/sopes/cochinita-pibil.jpg'
+      nombre:'Chicharron prensado',
+      precio:'$22',
+      descripcion:'Sope frito de chicharrón prensado acompañado de cilantro y cebolla',
+      imagen:'imagenes/fotos menu/sopes/chicharron-prensado.jpg'
     },
     {
       id:3,
-      nombre:'Chicharron prensado',
-      descripcion:'sope',
-      imagen:'imagenes/fotos menu/sopes/chicharron-prensado.jpg'
+      nombre:'Cochinita pibil',
+      precio:'$22',
+      descripcion:'Sope frito con cochinita pibil acompañado de cilantro y cebolla',
+      imagen:'imagenes/fotos menu/sopes/cochinita-pibil.jpg'
     },
+  
   
   ],
   botanas:[
     {
       id:1,
       nombre:'Cacahuates',
-      descripcion:'cacahuates',
+      precio:'$22',
+      descripcion:'Mix de cacahuates acompañados de salsa valentina y limon',
       imagen:'imagenes/fotos menu/botanas/cacahuates.jpg',
     },
     {
       id:2,
-      nombre:'Chicharrones',
-      descripcion:'chucharrones',
-      imagen:'imagenes/fotos menu/botanas/chicharrones.jpg'
+      nombre:'Papas caseras',
+      precio:'$22',
+      descripcion:'Papas caseras acompañadas de salsa valentina y limon',
+      imagen:'imagenes/fotos menu/botanas/papas-caseras.jpg'
     },
     {
       id:3,
       nombre:'Papas a la francesa',
-      descripcion:'papas',
+      precio:'$22',
+      descripcion:'Papas a la francesa espolvoreadas con pimienta/limón acompañadas con catsup',
       imagen:'imagenes/fotos menu/botanas/papasalafrancesa.jpg'
     },
     {
       id:4,
       nombre:'Papas gajo',
-      descripcion:'papas ga',
+      precio:'$22',
+      descripcion:'Ricas papas gajo adobadas acompañadas con un dip de queso cheddar derretido',
       imagen:'imagenes/fotos menu/botanas/papas-gajo.jpg'
     },
     {
       id:5,
+      nombre:'Chicharrones',
+      precio:'$22',
+      descripcion:'Chicharrones crugientes servidos con salsa valentina y limon',
+      imagen:'imagenes/fotos menu/botanas/chicharrones.jpg'
+    },
+ 
+    {
+      id:6,
+      nombre:'Orden de cueritos',
+      precio:'$22',
+      descripcion:'Cueritos en salsas negras, una botana de tradición cantinera',
+      imagen:'imagenes/fotos menu/botanas/cueritos.jpg'
+    },
+    {
+      id:7,
       nombre:'Verduras salteadas',
-      descripcion:'verduras',
+      precio:'$22',
+      descripcion:'Deliciosas calabacitas, zanahorias y brocoli salteadas a la mantequilla y salsas negras',
       imagen:'imagenes/fotos menu/botanas/verdurassalteadas.jpg'
     }
   
@@ -240,13 +287,15 @@ export default new Vuex.Store({
     {
       id:1,
       nombre:'Nieve de vainilla y chocolate',
-      descripcion:'nieve',
+      precio:'$22',
+      descripcion:'Dos bolas de deliciosa y refrescante nieve de vainilla y chocolate',
       imagen:'imagenes/fotos menu/postres/nieve-vainilla-chocolate.jpg'
     },
     {
       id:2,
       nombre:'Platanos con lechera',
-      descripcion:'platanos',
+      precio:'$22',
+      descripcion:'Deliciosos plátanos fritos servidos con "La lechera" y una pizca de canela',
       imagen:'imagenes/fotos menu/postres/platanosconlechera.jpg'
     }
   ],
@@ -254,140 +303,170 @@ export default new Vuex.Store({
     {
       id:1,
       nombre:'Alitas',
-      descripcion:'alitas',
+      precio:'$49',
+      descripcion:'Deliciosas alitas de pollo bañadas en la salsa de tu elección (Hot, BBQ, Cajún ó Lemon pepper), acompañadas de aderezo ranch',
       imagen:'imagenes/fotos menu/snacks/alitas.jpg'
     },
     {
       id:2,
       nombre:'Boneless',
-      descripcion:'platanos',
+      precio:'$49',
+      descripcion:'Ricos trozos de pechuga empanizados, bañados  en la salsa de tu elección (Hot, BBQ, Cajún ó Lemon pepper), acompañadas de aderezo ranch',
       imagen:'imagenes/fotos menu/snacks/boneless.jpg'
     },
     {
       id:3,
       nombre:'Dedos de queso',
-      descripcion:'dedos',
+      precio:'$49',
+      descripcion:'Dedos de queso mozzarella empanizados, servidos con salsa pomodoro, deliciosos para botanear',
       imagen:'imagenes/fotos menu/snacks/dedos-de-queso.jpg'
     }
   ],
   especiales:[
     {
       id:1,
-      nombre:'Botana cecina',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/botana-cecina.jpg'
+      nombre:'Nachos La Mezcalita',
+      precio:'$49',
+      descripcion:'Nuestros tradicionales nachos compuestos por totopos, frijoles puercos, arrachera, queso gratinado y pico de gallo receta especial de La Mezcalita',
+      imagen:''
     },
     {
       id:2,
       nombre:'Botana mixta',
-      descripcion:'botana',
+      precio:'$49',
+      descripcion:'Botana de cecina, salchichas, cacahuates, papas caseras  y cueritos acompañados de salsa valentina y limon.',
       imagen:'imagenes/fotos menu/especiales/botana-mixta.jpg'
     },
     {
       id:3,
-      nombre:'Bowl aguachile negro',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/bowl-aguachilenegro.jpg'
-    },
-    {
-      id:4,
-      nombre:'Bowl aguachile mango',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/bowl-aguachilemango.jpg'
-    },
-    {
-      id:5,
-      nombre:'Bowl aguachile mango habanero',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/bowl-aguachilemangohabanero.jpg'
-    },
-    {
-      id:6,
-      nombre:'Bowl aguachile rojo',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/bowl-aguachilerojo.jpg'
-    },
-    {
-      id:7,
-      nombre:'Bowl aguachile verde',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/bowl-aguachileverde.jpg'
-    },
-    {
-      id:8,
-      nombre:'Guacamole con cecina',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/guacamole-con-cecina.jpg'
-    },
-    {
-      id:9,
       nombre:'Guacamole con chapulines',
-      descripcion:'botana',
+      precio:'$49',
+      descripcion:'Guacamole con jitomate, cebolla, cilantro y chapulines, sabor unico de Oaxaca con el toque de La Mezcalita',
       imagen:'imagenes/fotos menu/especiales/guacamole-con-chapulines.jpg'
     },
     {
-      id:10,
+      id:4,
+      nombre:'Guacamole con cecina',
+      precio:'$49',
+      descripcion:'Guacamole con jitomate, cebolla y cilantro, acompañado de totopos fritos y trozos de cecina',
+      imagen:'imagenes/fotos menu/especiales/guacamole-con-cecina.jpg'
+    },
+
+    {
+      id:5,
+      nombre:'Botana cecina',
+      precio:'$49',
+      descripcion:'Para los amantes de la carne seca, traemos la mejor cecina de la región acompañada con salsa valentina',
+      imagen:'imagenes/fotos menu/especiales/botana-cecina.jpg'
+    },
+    {
+      id:6,
       nombre:'Torre de mariscos',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/torremtosariscos.jpg'
+      precio:'$49',
+      descripcion:'Tostada de mariscos en aguachile negro, camaron cocido, atun, en una cama de pepino y aguacate, acompañado de cebolla morada y limon',
+      imagen:'imagenes/fotos menu/especiales/torremariscos.jpg'
+    },
+    {
+      id:7,
+      nombre:'Tostada de atun fresco',
+      precio:'$49',
+      descripcion:'Tostada de atún fresco en salsas negras acompañado de aguacate, pepino y cebolla capeada',
+      imagen:'imagenes/fotos menu/especiales/tostada-atun-fresco.jpg'
+    },
+    {
+      id:8,
+      nombre:'Bowl aguachile verde',
+      precio:'$49',
+      descripcion:'Camarones en aguachile bañados en salsa verde de chiles serranos, servidos con pepino, cebolla y cilantro, tradicional de la cocina sinaloense',
+      imagen:'imagenes/fotos menu/especiales/bowl-aguachileverde.jpg'
+    },
+    {
+      id:9,
+      nombre:'Bowl aguachile rojo',
+      precio:'$49',
+      descripcion:'Camarones en aguachile bañados en salsa roja, servidos con pepino, cebolla y cilantro',
+      imagen:'imagenes/fotos menu/especiales/bowl-aguachilerojo.jpg'
+    },
+    {
+      id:10,
+      nombre:'Bowl aguachile negro',
+      precio:'$49',
+      descripcion:'Camarones en aguachile bañados en salsas negras, servidos con pepino, cebolla y cilantro.',
+      imagen:'imagenes/fotos menu/especiales/bowl-aguachilenegro.jpg'
     },
     {
       id:11,
-      nombre:'Tostada de atun fresco',
-      descripcion:'botana',
-      imagen:'imagenes/fotos menu/especiales/tostada-atun-fresco.jpg'
+      nombre:'Bowl aguachile mango habanero',
+      precio:'$49',
+      descripcion:'Camarones en aguachile bañados en salsa mango y el picor del habanero, servidos con pepino, cebolla y cilantro',
+      imagen:'imagenes/fotos menu/especiales/bowl-aguachilemangohabanero.jpg'
     },
+
+
+
+
+
   ],
   mixologia:
   [
     {
       id:1,
-      nombre:'Mezcalita durazno',
-      descripcion:'Fusion de durazno albahaca, mango habanero y mezcal crean una mezcla de notas dulces y frescas con un toque picosito',
-      imagen:'imagenes/fotos menu/mixologia/durazno.jpg'
+      nombre:'Mezcalita mandarina',
+      precio:'$65',
+      descripcion:'Exquisita mezcla de mandarina, mango, hojas de menta y mezcal que te harán sentir una experiencia fresca con toques cítricos',
+      imagen:'imagenes/fotos menu/mixologia/mandarina.jpg'
     },
     {
       id:2,
       nombre:'Mezcalita fresa',
-      descripcion:'mezcalita',
+      precio:'$65',
+      descripcion:'Fresa, kiwi, limón y mezcal hacen una combinación exacta de dulce, cítrico y frutal',
       imagen:'imagenes/fotos menu/mixologia/fresa.jpg'
     },
     {
       id:3,
-      nombre:'Mezcalita mandarina',
-      descripcion:'mezcalita',
-      imagen:'imagenes/fotos menu/mixologia/mandarina.jpg'
+      nombre:'Mezcalita durazno',
+      precio:'$65',
+      descripcion:'Fusion de durazno albahaca, mango habanero y mezcal crean una mezcla de notas dulces y frescas con un toque picosito',
+      imagen:'imagenes/fotos menu/mixologia/durazno.jpg'
     },
     {
       id:4,
       nombre:'Mezcalita maracuya',
-      descripcion:'mezcalita',
+      precio:'$65',
+      descripcion:'Delicioso sabor maracuyá con té de manzanilla y mezcal, déjate llevar por la infusión de un relajante sabor tropical',
       imagen:'imagenes/fotos menu/mixologia/maracuya.jpg'
     },
     {
       id:5,
-      nombre:'Mezcalillo',
-      descripcion:'mezcalita',
-      imagen:'imagenes/fotos menu/mixologia/mezcalillo.jpg'
+      nombre:'Mezcalita toronja',
+      precio:'$65',
+      descripcion:'Toronja, té de limón, vino blanco, agua tónica y mezcal, disfrutarás de un sabor suave, elegante y refrescante',
+      imagen:'imagenes/fotos menu/mixologia/toronja.jpg'
     },
     {
       id:6,
       nombre:'Mezcalita papaya',
-      descripcion:'mezcalita',
+      precio:'$65',
+      descripcion:'Papaya, hierba ruda, un toqué de limón y mezcal crean una refrescante combinación de sabores ancestrales',
       imagen:'imagenes/fotos menu/mixologia/papaya.jpg'
     },
     {
       id:7,
       nombre:'Mezcalita pepino',
-      descripcion:'mezcalita',
+      precio:'$65',
+      descripcion:'Pepino con té negro y mezcal es una sabrosa infusión de sabores suaves, frescos y semiamargos',
       imagen:'imagenes/fotos menu/mixologia/pepino.jpg'
     },
     {
       id:8,
-      nombre:'Mezcalita toronja',
-      descripcion:'mezcalita',
-      imagen:'imagenes/fotos menu/mixologia/toronja.jpg'
+      nombre:'Mezcalillo',
+      precio:'$65',
+      descripcion:'Intensa y aromática combinación de sabores, ideal para amantes del café con mezcal',
+      imagen:'imagenes/fotos menu/mixologia/mezcalillo.jpg'
     },
+
+
   
   ],
   destilados:[
@@ -447,29 +526,48 @@ export default new Vuex.Store({
   bebidas:[
     {
       id:1,
-      nombre:'Caguamas ',
-      descripcion:'Tecate roja, Miller high life, Carta blanca, XX Lagger, XX Ambar, Miller, Heineken',
-      imagen:'imagenes/fotos menu/bebidas/caguamas.jpg'
-
-    },
-    {
-      id:2,
       nombre:'Cervezas',
-      descripcion:'Tecate light, Tecate roja, XX lagger, XX ambar, Carta blanca , Indio',
+      precio1:'$22',
+      precio2:'$35',
+      descripcion1:'Tecate light, Tecate roja, XX lagger, XX ambar, Carta blanca, Indio',
+      descripcion2:'Bohemia clara, Bohemia oscura, Miller Highlife, Heineken, Amstel ultra',
       imagen:'imagenes/fotos menu/bebidas/cervezas.jpg'
 
     },
     {
-      id:3,
+      id:2,
       nombre:'Micheladas',
-      descripcion:'Camaron seco, Pepino, Cielo rojo, Clamato, Salsas, Rusa',
+      precio:'$22',
+      descripcion1:'Camaron seco, pepino, cielo rojo, clamato, salsas, rusa',
       imagen:'imagenes/fotos menu/bebidas/michelada.jpg'
 
     },
     {
       id:4,
+      nombre:'Cocteles',
+      precio:'$22',
+      descripcion1:'Cantarito, paloma, vampirito, piña colada, pitufo, mojito, margarita, hierbabuena y gin pepino',
+      imagen:'imagenes/fotos menu/bebidas/cocteles.jpg'
+
+    },
+    {
+      id:3,
+      nombre:'Caguamas',
+      precio1:'$45',
+      precio2:'$55',
+      precio3:'$65',
+      descripcion1:'Tecate roja 940ml, Tecate light 940ml, Carta blanca 940ml',
+      descripcion2:'XX Lager 1200ml, XX Ambar 1200ml',
+      descripcion3:'Miller Highlife 946ml, Heineken 1000ml',
+      imagen:'imagenes/fotos menu/bebidas/caguamas.jpg'
+
+    },
+ 
+    {
+      id:5,
       nombre:'Sin alcohol',
-      descripcion:'Naranjada, limonada, Agua del dia, Jugo',
+      precio:'$22',
+      descripcion1:'Naranjada, limonada, refresco, agua del dia, jugo, agua natural',
       imagen:'imagenes/fotos menu/bebidas/naranjada.jpg'
 
     }

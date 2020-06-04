@@ -11,8 +11,13 @@
       </b-col>
       <b-col md="6" >
           <b-card-text>
-          <p id="tituloproducto">{{bebida.nombre}}  </p>
-          <h5 id="parrafob">{{bebida.descripcion}}</h5>
+          <p id="tituloproducto">{{bebida.nombre}} {{bebida.precio}} </p>
+          <h5 id="parrafoc">{{bebida.precio1}}</h5>
+          <h5 id="parrafob">{{bebida.descripcion1}}</h5>
+           <h5 id="parrafoc">{{bebida.precio2}}</h5>
+          <h5 id="parrafob">{{bebida.descripcion2}}</h5>
+           <h5 id="parrafoc">{{bebida.precio3}}</h5>
+          <h5 id="parrafob">{{bebida.descripcion3}}</h5>
           </b-card-text>
       </b-col>
     </b-row>

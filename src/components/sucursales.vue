@@ -11,9 +11,9 @@
                 <i class="fas fa-map-marker-alt"></i>La Mezcalita      {{sucursal.nombre}} 
                        <h5 class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}">{{sucursal.direccion}}</h5>
                        <h5 class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}"> 
-                         <a class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}" :href="sucursal.wplink"><i class="fab fa-whatsapp"></i> {{sucursal.telefono}}</a></h5>
+                         <a class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}" :href="sucursal.wplink" target="_blank"><i class="fab fa-whatsapp"></i> {{sucursal.telefono}}</a></h5>
                         <h5 class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}"> 
-                         <a class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}" :href="sucursal.fblink"><i class="fab fa-facebook"></i> La Mezcalita {{sucursal.nombre}}</a></h5>
+                         <a class="sucdireccion" :class="{sucdireccionclick: tabsuc==index}" :href="sucursal.fblink" target="_blank"><i class="fab fa-facebook"></i> La Mezcalita {{sucursal.nombre}}</a></h5>
                      </a>
       
                      </li>
@@ -67,9 +67,9 @@ allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         
        <p class="sucdireccionclick"  v-if="selected === sucursal.nombre || (predeterminado === sucursal.nombre &&  selected === '') " >
             <br> {{sucursal.direccion}}<br>
-          <a  class="sucdireccionclick" :href="sucursal.wplink"><i class="fab fa-whatsapp"></i> {{sucursal.telefono}}</a>
+          <a  class="sucdireccionclick" :href="sucursal.wplink" target="_blank"><i class="fab fa-whatsapp"></i> {{sucursal.telefono}}</a>
             <br>               
-             <a  class="sucdireccionclick" :href="sucursal.fblink"><i class="fab fa-facebook"></i>La mezcalita {{sucursal.nombre}}</a>
+             <a  class="sucdireccionclick" :href="sucursal.fblink" target="_blank"><i class="fab fa-facebook"></i>La mezcalita {{sucursal.nombre}}</a>
 </p>
   </div>
 </b-col>

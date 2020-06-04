@@ -52,7 +52,7 @@ Este es el primer paso para adquirir experiencia en el medio, lograr tu libertad
 <br>
 
 
-        <button class="buttonborde">QUIERO MAS INFORMACIÓN</button>
+        <button class="buttonborde">MAS INFORMACIÓN</button>
 
         </li>
   

@@ -6,28 +6,35 @@
 <div v-if="subtab==0">
 <tacos></tacos>
   </div>
+
 <div v-if="subtab==1">
-<tostadas></tostadas>
+  <especiales></especiales>
   </div>
+
 <div v-if="subtab==2">
-<tortitas></tortitas>
+  <botanas></botanas>
   </div>
+
  <div v-if="subtab==3">
+   <tostadas></tostadas>
+  </div>
+
+<div v-if="subtab==4">
 <sopes></sopes>
   </div>
-<div v-if="subtab==4">
-<botanas></botanas>
-  </div>
+
 <div v-if="subtab==5">
-<postres></postres>
+<tortitas></tortitas>
   </div>
+
 <div v-if="subtab==6">
 <snacks></snacks>
   </div>
- <div v-if="subtab==7">
-<especiales></especiales>
-  </div> 
 
+ <div v-if="subtab==7">
+<postres></postres>
+  </div> 
+  
   </div>
 </template>
 <script>

@@ -41,7 +41,7 @@
         <div class="card-body mt-4 bg-transparent  text-center " >
         
 
-             <a href="/#reservaciones"> <button href="/#menu_mezcalita" class="buttonborde mb-2">HACER RESERVACIÓN</button></a>
+        <a href="/#reservaciones"> <button href="/#menu_mezcalita" class="buttonborde mb-2" style="margin-left:0px">HACER RESERVACIÓN</button></a>
         <a href="https://lamezcalita.pedidosenlinea.mx/" target="_blank"> <button class="buttonrojo ml-2">VER TIENDA ONLINE</button></a>
   
         </div>

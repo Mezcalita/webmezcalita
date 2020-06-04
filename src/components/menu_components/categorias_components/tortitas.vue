@@ -11,7 +11,7 @@
       </b-col>
       <b-col md="6" >
           <b-card-text>
-          <p id="tituloproducto">{{tortita.nombre}} </p>
+          <p id="tituloproducto">{{tortita.nombre}} {{tortita.precio}} </p>
           <h5 id="parrafob">{{tortita.descripcion}}</h5>
           </b-card-text>
       </b-col>

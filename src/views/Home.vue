@@ -14,14 +14,14 @@
 
 <menu2></menu2>
      <a name="promociones"></a>
-
+ <div class="container nomovil ">
          <br>
               <br>
               <br>
               <br>
               <br>
               <br>
-
+ </div>
 
      <promociones></promociones>
         <!-- <a name="musicaenvivo"></a>
@@ -38,30 +38,41 @@
      <br>
      <br>
      <br>
+ 
         <a name="reservaciones"></a>
 
-     
-     
-
+      <div class="container nomovil ">
+           <h5 class="espacio"></h5>
+          
+      </div>
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>
 
   <carrusel></carrusel>
         <a name="franquicia"></a>
 
+ <div class="container nomovil ">
        <h5 class="espacio"></h5>
-
+ </div>
+ <br>
+ <br>
   <franquicias></franquicias>
            <a name="sucursales"></a>
            <br>
-
+ <div class="container nomovil ">
          <h5 class="espacio"></h5>
+ </div>
 
        <sucursales></sucursales>
                                <a name="contacto"></a>
                         <a name="bolsayfacturacion"></a>
 
+      <div class="container nomovil ">
               <h5 class="espacio"></h5>
+      </div>
+      <br>
+      <br>
+      <br>
        <bolsayfacturacion></bolsayfacturacion>
 
                      <h5 class="espacio"></h5>
