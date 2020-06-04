@@ -1,6 +1,6 @@
 <template>
  
-<carousel :autoplay="true" :nav="false" :dots="true"  :responsive="{0:{items:1},578:{items:2},1366:{items:3}}">
+<carousel :autoplay="true" :nav="false" :dotsEach="true" :autoplayHoverPause="true" :autoplayTimeout="10000" :responsive="{0:{items:1},578:{items:2},1366:{items:3}}">
 
 <div v-for="destilado in destilados " :key="destilado.id"  >
 <div>

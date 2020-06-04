@@ -63,11 +63,7 @@ export default new Vuex.Store({
     },
     {
       id:7,
-      nombre: 'Snacks'
-    },
-    {
-      id:8,
-      nombre:'Postres '
+      nombre: 'Postres'
     },
   ],
   
@@ -99,7 +95,7 @@ export default new Vuex.Store({
       nombre_taco:'Guacamole con chapulines',
       precio:'$22',
       descripcion_taco:'Delicioso guacamole con chapulines, sabor único de la gastronomia de Oaxaca',
-      imagen_taco:'imagenes/fotos menu/tacos/chapulines.jpg'
+      imagen_taco:'imagenes/fotos menu/tacos/chapulines2.jpg'
     },
     {
       id_taco:5,
@@ -246,20 +242,6 @@ export default new Vuex.Store({
     },
     {
       id:3,
-      nombre:'Papas a la francesa',
-      precio:'$22',
-      descripcion:'Papas a la francesa espolvoreadas con pimienta/limón acompañadas con catsup',
-      imagen:'imagenes/fotos menu/botanas/papasalafrancesa.jpg'
-    },
-    {
-      id:4,
-      nombre:'Papas gajo',
-      precio:'$22',
-      descripcion:'Ricas papas gajo adobadas acompañadas con un dip de queso cheddar derretido',
-      imagen:'imagenes/fotos menu/botanas/papas-gajo.jpg'
-    },
-    {
-      id:5,
       nombre:'Chicharrones',
       precio:'$22',
       descripcion:'Chicharrones crugientes servidos con salsa valentina y limon',
@@ -267,18 +249,53 @@ export default new Vuex.Store({
     },
  
     {
-      id:6,
+      id:4,
       nombre:'Orden de cueritos',
       precio:'$22',
       descripcion:'Cueritos en salsas negras, una botana de tradición cantinera',
       imagen:'imagenes/fotos menu/botanas/cueritos.jpg'
     },
     {
-      id:7,
+      id:5,
       nombre:'Verduras salteadas',
       precio:'$22',
       descripcion:'Deliciosas calabacitas, zanahorias y brocoli salteadas a la mantequilla y salsas negras',
       imagen:'imagenes/fotos menu/botanas/verdurassalteadas.jpg'
+    },
+    {
+      id:6,
+      nombre:'Papas a la francesa',
+      precio:'$22',
+      descripcion:'Papas a la francesa espolvoreadas con pimienta/limón acompañadas con catsup',
+      imagen:'imagenes/fotos menu/botanas/papasalafrancesa.jpg'
+    },
+    {
+      id:7,
+      nombre:'Papas gajo',
+      precio:'$22',
+      descripcion:'Ricas papas gajo adobadas acompañadas con un dip de queso cheddar derretido',
+      imagen:'imagenes/fotos menu/botanas/papas-gajo.jpg'
+    },
+    {
+      id:8,
+      nombre:'Alitas',
+      precio:'$49',
+      descripcion:'Deliciosas alitas de pollo bañadas en la salsa de tu elección (Hot, BBQ, Cajún ó Lemon pepper), acompañadas de aderezo ranch',
+      imagen:'imagenes/fotos menu/snacks/alitas.jpg'
+    },
+    {
+      id:9,
+      nombre:'Boneless',
+      precio:'$49',
+      descripcion:'Ricos trozos de pechuga empanizados, bañados  en la salsa de tu elección (Hot, BBQ, Cajún ó Lemon pepper), acompañadas de aderezo ranch',
+      imagen:'imagenes/fotos menu/snacks/boneless.jpg'
+    },
+    {
+      id:10,
+      nombre:'Dedos de queso',
+      precio:'$49',
+      descripcion:'Dedos de queso mozzarella empanizados, servidos con salsa pomodoro, deliciosos para botanear',
+      imagen:'imagenes/fotos menu/snacks/dedos-de-queso.jpg'
     }
   
   ],
@@ -299,36 +316,13 @@ export default new Vuex.Store({
       imagen:'imagenes/fotos menu/postres/platanosconlechera.jpg'
     }
   ],
-  snacks:[
-    {
-      id:1,
-      nombre:'Alitas',
-      precio:'$49',
-      descripcion:'Deliciosas alitas de pollo bañadas en la salsa de tu elección (Hot, BBQ, Cajún ó Lemon pepper), acompañadas de aderezo ranch',
-      imagen:'imagenes/fotos menu/snacks/alitas.jpg'
-    },
-    {
-      id:2,
-      nombre:'Boneless',
-      precio:'$49',
-      descripcion:'Ricos trozos de pechuga empanizados, bañados  en la salsa de tu elección (Hot, BBQ, Cajún ó Lemon pepper), acompañadas de aderezo ranch',
-      imagen:'imagenes/fotos menu/snacks/boneless.jpg'
-    },
-    {
-      id:3,
-      nombre:'Dedos de queso',
-      precio:'$49',
-      descripcion:'Dedos de queso mozzarella empanizados, servidos con salsa pomodoro, deliciosos para botanear',
-      imagen:'imagenes/fotos menu/snacks/dedos-de-queso.jpg'
-    }
-  ],
   especiales:[
     {
       id:1,
       nombre:'Nachos La Mezcalita',
       precio:'$49',
       descripcion:'Nuestros tradicionales nachos compuestos por totopos, frijoles puercos, arrachera, queso gratinado y pico de gallo receta especial de La Mezcalita',
-      imagen:''
+      imagen:'imagenes/fotos menu/especiales/nachos-la-mezcalita.jpg'
     },
     {
       id:2,
@@ -399,7 +393,7 @@ export default new Vuex.Store({
       nombre:'Bowl aguachile mango habanero',
       precio:'$49',
       descripcion:'Camarones en aguachile bañados en salsa mango y el picor del habanero, servidos con pepino, cebolla y cilantro',
-      imagen:'imagenes/fotos menu/especiales/bowl-aguachilemangohabanero.jpg'
+      imagen:'imagenes/fotos menu/especiales/bowl-aguachilemango.jpg'
     },
 
 
@@ -526,32 +520,62 @@ export default new Vuex.Store({
   bebidas:[
     {
       id:1,
-      nombre:'Cervezas',
-      precio1:'$22',
-      precio2:'$35',
-      descripcion1:'Tecate light, Tecate roja, XX lagger, XX ambar, Carta blanca, Indio',
-      descripcion2:'Bohemia clara, Bohemia oscura, Miller Highlife, Heineken, Amstel ultra',
-      imagen:'imagenes/fotos menu/bebidas/cervezas.jpg'
+      nombre:'Chela + Mezcal',
+      precio:'$39',
+      descripcion1:'El favorito de La Mezcalita',
+      descripcion2:'Nuestro mezcal de la casa servido en jicarita, con naranjitas espolvoreadas con sal de gusano y acompañado de una chela de $22',
+      imagen:'imagenes/fotos menu/bebidas/chela + mezcal.jpg'
+
+    }, 
+    {
+      id:1,
+      nombre:'Mezcal con alacrán',
+      precio:'$99',
+      descripcion1:'"Poco veneno no mata solo ataranta"',
+      descripcion2:'Nuestro emblemático shot de 2 oz de mezcal de la casa con un alacrán real',
+      imagen:'imagenes/fotos menu/bebidas/mezcal-alacran.jpg'
+
+    }, 
+    {
+      id:5,
+      nombre:'Mezcales de sabor',
+      precio:'$35',
+      descripcion1:'Deliciosos mezcales curados de sabores',
+      descripcion2:'Maracuya, mango, piña colada, capuccino, tamarindo, arandano y jamaica',
+      imagen:'imagenes/fotos menu/bebidas/mezcal-maracuya.jpg'
 
     },
-    {
-      id:2,
-      nombre:'Micheladas',
-      precio:'$22',
-      descripcion1:'Camaron seco, pepino, cielo rojo, clamato, salsas, rusa',
-      imagen:'imagenes/fotos menu/bebidas/michelada.jpg'
 
-    },
     {
-      id:4,
+      id:6,
       nombre:'Cocteles',
       precio:'$22',
-      descripcion1:'Cantarito, paloma, vampirito, piña colada, pitufo, mojito, margarita, hierbabuena y gin pepino',
+      descripcion1:'¡Refrescantes y deliciosas bebidas preparadas!',
+      descripcion2:'Cantarito, paloma, vampirito, piña colada, pitufo, mojito, margarita, hierbabuena y gin pepino',
       imagen:'imagenes/fotos menu/bebidas/cocteles.jpg'
 
     },
     {
+      id:5,
+      nombre:'¡Ronda de chupitos!',
+      precio:'$150',
+      descripcion1:'Nada mas divertido que festejar con chupitos',
+      descripcion2:'8 shots de 2 oz de chupitos preparados',
+      imagen:'imagenes/fotos menu/bebidas/chupitos.jpg'
+
+    },
+    {
       id:3,
+      nombre:'Micheladas',
+      precio:'$22',
+      descripcion1:'variedad de micheladas para todos los gustos',
+      descripcion2:'Pepino, camarón seco, clamato, cielo rojo, salsas negras, rusa',
+      imagen:'imagenes/fotos menu/bebidas/michelada2.jpg'
+
+    },   
+
+    {
+      id:4,
       nombre:'Caguamas',
       precio1:'$45',
       precio2:'$55',
@@ -562,12 +586,23 @@ export default new Vuex.Store({
       imagen:'imagenes/fotos menu/bebidas/caguamas.jpg'
 
     },
- 
     {
-      id:5,
+      id:2,
+      nombre:'Cervezas',
+      precio1:'$22',
+      precio2:'$35',
+      descripcion1:'Tecate light, Tecate roja, XX lagger, XX ambar, Carta blanca, Indio',
+      descripcion2:'Bohemia clara, Bohemia oscura, Miller Highlife, Heineken, Amstel ultra',
+      imagen:'imagenes/fotos menu/bebidas/cervezas.jpg'
+
+    },
+
+    {
+      id:7,
       nombre:'Sin alcohol',
       precio:'$22',
-      descripcion1:'Naranjada, limonada, refresco, agua del dia, jugo, agua natural',
+      descripcion1:'Para el abstemio, los niños y las botellas',
+      descripcion2:'Naranjada, limonada, refresco, agua del dia, jugo, agua natural',
       imagen:'imagenes/fotos menu/bebidas/naranjada.jpg'
 
     }
@@ -621,8 +656,8 @@ export default new Vuex.Store({
     },
     {
       promoid:5,
-      preview_imagen:'imagenes/imagenes promo/preview/preview-chupitos.jpg',
-      info_imagen:'imagenes/imagenes promo/info/info-chupitos.jpg'
+      preview_imagen:'imagenes/imagenes promo/preview/preview-godinez.jpg',
+      info_imagen:'imagenes/imagenes promo/info/info-godinez.jpg'
     },
     {
       promoid:6,

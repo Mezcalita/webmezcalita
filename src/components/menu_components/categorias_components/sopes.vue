@@ -1,5 +1,5 @@
 <template>
- <carousel :autoplay="true" :nav="false" :dots="true"  :responsive="{0:{items:1},578:{items:2},1366:{items:3}}">
+ <carousel :autoplay="true" :nav="false" :dots="true" :autoplayTimeout="10000" :autoplayHoverPause="true" :responsive="{0:{items:1},578:{items:2},1366:{items:3}}">
 
 <div v-for="sope in sopes" 
                      :key="sope.id"  >

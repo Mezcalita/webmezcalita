@@ -27,11 +27,7 @@
 <tortitas></tortitas>
   </div>
 
-<div v-if="subtab==6">
-<snacks></snacks>
-  </div>
-
- <div v-if="subtab==7">
+ <div v-if="subtab==6">
 <postres></postres>
   </div> 
   
