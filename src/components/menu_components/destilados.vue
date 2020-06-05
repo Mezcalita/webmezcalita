@@ -7,12 +7,17 @@
   <b-card no-body class="overflow-hidden " style="max-width: 640px;" bg-variant="transparent">
     <b-row  >
       <b-col md="6" >
-        <img src="" class="rounded-0" style="width:100%">
+        <img :src="destilado.imagen" class="rounded-0" style="width:100%">
       </b-col>
       <b-col md="6" >
           <b-card-text>
-          <p id="tituloproducto">{{destilado.nombre}}  </p>
-          <h5 id="parrafob">{{destilado.marcas}}</h5>
+ <p id="tituloproducto" style="margin-top:10%">{{destilado.nombre}} </p>
+          <h5 id="parrafoc">{{destilado.precio1}}</h5>
+          <h5 id="parrafob">{{destilado.descripcion1}}</h5>
+           <h5 id="parrafoc">{{destilado.precio2}}</h5>
+          <h5 id="parrafob">{{destilado.descripcion2}}</h5>
+           <h5 id="parrafoc">{{destilado.precio3}}</h5>
+          <h5 id="parrafob">{{destilado.descripcion3}}</h5>
           </b-card-text>
       </b-col>
     </b-row>

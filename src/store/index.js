@@ -88,7 +88,7 @@ export default new Vuex.Store({
       nombre_taco:'Chicharrón',
       precio:'$22',
       descripcion_taco:'Delicioso chicharrón prensado, se sirve con cilantro y cebolla, acompañado de una rica salsa martajada',
-      imagen_taco:'imagenes/fotos menu/tacos/chicharron.jpg'
+      imagen_taco:'imagenes/fotos menu/tacos/chicharron2.jpg'
     },
     {
       id_taco:4,
@@ -244,7 +244,7 @@ export default new Vuex.Store({
       id:3,
       nombre:'Chicharrones',
       precio:'$22',
-      descripcion:'Chicharrones crugientes servidos con salsa valentina y limon',
+      descripcion:'Chicharrones crujientes servidos con salsa valentina y limon',
       imagen:'imagenes/fotos menu/botanas/chicharrones.jpg'
     },
  
@@ -342,7 +342,7 @@ export default new Vuex.Store({
       id:4,
       nombre:'Guacamole con cecina',
       precio:'$49',
-      descripcion:'Guacamole con jitomate, cebolla y cilantro, acompañado de totopos fritos y trozos de cecina',
+      descripcion:'Guacamole con jitomate, cebolla, cilantro y cecina de res, acompañado de totopos fritos',
       imagen:'imagenes/fotos menu/especiales/guacamole-con-cecina.jpg'
     },
 
@@ -357,7 +357,7 @@ export default new Vuex.Store({
       id:6,
       nombre:'Torre de mariscos',
       precio:'$49',
-      descripcion:'Tostada de mariscos en aguachile negro, camaron cocido, atun, en una cama de pepino y aguacate, acompañado de cebolla morada y limon',
+      descripcion:'Tostada de mariscos en aguachile negro, camaron cocido y atún, en una cama de pepino y aguacate, acompañado de cebolla morada y limon',
       imagen:'imagenes/fotos menu/especiales/torremariscos.jpg'
     },
     {
@@ -392,7 +392,7 @@ export default new Vuex.Store({
       id:11,
       nombre:'Bowl aguachile mango habanero',
       precio:'$49',
-      descripcion:'Camarones en aguachile bañados en salsa mango y el picor del habanero, servidos con pepino, cebolla y cilantro',
+      descripcion:'Camarones en aguachile bañados en salsa mango y habanero, servidos con pepino, cebolla y cilantro',
       imagen:'imagenes/fotos menu/especiales/bowl-aguachilemango.jpg'
     },
 
@@ -465,57 +465,89 @@ export default new Vuex.Store({
   ],
   destilados:[
     {
+       
        nombre: 'Mezcal',
-       marcas: 'Chupacabras 750ml , Bruxo 750ml, 400 Conejos 750ml, Montelobos 750ml, Alipús 750ml, Mexcalito maracuya 750ml, Mexcalito coco 750ml, Agua maldita 750ml '
+       imagen:'imagenes/fotos menu/destilados/mezcal.jpg',
+       descripcion1: 'Mezcal de la casa',
+       precio1:'Tragos $22',
+       descripcion2:'Chupacabras $650 , Bruxo $720, Union $720, 400 Conejos $790',
+       precio2:'Tragos $35',
+       descripcion3:'Agua Maldita $890, Mexcalito maracuya $890, Mexcalito coco $890, Montelobos $950, Alipús $1050',
+       precio3:'Tragos $45'
    
     },
     {
+    
+      nombre: 'Tequila',
+      imagen:'imagenes/fotos menu/destilados/tequila.jpg',
+      descripcion1: 'Centenario plata y reposado $450, Antiguo plata y reposado $450, Tradicional plata y reposado $450 ',
+      precio1:'Tragos $22',
+      descripcion2:'7 Leguas $790, Don Julio blanco $790, Herradura plata y reposado $790/$850',
+      precio2:'Tragos $35',
+      descripcion3:'Maestro Dobel $950, Herradura Ultra $1050, Don Julio 70 $1050',
+      precio3:'Tragos $45'
+    
+    },
+    {
+   
       nombre: 'Whisky',
-      marcas: 'Black & white 750ml, Etiqueta roja 750ml, Jack daniel´s 700ml , Buchanan´s 750ml, Black & white 750ml'
+      imagen:'imagenes/fotos menu/destilados/whisky.jpg',
+      descripcion1: 'Black and white $450, JW Etiqueta roja $490',
+      precio1:'Tragos $22',
+      descripcion2:'Jack Daniels $790',
+      precio2:'Tragos $35',
+      descripcion3:'Buchanans $990, JW Etiqueta negra $990',
+      precio3:'Tragos $45'
     
     },
     {
-      nombre: 'Mezcal de sabor',
-      marcas: 'Tamarindo, Jamaica, Maracuya, Mango, Piña colada, Capuchino, Arandano, Chocolate'
-    
-    },
-    {
-      nombre: 'Tequila blanco',
-      marcas: '7 leguas 750ml, Herradura ultra 700ml, Maestro dobel 750ml, Don julio blanco 750ml'
-    
-    },
-    {
-      nombre: 'Tequila reposado',
-      marcas: 'Centenario reposado 700ml, Antiguo reposado 700ml, Tradicional reposado 695ml, Herradura reposado 700ml'
-    
-    },
-    {
-      nombre: 'Tequila cristalino',
-      marcas: 'Antiguo plata 700ml, Tradicional plata 695ml, Herradura plata 700ml, Centenario plata 700ml,  Don julio 70 750ml'
-    
-    },
-    {
-      nombre: 'Ron',
-      marcas: 'Appleton especial 750ml, Bacardi 750ml, Capitan morgan 750ml'
-    
-    },
-    {
-      nombre: 'Vodka',
-      marcas: 'Sky 750ml, Absolut 750ml, Sotlchnaya 750ml'
-    
-    },
-    {
-      nombre: 'Brandy',
-      marcas: 'Torres 10 700ml'
-    
-    },
-    {
-      nombre: 'Licores',
-      marcas: 'Jaggermelster 700ml'
-    
-    },
-    
 
+      nombre: 'Ron',
+      imagen:'imagenes/fotos menu/destilados/ron.jpg',
+      descripcion1: 'Appleton Especial $450, Bacardi $450, Captain Morgan $450',
+      precio1:'Tragos $22',
+
+    
+    },
+    {
+   
+      nombre: 'Vodka',
+      imagen:'imagenes/fotos menu/destilados/vodka.jpg',
+      descripcion1: 'SKYY $450, Absolut $450, Stolichnaya $520',
+      precio1:'Tragos $22',
+
+    
+    },
+    {
+  
+      nombre: 'Ginebra',
+      imagen:'imagenes/fotos menu/destilados/gin.jpg',
+      descripcion2:'Tanqueray $750',
+      precio2:'Tragos $35',
+      descripcion3:'Bombay $850, Bulldog $950',
+      precio3:'Tragos $45'
+    
+    },
+    {
+  
+      nombre: 'Brandy',
+      imagen:'imagenes/fotos menu/destilados/brandy.jpg',
+      descripcion1: 'Torres 10 $690',
+      precio1:'Tragos $22',
+
+    
+    },
+    {
+  
+      nombre: 'Licores y otros',
+      imagen:'imagenes/fotos menu/destilados/licor.jpg',
+      descripcion1: 'Jagermeister $750',
+      precio1:'Tragos $35',
+      descripcion2:'Redbull $60, Cajetilla Marlboro Rojos/Blancos $90',
+      precio2:'Otros productos',
+  
+    
+    },
   ],
   bebidas:[
     {
