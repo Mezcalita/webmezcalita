@@ -126,7 +126,7 @@ export default new Vuex.Store({
       id:1,
       nombre: 'Aguachile mango',
       precio:'$22',
-      descripcion:'Camarones frescos bañados de salsas de mango habanero, acompañados de pepino, cebolla morada y aguacate',
+      descripcion:'Camarones frescos bañados de salsa de mango habanero, acompañados de pepino, cebolla morada y aguacate',
       imagen:'imagenes/fotos menu/tostadas/aguachile-mango.jpg'
     },
     {
@@ -362,7 +362,7 @@ export default new Vuex.Store({
     },
     {
       id:7,
-      nombre:'Tostada de atun fresco',
+      nombre:'Tostada de atún fresco',
       precio:'$49',
       descripcion:'Tostada de atún fresco en salsas negras acompañado de aguacate, pepino y cebolla capeada',
       imagen:'imagenes/fotos menu/especiales/tostada-atun-fresco.jpg'
@@ -470,7 +470,7 @@ export default new Vuex.Store({
        imagen:'imagenes/fotos menu/destilados/mezcal.jpg',
        descripcion1: 'Mezcal de la casa',
        precio1:'Tragos $22',
-       descripcion2:'Chupacabras $650 , Bruxo $720, Union $720, 400 Conejos $790',
+       descripcion2:'Chupacabras $650 , Bruxo $790, Union $720, 400 Conejos $790',
        precio2:'Tragos $35',
        descripcion3:'Agua Maldita $890, Mexcalito maracuya $890, Mexcalito coco $890, Montelobos $950, Alipús $1050',
        precio3:'Tragos $45'
@@ -513,7 +513,7 @@ export default new Vuex.Store({
    
       nombre: 'Vodka',
       imagen:'imagenes/fotos menu/destilados/vodka.jpg',
-      descripcion1: 'SKYY $450, Absolut $450, Stolichnaya $520',
+      descripcion1: 'SKYY $450, Absolut $490, Stolichnaya $520',
       precio1:'Tragos $22',
 
     
@@ -533,7 +533,7 @@ export default new Vuex.Store({
       nombre: 'Brandy',
       imagen:'imagenes/fotos menu/destilados/brandy.jpg',
       descripcion1: 'Torres 10 $690',
-      precio1:'Tragos $22',
+      precio1:'Tragos $35',
 
     
     },
@@ -543,7 +543,7 @@ export default new Vuex.Store({
       imagen:'imagenes/fotos menu/destilados/licor.jpg',
       descripcion1: 'Jagermeister $750',
       precio1:'Tragos $35',
-      descripcion2:'Redbull $60, Cajetilla Marlboro Rojos/Blancos $90',
+      descripcion2:'Redbull $70, Cajetilla Marlboro Rojos/Blancos $90',
       precio2:'Otros productos',
   
     
