@@ -1,8 +1,10 @@
 <template>
 <div class="container-fluid  d-flex    "   >
+  
   <div class="container text-center nomovil " style="max-width:800px;"> 
         <b-row cols="1" cols-md="2"  >
          <b-col class="text-left">
+
     <form>
       <input  type="text" name="nombre" id="nombre_contacto" placeholder="Nombre">
       <br>
@@ -12,8 +14,7 @@
       <br>
 <textarea name="mensaje" id="mensaje_contacto" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
 </textarea>    
-
-<button class="buttonbordeblanco mt-4 ">ENVIAR</button>
+<button  class="buttonbordeblanco mt-4 ">ENVIAR</button>
 
 </form>
          </b-col>
@@ -46,17 +47,19 @@
            <h5 id="titulocontacto">contacto</h5>
          <h5 class="text-center " id="tituloe">Servicio a clientes</h5>
 <!-- fomulario -->
-    <form>
-     <input  type="text" name="nombre" id="nombre_contactomovil" placeholder="Nombre">
+    <form >
+     <input  type="text" name="nombre" id="nombre_contactomovil"  v-model="nombre_contactomovil" placeholder="Nombre">
       <br>
-      <input type="text" name="email" id="email_contactomovil" placeholder="Email">
+      <input type="text" name="email" id="email_contactomovil"  v-model="email_contactomovil" placeholder="Email">
       <br>
-      <input type="text" name="telefono" id="telefono_contactomovil" placeholder="Telefono">
+      <input type="text" name="telefono" id="telefono_contactomovil" v-model="telefono_contactomovil" placeholder="Telefono">
       <br>
-<textarea name="mensaje" id="mensaje_contactomovil" rows="20" cols="50" placeholder="Mensaje" style="resize:none;">
+<textarea name="mensaje" id="mensaje_contactomovil" rows="20" cols="50"  v-model="mensaje_contactomovil" placeholder="Mensaje" style="resize:none;">
 </textarea>   
 
-<button class="buttonbordeblanco mt-4 ">ENVIAR</button>
+    <button  class="buttonbordeblanco mt-4 " v-on:click="senWhats">
+      ENVIAR 
+    </button>
 
 </form>
 <br>
@@ -87,13 +90,23 @@
     </div>
 </template>
 <script>
+
   export default {
       name: 'contacto',
   
     methods: {
+      senWhats: function (){
+
+        var text = 'Nombre:'+this.nombre_contactomovil + ', Email:' + this.email_contactomovil 
+                  +', Telefono:'+ this.telefono_contactomovil + ', Mensaje:' +this.mensaje_contactomovil;
+
+        window.open("https://api.whatsapp.com/send?phone=523315127354&text="+text,'_blank');
+      },
       onSubmit(evt) {
+        
         evt.preventDefault()
         alert(JSON.stringify(this.form))
+
       },
       onReset(evt) {
         evt.preventDefault()
@@ -107,7 +120,9 @@
         this.$nextTick(() => {
           this.show = true
         })
-      }
+      },
+      
     }
   }
+
 </script>

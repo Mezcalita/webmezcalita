@@ -560,7 +560,7 @@ export default new Vuex.Store({
 
     }, 
     {
-      id:1,
+      id:2,
       nombre:'Mezcal con alacrán',
       precio:'$99',
       descripcion1:'"Poco veneno no mata solo ataranta"',
@@ -569,7 +569,7 @@ export default new Vuex.Store({
 
     }, 
     {
-      id:5,
+      id:3,
       nombre:'Mezcales de sabor',
       precio:'$35',
       descripcion1:'Deliciosos mezcales curados de sabores',
@@ -579,7 +579,7 @@ export default new Vuex.Store({
     },
 
     {
-      id:6,
+      id:4,
       nombre:'Cocteles',
       precio:'$22',
       descripcion1:'¡Refrescantes y deliciosas bebidas preparadas!',
@@ -597,7 +597,7 @@ export default new Vuex.Store({
 
     },
     {
-      id:3,
+      id:6,
       nombre:'Micheladas',
       precio:'$22',
       descripcion1:'variedad de micheladas para todos los gustos',
@@ -607,7 +607,7 @@ export default new Vuex.Store({
     },   
 
     {
-      id:4,
+      id:7,
       nombre:'Caguamas',
       precio1:'$45',
       precio2:'$55',
@@ -619,7 +619,7 @@ export default new Vuex.Store({
 
     },
     {
-      id:2,
+      id:8,
       nombre:'Cervezas',
       precio1:'$22',
       precio2:'$35',
@@ -630,7 +630,7 @@ export default new Vuex.Store({
     },
 
     {
-      id:7,
+      id:9,
       nombre:'Sin alcohol',
       precio:'$22',
       descripcion1:'Para el abstemio, los niños y las botellas',
@@ -848,9 +848,8 @@ export default new Vuex.Store({
     activartabsuc(state, selectedtab)
     {
       state.tabsuc=selectedtab
-
-  
     }
+
   },
   actions: {
   },

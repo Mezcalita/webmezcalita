@@ -5,22 +5,21 @@
       <headercomp></headercomp> 
 
     <a name="nosotros"></a>
-     <nosotros></nosotros>
-                 <a name="menu_mezcalita"></a>
-              <br>
-              <br>
-              <br>
-              <br>
-
-<menu2></menu2>
-     <a name="promociones"></a>
- <div class="container nomovil ">
-         <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
+      <nosotros></nosotros>
+    <a name="menu_mezcalita"></a>
+    <br>
+    <br>
+    <br>
+    <br>
+      <menu2></menu2>
+    <a name="promociones"></a>
+   <div class="container nomovil ">
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
  </div>
 
      <promociones></promociones>
@@ -47,7 +46,10 @@
       </div>
      <reservaciones></reservaciones>
           <h5 class="espacio"></h5>
-
+ <a name="redes"></a>
+ <div class="container nomovil ">
+       <h5 class="espacio"></h5>
+ </div>
   <carrusel></carrusel>
         <a name="franquicia"></a>
 

@@ -28,7 +28,7 @@
                      {{sucursal.nombre}}
                      </option>
       </select>
-        <button class="buttonrojo ml-2">RESERVA AQUÍ</button>
+        <button @click="RedireccionarReserva(selected)" class="buttonrojo ml-2">RESERVA AQUÍ</button>
 
         </li>
         
@@ -41,7 +41,7 @@
 </div>   
 </template>
 <script>
-import {mapState} from 'vuex';
+import {mapState, mapMutations} from 'vuex';
 
 export default {
     name: 'reservaciones',
@@ -53,6 +53,27 @@ export default {
      computed:
     {
       ...mapState(['sucursales'])
+    },
+    methods:
+  { 
+ RedireccionarReserva(NombreSucursal)
+    {
+ if (NombreSucursal==="Tetlan") {
+  window.open('https://reservations.yupoints.com/mezcalita_tetlan', '_blank')
+ }
+ else if(NombreSucursal==="Manzanillo"){
+window.open('https://reservations.yupoints.com/mezcalita_manzanillo', '_blank')
+ }
+ else if(NombreSucursal==="Rio Nilo"){
+alert("Estamos muy próximos a abrir esta sucursal, enterate de la fecha exacta en nuestro facebook")
+window.open('https://www.facebook.com/lamezcalitarionilo/', '_blank')
+ }
+ 
+    
+
+    }
+
+
     }
 }
 </script>
