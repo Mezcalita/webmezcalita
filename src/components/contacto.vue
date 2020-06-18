@@ -48,16 +48,16 @@
          <h5 class="text-center " id="tituloe">Servicio a clientes</h5>
 <!-- fomulario -->
     <form >
-     <input  type="text" name="nombre" id="nombre_contactomovil"  v-model="nombre_contactomovil" placeholder="Nombre">
+     <input  type="text" name="nombre" id="nombre_contactomovil"  v-model="nombre_contactomovil" placeholder="Nombre" required>
       <br>
-      <input type="text" name="email" id="email_contactomovil"  v-model="email_contactomovil" placeholder="Email">
+      <input type="text" name="email" id="email_contactomovil"  v-model="email_contactomovil" placeholder="Email" required>
       <br>
-      <input type="text" name="telefono" id="telefono_contactomovil" v-model="telefono_contactomovil" placeholder="Telefono">
+      <input type="text" name="telefono" id="telefono_contactomovil" v-model="telefono_contactomovil" placeholder="Telefono" required>
       <br>
-<textarea name="mensaje" id="mensaje_contactomovil" rows="20" cols="50"  v-model="mensaje_contactomovil" placeholder="Mensaje" style="resize:none;">
+<textarea name="mensaje" id="mensaje_contactomovil" rows="20" cols="50"  v-model="mensaje_contactomovil" placeholder="Mensaje" style="resize:none;" required>
 </textarea>   
 
-    <button  class="buttonbordeblanco mt-4 " v-on:click="senWhats">
+    <button  class="buttonbordeblanco mt-4" v-on:click="sendWhats" >
       ENVIAR 
     </button>
 
@@ -95,12 +95,19 @@
       name: 'contacto',
   
     methods: {
-      senWhats: function (){
+      sendWhats: function (){
 
-        var text = 'Nombre:'+this.nombre_contactomovil + ', Email:' + this.email_contactomovil 
-                  +', Telefono:'+ this.telefono_contactomovil + ', Mensaje:' +this.mensaje_contactomovil;
+        var text = 'Hola mi nombre es '+this.nombre_contactomovil + ', ' + this.mensaje_contactomovil+'. Mis datos de contacto son Email: '+ this.email_contactomovil 
+                  +', Telefono: '+ this.telefono_contactomovil;
+        if(this.nombre_contactomovil!=undefined && this.email_contactomovil!=undefined && this.mensaje_contactomovil != undefined && this.telefono_contactomovil!=undefined )
+        {
+          window.open("https://api.whatsapp.com/send?phone=523315127354&text="+text,'_blank');
+          window.location.replace('http://lamezcalita.mx')
+        }
+        else{
 
-        window.open("https://api.whatsapp.com/send?phone=523315127354&text="+text,'_blank');
+          alert('Por favor completa todos los campos')
+        }
       },
       onSubmit(evt) {
         
