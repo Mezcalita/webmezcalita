@@ -70,9 +70,9 @@
        <img src="iconos/header/logo-header.svg"  
     width="90" id="logoa">
   </li>
-  <li class="list-group-item bg-transparent border-0"> <img src="iconos/contacto/facebook-contacto.svg"  
-    width="25" id="logoa">  <img class="ml-1" src="iconos/contacto/instagram-contacto.svg"  
-    width="25" id="logoa"></li>
+  <li class="list-group-item bg-transparent border-0"><a href="https://www.facebook.com/lamezcalitamx/" target="_blank"> <img src="iconos/contacto/facebook-contacto.svg"  
+    width="25" id="logoa"> </a> <a href="https://www.instagram.com/lamezcalitamx/" target="_blank"> <img class="ml-1" src="iconos/contacto/instagram-contacto.svg"  
+    width="25" id="logoa"> </a></li>
   <li class="list-group-item bg-transparent border-0 text-center" id="parrafod">hola@lamezcalita.mx</li>
     <li class="list-group-item bg-transparent border-0 text-center" id="parrafod"><i class="fab fa-whatsapp"></i>+52 554 5667 453</li>
 
@@ -101,6 +101,7 @@
                   +', Telefono: '+ this.telefono_contactomovil;
         if(this.nombre_contactomovil!=undefined && this.email_contactomovil!=undefined && this.mensaje_contactomovil != undefined && this.telefono_contactomovil!=undefined )
         {
+      
           window.open("https://api.whatsapp.com/send?phone=523315127354&text="+text,'_blank');
           window.location.replace('http://lamezcalita.mx')
         }

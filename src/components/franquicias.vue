@@ -20,11 +20,11 @@ Este es el primer paso para adquirir experiencia en el medio, lograr tu libertad
 <br>
 
 
-        <button class="buttonborde" style="width:270px">
+   <a href="https://m.me/lamezcalitamx?ref=w11518391" target="_blank">      <button class="buttonborde" style="width:270px">
           
            <!-- <router-link :to="'franquicias'" id="link">QUIERO MAS INFORMACIÓN</router-link> -->
            QUIERO MAS INFORMACIÓN
-                 </button>
+                 </button></a>
 
         </li>
   
@@ -52,7 +52,7 @@ Este es el primer paso para adquirir experiencia en el medio, lograr tu libertad
 <br>
 
 
-        <button class="buttonborde">MAS INFORMACIÓN</button>
+        <a href="https://m.me/lamezcalitamx?ref=w11518391" target="_blank"><button class="buttonborde">MAS INFORMACIÓN</button></a>
 
         </li>
   
